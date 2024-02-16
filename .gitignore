@@ -1,2 +1,3 @@
 # Ignore downloaded PDFs
 TIFpdfs/**/*.pdf
+.vscode
