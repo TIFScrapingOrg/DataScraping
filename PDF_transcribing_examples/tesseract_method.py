@@ -18,7 +18,7 @@ with open("tesseract_text.txt", 'a', encoding="utf-8") as output, fitz.open(pdf_
 	# Loop through all pages
 	for page_number in range(len(pdf)):
 		page = pdf.load_page(page_number)
-		pixmap = page.get_pixmap()
+		pixmap = page.get_pixmap(dpi=300)
 
 		image = Image.frombytes("RGB", [pixmap.width, pixmap.height], pixmap.samples)
 		image_bytes = io.BytesIO()
