@@ -1,0 +1,5 @@
+packaging==23.2
+pillow==10.2.0
+PyMuPDF==1.23.26
+PyMuPDFb==1.23.22
+pytesseract==0.3.10 # pytesseract is only tested to run up to python 3.10.x
