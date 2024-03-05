@@ -33,12 +33,11 @@ with fitz.open(pdf_path) as pdf:
 		# Now use that image in tesseract
 		pdf_page_string = pytesseract.image_to_string(Image.open(image_bytes))
 		
-		financialsRegExTrigger = re.compile('statements of[ ]?(?:revenue|expenditure|change in fund balance)',re.IGNORECASE)
+		financialsRegExTrigger = re.compile('statements of[ ]?(?:revenue|expenditure|change in fund balance|activities)',re.IGNORECASE)
 
 		if financialsRegExTrigger.search(pdf_page_string):
-			print("-----" + str(page_number) + "-----")
+			print("-----" + str(page_number + 1) + "-----")
 			print(pdf_page_string)
-			sys.exit()
 
 
-print(f'Time taken: {time.time - start_time} seconds')
+print(f'Time taken: {time.time() - start_time} seconds')
