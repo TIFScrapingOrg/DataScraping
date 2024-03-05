@@ -1,5 +1,0 @@
-# Ignore downloaded PDFs
-TIFpdfs/**/*.pdf
-.vscode
-venv/Lib/
-venv/pyvenv.cfg
