@@ -1,5 +1,12 @@
+beautifulsoup4==4.12.3
+certifi==2024.2.2
+charset-normalizer==3.3.2
+idna==3.6
 packaging==23.2
 pillow==10.2.0
 PyMuPDF==1.23.26
 PyMuPDFb==1.23.22
 pytesseract @ git+https://github.com/madmaze/pytesseract.git@99b07206414e5133c68a6b233acc2c2dd3538435
+requests==2.31.0
+soupsieve==2.5
+urllib3==2.2.1
