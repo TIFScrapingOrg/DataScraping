@@ -1,5 +1,6 @@
 import os
 import requests
+import fitz
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 
@@ -39,9 +40,21 @@ for index, url in enumerate(urls):
 
 ## Download pdfs
 
+# Function to check if the download was successful
+def check_broken(save_path):
+    try:
+        with fitz.open(save_path) as pdf:
+            if len(pdf) == 0:
+                return True
+
+    except fitz.FileDataError as file_error:
+        return True
+    
+    return False
+
 
 # Function to download PDF file
-def download_pdf(url, save_path):
+def download_pdf(url, save_path, ignore_corrupted=False):
 
     # Check to see if we already downloaded it
     if os.path.exists(save_path):
@@ -53,6 +66,22 @@ def download_pdf(url, save_path):
         for chunk in response.iter_content(chunk_size=1024):
             if chunk:
                 pdf_file.write(chunk)
+
+    # Check to see if the file is corrupted
+    is_broken = not ignore_corrupted and check_broken(pdf_name)
+
+    # Try again if broken
+    if is_broken:
+        print(f'Corrupted download of {full_url}, retrying')
+        os.remove(pdf_name)
+        download_pdf(full_url, pdf_name, True)
+
+        is_broken = check_broken(pdf_name)
+        if is_broken:
+            # Something fishy is going on
+            print(f'Cannot download {full_url}')
+            os.remove(pdf_name)
+
                 
 print("Starting download...")
 
