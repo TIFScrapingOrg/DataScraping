@@ -33,7 +33,6 @@ if os.path.isfile(COMPLETION_FILE) and os.path.isfile(DATABASE_FILE):
 
 			print('Database loaded')
 
-
 			could_read = True
 
 	except json.decoder.JSONDecodeError:
@@ -73,6 +72,11 @@ for subdir, dirs, files in os.walk(REPORT_FOLDER):
 
 
 	for file in files:
+
+		total_files_parsed += 1
+
+		if caught_up_to_last_savepoint:
+			print(f'Scanning {os.path.join(subdir, file)}')
 
 		if file not in completion_status[year]:
 			completion_status[year][file] = { 'successful': [], 'failed': [] }
@@ -166,6 +170,7 @@ for subdir, dirs, files in os.walk(REPORT_FOLDER):
 
 					if page_key not in completion_status[year][file]['failed']:
 						completion_status[year][file]['failed'].append(page_key)
+
 
 				if page_number % 30 == 0 and len(pdf) - page_number >= 30 and page_number > 1:
 					with open(COMPLETION_FILE, 'w', encoding='utf-8') as f:
