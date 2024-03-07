@@ -6,10 +6,17 @@ import json
 import os
 import pandas as pd
 import math
+import sys
 
-report_folder = 'TIFpdfs'
+REPORT_FOLDER = 'TIFpdfs'
 TOTAL_PAGES_TO_PARSE = 158021
 total_pages_parsed = 0
+total_files_parsed = 0
+
+# Check if there is a TIF folder
+if not os.path.isdir(REPORT_FOLDER) or not os.path.isdir(os.path.join(REPORT_FOLDER, '2001')):
+	print(f'There is no reports folder. Reports should be in "{REPORT_FOLDER}"')
+	sys.exit()
 
 DATABASE_FILE = 'database.csv'
 COMPLETION_FILE = 'completed.json'
@@ -20,9 +27,11 @@ if os.path.isfile(COMPLETION_FILE) and os.path.isfile(DATABASE_FILE):
 	try:
 		with open(COMPLETION_FILE, encoding='utf8') as data:
 			loaded_status = json.load(data)
-			print('Found data describing completion status')
+			print('Found data describing completion status, loading database...', end='', flush=True)
 
 			loaded_data = pd.read_csv(DATABASE_FILE)
+
+			print('Database loaded')
 
 			could_read = True
 
@@ -34,9 +43,16 @@ else:
 	print("No completion status")
 	could_read = False
 
+# If we couldn't read in the database but it does exist, we don't want to accidentally overwrite it
+if not could_read and (os.path.isfile(DATABASE_FILE) or os.path.isfile(COMPLETION_FILE)):
+	print('There is an existing database/completion file that could not be read')
+	print('Fix this or load a backup')
+	print('To prevent overwriting, this process will not continue')
+	sys.exit()
+
 completion_status = { }
-database_fields = ['year', 'tif_number', 'page_num', 'block_num', 'par_num', 'line_num', 'word_num', 'left', 'top', 'width', 'height', 'conf', 'text']
-pandas_database = pd.DataFrame(columns=database_fields)
+DATABASE_FIELDS = ['year', 'tif_number', 'page_num', 'block_num', 'par_num', 'line_num', 'word_num', 'left', 'top', 'width', 'height', 'conf', 'text']
+pandas_database = pd.DataFrame(columns=DATABASE_FIELDS)
 
 caught_up_to_last_savepoint = True
 
@@ -46,8 +62,8 @@ if could_read:
 	caught_up_to_last_savepoint = False
 	print('Catching up to last savepoint...', end='', flush=True)
 
-
-for subdir, dirs, files in os.walk(report_folder):
+# Walk through all reports
+for subdir, dirs, files in os.walk(REPORT_FOLDER):
 
 	year = subdir[8:]
 
@@ -56,6 +72,8 @@ for subdir, dirs, files in os.walk(report_folder):
 
 
 	for file in files:
+
+		total_files_parsed += 1
 
 		if caught_up_to_last_savepoint:
 			print(f'Scanning {os.path.join(subdir, file)}')
@@ -66,19 +84,25 @@ for subdir, dirs, files in os.walk(report_folder):
 
 		with fitz.open(os.path.join(subdir, file)) as pdf:
 
-			buffer_database = pd.DataFrame(columns=database_fields)
+			# Keep a buffer so we can add to the main dataframe in batches.
+			# Doing a bunch of small additions started taking a lot of time as
+			# the database got bigger.
+			buffer_database = pd.DataFrame(columns=DATABASE_FIELDS)
+
+			if not caught_up_to_last_savepoint and total_files_parsed % 40 == 0:
+				print('.', end='', flush=True)
 
 			for page_number in range(len(pdf)):
 
 				page_key = str(page_number)
 
+				# * Un-comment later so we can fix errors that we ignored before
 				# if page_key in completion_status[year][file]['successful']:
 				if page_key in completion_status[year][file]['successful'] or page_key in completion_status[year][file]['failed']:
 					# Maybe redundant but I might have fucked up somewhere
 					if caught_up_to_last_savepoint:
 						print(f'Already processed {page_key}')
 					
-					print('.', end='', flush=True)
 					continue
 				elif not caught_up_to_last_savepoint:
 					print('Caught up!')
@@ -100,7 +124,7 @@ for subdir, dirs, files in os.walk(report_folder):
 
 					# I don't want to bother with rotation right now
 					if orientation['rotate'] != 0:
-						print(orientation)
+						print(f'{page_number + 1} has non-0 orientation')
 						if page_key not in completion_status[year][file]['failed']:
 							completion_status[year][file]['failed'].append(page_key)
 
@@ -126,7 +150,7 @@ for subdir, dirs, files in os.walk(report_folder):
 						# print(page_df.to_string())
 						# print(page_df)
 	
-						# Append the items to our database
+						# Append the items to our buffer database
 						if buffer_database.empty:
 							buffer_database = page_df
 						else:
@@ -140,14 +164,12 @@ for subdir, dirs, files in os.walk(report_folder):
 				except pytesseract.pytesseract.TesseractError as tess_error:
 
 					if tess_error.status == 1:
-						print(f'Page {page_number + 1} has "too few characters"')
+						print(f'{page_number + 1} has "too few characters"')
 					else:
-						print(f'Page {page_number + 1} has an unknown error')
+						print(f'{page_number + 1} has an unknown error')
 
 					if page_key not in completion_status[year][file]['failed']:
 						completion_status[year][file]['failed'].append(page_key)
-
-				# print(pandas_database.to_string())
 
 
 				if page_number % 30 == 0 and len(pdf) - page_number >= 30 and page_number > 1:
@@ -156,7 +178,7 @@ for subdir, dirs, files in os.walk(report_folder):
 
 						# Merge the buffer to the main database
 						pandas_database = pd.concat([pandas_database, buffer_database], copy=False, ignore_index=True)
-						buffer_database = pd.DataFrame(columns=database_fields)
+						buffer_database = pd.DataFrame(columns=DATABASE_FIELDS)
 						
 						pandas_database.to_csv(DATABASE_FILE, index=False)
 						
@@ -168,7 +190,7 @@ for subdir, dirs, files in os.walk(report_folder):
 
 					# Merge the buffer to the main database
 					pandas_database = pd.concat([pandas_database, buffer_database], copy=False, ignore_index=True)
-					buffer_database = pd.DataFrame(columns=database_fields)
+					buffer_database = pd.DataFrame(columns=DATABASE_FIELDS)
 					
 					pandas_database.to_csv(DATABASE_FILE, index=False)
 					
