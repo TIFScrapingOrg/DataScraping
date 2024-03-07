@@ -11,15 +11,18 @@ report_folder = 'TIFpdfs'
 TOTAL_PAGES_TO_PARSE = 158021
 total_pages_parsed = 0
 
+DATABASE_FILE = 'database.csv'
+COMPLETION_FILE = 'completed.json'
+
 # Check for pre-existing data
-if os.path.isfile('completed.json') and os.path.isfile('database.csv'):
+if os.path.isfile(COMPLETION_FILE) and os.path.isfile(DATABASE_FILE):
 	# Try to read it in
 	try:
-		with open('completed.json', encoding='utf8') as data:
+		with open(COMPLETION_FILE, encoding='utf8') as data:
 			loaded_status = json.load(data)
 			print('Found data describing completion status')
 
-			loaded_data = pd.read_csv('database.csv')
+			loaded_data = pd.read_csv(DATABASE_FILE)
 
 			could_read = True
 
@@ -35,11 +38,15 @@ completion_status = { }
 database_fields = ['year', 'tif_number', 'page_num', 'block_num', 'par_num', 'line_num', 'word_num', 'left', 'top', 'width', 'height', 'conf', 'text']
 pandas_database = pd.DataFrame(columns=database_fields)
 
-if could_read:
-	pandas_database = pd.concat([pandas_database, loaded_data], copy=False, ignore_index=True)
-	completion_status = loaded_status
+caught_up_to_last_savepoint = True
 
-		
+if could_read:
+	pandas_database = loaded_data
+	completion_status = loaded_status
+	caught_up_to_last_savepoint = False
+	print('Catching up to last savepoint...', end='', flush=True)
+
+
 for subdir, dirs, files in os.walk(report_folder):
 
 	year = subdir[8:]
@@ -50,7 +57,8 @@ for subdir, dirs, files in os.walk(report_folder):
 
 	for file in files:
 
-		print(f'Scanning {os.path.join(subdir, file)}')
+		if caught_up_to_last_savepoint:
+			print(f'Scanning {os.path.join(subdir, file)}')
 
 		if file not in completion_status[year]:
 			completion_status[year][file] = { 'successful': [], 'failed': [] }
@@ -58,13 +66,24 @@ for subdir, dirs, files in os.walk(report_folder):
 
 		with fitz.open(os.path.join(subdir, file)) as pdf:
 
+			buffer_database = pd.DataFrame(columns=database_fields)
+
 			for page_number in range(len(pdf)):
 
 				page_key = str(page_number)
 
-				if page_key in completion_status[year][file]['successful']:
-					print(f'Already parsed {page_key}')
+				# if page_key in completion_status[year][file]['successful']:
+				if page_key in completion_status[year][file]['successful'] or page_key in completion_status[year][file]['failed']:
+					# Maybe redundant but I might have fucked up somewhere
+					if caught_up_to_last_savepoint:
+						print(f'Already processed {page_key}')
+					
+					print('.', end='', flush=True)
 					continue
+				elif not caught_up_to_last_savepoint:
+					print('Caught up!')
+					print(f'Scanning {os.path.join(subdir, file)}')
+					caught_up_to_last_savepoint = True
 				
 
 				page = pdf.load_page(page_number)
@@ -108,7 +127,10 @@ for subdir, dirs, files in os.walk(report_folder):
 						# print(page_df)
 	
 						# Append the items to our database
-						pandas_database = pd.concat([pandas_database, page_df], copy=False, ignore_index=True)
+						if buffer_database.empty:
+							buffer_database = page_df
+						else:
+							buffer_database = pd.concat([buffer_database, page_df], copy=True, ignore_index=True)
 
 						if page_key in completion_status[year][file]['failed']:
 							completion_status[year][file]['failed'].remove(page_key)
@@ -129,20 +151,35 @@ for subdir, dirs, files in os.walk(report_folder):
 
 
 				if page_number % 30 == 0 and len(pdf) - page_number >= 30 and page_number > 1:
-					with open('completed.json', 'w', encoding='utf-8') as f:
+					with open(COMPLETION_FILE, 'w', encoding='utf-8') as f:
 						json.dump(completion_status, f, ensure_ascii=False)
-						pandas_database.to_csv('database.csv', index=False)
+
+						# Merge the buffer to the main database
+						pandas_database = pd.concat([pandas_database, buffer_database], copy=False, ignore_index=True)
+						buffer_database = pd.DataFrame(columns=database_fields)
+						
+						pandas_database.to_csv(DATABASE_FILE, index=False)
+						
 						print('Updated storage')
 
-			with open('completed.json', 'w', encoding='utf-8') as f:
-				json.dump(completion_status, f, ensure_ascii=False)
-				pandas_database.to_csv('database.csv', index=False)
-				print('Updated storage')
+			if caught_up_to_last_savepoint:
+				with open(COMPLETION_FILE, 'w', encoding='utf-8') as f:
+					json.dump(completion_status, f, ensure_ascii=False)
 
-			total_pages_parsed += len(pdf)
-			percent_through = total_pages_parsed / TOTAL_PAGES_TO_PARSE * 100
-			percent_through = math.floor(percent_through)
-			print(f'{percent_through:02d}% complete. {total_pages_parsed} pages parsed')
+					# Merge the buffer to the main database
+					pandas_database = pd.concat([pandas_database, buffer_database], copy=False, ignore_index=True)
+					buffer_database = pd.DataFrame(columns=database_fields)
+					
+					pandas_database.to_csv(DATABASE_FILE, index=False)
+					
+					print('Updated storage')
+
+				total_pages_parsed += len(pdf)
+				percent_through = total_pages_parsed / TOTAL_PAGES_TO_PARSE * 100
+				percent_through = math.floor(percent_through)
+				print(f'{percent_through:02d}% complete. {total_pages_parsed} pages parsed')
+			else:
+				total_pages_parsed += len(pdf)
 
 			# print(document_data)
 
