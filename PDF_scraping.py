@@ -56,6 +56,10 @@ def check_broken(save_path):
 # Function to download PDF file
 def download_pdf(url, save_path, ignore_corrupted=False):
 
+    # Fix the save path so your program doesn't break
+    if save_path.find('T_90_PetersonCiceroAR10.pdf') != -1:
+        save_path = save_path.replace('T_90_', 'T_090_')
+
     # Check to see if we already downloaded it
     if os.path.exists(save_path):
         print("Already have, skipping download")
