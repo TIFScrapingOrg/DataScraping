@@ -115,7 +115,7 @@ def download_pdf(url, year, save_path, ignore_corrupted=False, dont_redownload=F
 			return False
 		
 		print('Error while downloading document. Waiting a bit then trying again')
-		time.wait(10)
+		time.sleep(10)
 		
 		return download_pdf(url, year, save_path, ignore_corrupted=ignore_corrupted, dont_redownload=True)
 		
@@ -127,11 +127,14 @@ def download_pdf(url, year, save_path, ignore_corrupted=False, dont_redownload=F
 			return False
 		
 		print('Waiting a bit then trying again')
-		time.wait(10)
+		time.sleep(10)
 		
 		return download_pdf(url, year, save_path, ignore_corrupted=ignore_corrupted, dont_redownload=True)
 
 def upload_done_documents(json_path, csv_path, year_tif_pairs):
+
+	global network_fails
+	
 	try:
 
 		URL = 'http://noahbaxley.com/tiftastic/send_work.php'
@@ -170,7 +173,7 @@ def upload_done_documents(json_path, csv_path, year_tif_pairs):
 					sys.exit()
 				
 				# Just try sending it again and hope it doesn't fail
-				time.wait(45)
+				time.sleep(45)
 				upload_done_documents(json_path, csv_path, year_tif_pairs)
 
 
@@ -184,7 +187,7 @@ def upload_done_documents(json_path, csv_path, year_tif_pairs):
 		
 		# Just try sending it again and hope it doesn't fail
 		print('There was a connection error. Wait a bit, then we\'ll attempt to resend')
-		time.wait(45)
+		time.sleep(45)
 		upload_done_documents(json_path, csv_path, year_tif_pairs)
 	
 	except Exception as e:
@@ -193,6 +196,8 @@ def upload_done_documents(json_path, csv_path, year_tif_pairs):
 		print('Continuing, but this loop was not tracked')
 
 def request_work():
+
+	global network_fails
 
 	try:
 		URL = 'http://noahbaxley.com/tiftastic/request_work.php'
@@ -218,7 +223,7 @@ def request_work():
 			print('Failed to fetch data:', response.status_code)
 			network_fails += 1
 			print('Waiting a bit, then reattempting to request')
-			time.wait(45)
+			time.sleep(45)
 			return request_work()
 
 	except (requests.ConnectionError, requests.Timeout, requests.HTTPError) as e:
@@ -231,7 +236,7 @@ def request_work():
 		
 		# Just try sending it again and hope it doesn't fail
 		print('There was a connection error. Waiting a bit, then reattempting to request')
-		time.wait(45)
+		time.sleep(45)
 		return request_work()
 
 	except Exception as e:
@@ -245,7 +250,7 @@ def request_work():
 		
 		# Just try sending it again and hope it doesn't fail
 		print('Waiting a bit, then reattempting to request')
-		time.wait(45)
+		time.sleep(45)
 		return request_work()
 
 
