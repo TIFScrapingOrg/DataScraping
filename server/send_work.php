@@ -79,7 +79,7 @@
                     (year, tif_number, successful, page_list)
                     VALUES (:year, :tif, 1, :page_list)");
             $rsQuery2->bindParam(':tif', $tif_name, PDO::PARAM_INT);
-            $rsQuery2->bindParam(':page_list', $sPageList, PDO::PARAM_STR, 2000);
+            $rsQuery2->bindParam(':page_list', $sPageList, PDO::PARAM_STR, 4000);
             $rsQuery2->bindParam(':year', $year, PDO::PARAM_INT);
             $rsQuery2->execute();
 
@@ -90,7 +90,7 @@
                     (year, tif_number, successful, page_list)
                     VALUES (:year, :tif, 0, :page_list)");
             $rsQuery2->bindParam(':tif', $tif_name, PDO::PARAM_INT);
-            $rsQuery2->bindParam(':page_list', $sPageList, PDO::PARAM_STR, 2000);
+            $rsQuery2->bindParam(':page_list', $sPageList, PDO::PARAM_STR, 4000);
             $rsQuery2->bindParam(':year', $year, PDO::PARAM_INT);
             $rsQuery2->execute();
             
