@@ -1,6 +1,6 @@
 import re
 import sys
-from cell_class import CELL, DEBUG
+from handle_formats.cell_class import CELL, DEBUG
 
 MAX_TRIES = 20
 
@@ -145,16 +145,42 @@ def expand_columns(cell_list: list[CELL], column_dictionary: dict[int, list[CELL
 
 		was_number = any([ w in was_number_at_some_point for w in column ])
 
-		if was_number:
+		# Go through and check to make sure there are no $ floating off to the
+		# side in their own column
+		just_dollars = all([ re.match(u'[$Ss§]', c.text.strip()) for c in column])
+
+		if was_number and not just_dollars:
 			unique_columns.append(column)
 			column.sort(key=lambda c: c.row_marker)
 			for word in column:
 				word.does_contain_numbers = True
+
+	# Go through and remove junk characters that get in the way of our business
+	# with numbers
+	junk = re.compile(u'[$,Ss\-_\'=~\s.—]')
+	alpha = re.compile(u'[A-Za-z]')
+	for column in unique_columns:
+		# print('begin')
+		rv_list = []
+		for w in column:
+			# Only remove junk if we are sure it is a number string
+			if len(w.text) - len(re.findall(alpha, w.text)) > 2 or len(w.text.strip()) == 1:
+				# print(w.text, end='  ')
+				w.text = re.sub(junk, '', w.text)
+				# print(w.text)
+
+				if len(w.text) == 0:
+					rv_list.append(w)
+
+		for w in rv_list:
+			column.remove(w)
 
 	# We altered the input cells a bit, we we need to return our new version of them
 	altered_cells = []
 	for row in column_dictionary.values():
 		for cell in row:
 			altered_cells.append(cell)
+	# for column in unique_columns:
+		# print( [c.text for c in column] )
 
 	return column_dictionary, altered_cells, unique_columns

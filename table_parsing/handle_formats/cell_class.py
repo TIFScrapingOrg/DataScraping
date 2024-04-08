@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 DEBUG = False
+PRINT_TABLE = True
 
 class CELL:
 

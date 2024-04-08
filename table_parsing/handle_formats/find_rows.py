@@ -1,8 +1,10 @@
 import re
 import sys
-from cell_class import CELL, DEBUG
+from handle_formats.cell_class import CELL, DEBUG
 
 def find_rows(cell_list: list[CELL], vertical_threshold=15, horizontal_threshold=40):
+
+	if DEBUG: print(f'There are {len(cell_list)} cells available')
 
 	# This dictionary will hold all of the lines
 	row_dictionary: dict[float, list[CELL]] = {}
@@ -42,6 +44,12 @@ def find_rows(cell_list: list[CELL], vertical_threshold=15, horizontal_threshold
 	# Go through and sort each row
 	for row in row_dictionary.values():
 		row.sort(key=lambda w: w.left)
+
+	if DEBUG:
+		print(f'After processing, there are {len(row_dictionary.keys())} rows:')
+		for row in row_dictionary.values():
+			print(', '.join([word.text for word in row]))
+		print()
 
 	# Next, we need to "crunch the numbers" hehe. Joking aside, this means we
 	# need to combine line items that are closer than 50px to each other on the
@@ -125,8 +133,22 @@ def find_rows(cell_list: list[CELL], vertical_threshold=15, horizontal_threshold
 			revenue_location = index
 			height_of_revenue = content[0].height
 			break
+
+		# Also gotta check for the case that an extra character slips in that
+		# would make the length longer than 1. Additionally, this character will
+		# only be of length 1
+		if len(content) > 1:
+			revenue_in_row = any([ re.search('revenue', c.text.lower()) for c in content])
+			if revenue_in_row:
+				# Check to see if there is only one count of a string longer than 1 char
+				# And 'en' because this is the pinnacle of machine learning
+				if sum([ 1 if len(c.text) > 1 and c.text != 'en' else 0 for c in content]) == 1:
+					revenue_location = index
+					height_of_revenue = max([c.height for c in content])
+					break
 	else:
 		print("Couldn't find revenue")
+		return False
 		sys.exit()
 
 	# Find the 'end of year' location
@@ -140,6 +162,7 @@ def find_rows(cell_list: list[CELL], vertical_threshold=15, horizontal_threshold
 			break
 	else:
 		print("Couldn't find 'end of year'")
+		return False
 		sys.exit()
 
 	
@@ -167,18 +190,3 @@ def find_rows(cell_list: list[CELL], vertical_threshold=15, horizontal_threshold
 			altered_cells.append(cell)
 
 	return row_dictionary, altered_cells
-
-
-	# # Create a string representation of each line
-
-	# string_line_dict = {}
-
-	# for level in sorted(list(line_dict.keys())):
-	# 	line_dict[level].sort(key=lambda r: r['left'])
-	# 	string_line_dict[level] = ''
-	# 	for word in line_dict[level]:
-	# 		word['row_marker'] = level
-	# 		string_line_dict[level] += word['text'] + ' '
-		
-	# 	if len(line_dict) > 0:
-	# 		string_line_dict[level] = string_line_dict[level][:-1]
