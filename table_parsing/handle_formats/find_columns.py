@@ -1,4 +1,4 @@
-from cell_class import CELL, DEBUG
+from handle_formats.cell_class import CELL, DEBUG
 
 def find_columns(cell_list: list[CELL], horizontal_threshold=10):
 

@@ -10,7 +10,7 @@ class Statement_of_Revenues:
 		self.expenditures = Expenditures()
 		self.revenues = Revenues()
 
-		self.operating_transfers_in = None
+		self.operating_transfers = None
 
 	def revenues_after_expenditures(self) -> int:
 
@@ -26,7 +26,7 @@ class Statement_of_Revenues:
 		finances = [
 			self.beginning_balance,
 			self.revenues_after_expenditures(),
-			self.operating_transfers_in
+			self.operating_transfers
 		]
 
 		gross = (cost for cost in finances if cost is not None)
