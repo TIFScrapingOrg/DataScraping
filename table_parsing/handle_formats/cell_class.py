@@ -1,6 +1,7 @@
 from __future__ import annotations
+from enum import StrEnum
 
-DEBUG = False
+DEBUG = True
 PRINT_TABLE = True
 
 class CELL:
@@ -50,3 +51,10 @@ does_contain_numbers: {self.does_contain_numbers}"""
 		other.row_marker = self.row_marker
 		other.col_marker = self.col_marker
 		other.does_contain_numbers = self.does_contain_numbers
+
+class NUMBER_COLUMN_TYPE(StrEnum):
+	CURR_YEAR = 'Current year'
+	PREV_YEAR = 'Previous year'
+	GOV_FUNDS = 'Governmental Funds'
+	ADJUSTMTS = 'Adjustments'
+	STATEMENT = 'Statement of Activities'

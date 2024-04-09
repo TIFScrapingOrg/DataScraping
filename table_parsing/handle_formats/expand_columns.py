@@ -3,6 +3,7 @@ import sys
 from handle_formats.cell_class import CELL, DEBUG
 
 MAX_TRIES = 20
+COLUMN_NUMBER_MIN_RATIO = 0.7
 
 
 def expand_columns(cell_list: list[CELL], column_dictionary: dict[int, list[CELL]]):
@@ -12,6 +13,9 @@ def expand_columns(cell_list: list[CELL], column_dictionary: dict[int, list[CELL
 	COMBINATION_OCCURRED = True
 
 	was_number_at_some_point = []
+
+	min_recognized = 10000
+	max_recognized = 0
 
 	while COMBINATION_OCCURRED:
 
@@ -32,14 +36,30 @@ def expand_columns(cell_list: list[CELL], column_dictionary: dict[int, list[CELL
 
 			was_number = any([ w in was_number_at_some_point for w in column ])
 
-			squashed = ''.join([word.text for word in column])
-			count_numeric = sum([1 if re.match(u'[\d,$]', c) else 0 for c in squashed])
+			has_sufficient_ratio = False
 
-			if was_number or count_numeric / len(squashed) >= 0.6:
+			if not was_number:
+				for word in column:
+					if len(word.text) < 4:
+						continue
+					count_numeric = sum([1 if re.match(u'[\d,$]', c) else 0 for c in word.text])
+					if count_numeric / len(word.text) > COLUMN_NUMBER_MIN_RATIO:
+						has_sufficient_ratio = True
+						break
+
+			any_contained_in_bounds = False
+			if not was_number or has_sufficient_ratio:
+				any_contained_in_bounds = any([ w.center_x < max_recognized and w.center_x > min_recognized for w in column])
+
+
+			if was_number or has_sufficient_ratio or any_contained_in_bounds:
 				expand_these.append(column)
 				for word in column:
 					was_number_at_some_point.append(word)
 					word.does_contain_numbers = True
+		
+		# Sort expand these
+		expand_these.sort(key=lambda c: c[0].col_marker)
 		
 		if DEBUG:
 			print('There are', len(expand_these), 'columns')
@@ -47,6 +67,14 @@ def expand_columns(cell_list: list[CELL], column_dictionary: dict[int, list[CELL
 				print(col[0].col_marker, '  '.join([c.text for c in col]))
 
 			print()
+
+		# Go through and find the min and max of these column's bounds
+		for column in expand_these:
+			for w in column:
+				if w.left < min_recognized:
+					min_recognized = w.left
+				if w.right > max_recognized:
+					max_recognized = w.right
 		
 		has_moved = []
 
@@ -157,23 +185,47 @@ def expand_columns(cell_list: list[CELL], column_dictionary: dict[int, list[CELL
 
 	# Go through and remove junk characters that get in the way of our business
 	# with numbers
-	junk = re.compile(u'[$,Ss\-_\'=~\s.—]')
+	junk = re.compile(u'[$,Ss\-_\'=~\s.—§©:]')
 	alpha = re.compile(u'[A-Za-z]')
+	rv_list: list[CELL] = []
 	for column in unique_columns:
-		# print('begin')
-		rv_list = []
 		for w in column:
 			# Only remove junk if we are sure it is a number string
-			if len(w.text) - len(re.findall(alpha, w.text)) > 2 or len(w.text.strip()) == 1:
-				# print(w.text, end='  ')
+			if len(w.text) - len(re.findall(alpha, w.text)) > 2 or len(w.text.strip()) < 3:
 				w.text = re.sub(junk, '', w.text)
-				# print(w.text)
+
+				if len(w.text) == 1:
+					w.text = re.sub('\)', '', w.text)
 
 				if len(w.text) == 0:
 					rv_list.append(w)
 
-		for w in rv_list:
-			column.remove(w)
+	for w in rv_list:
+		column_dictionary[w.col_marker].remove(w)
+		if len(column_dictionary[w.col_marker]) == 0:
+			unique_columns.remove(column_dictionary[w.col_marker])
+			del column_dictionary[w.col_marker]
+			# print(f'REMOGINg {w.col_marker}')
+	
+
+
+	# Get rid of straggler characters that hang out after the last column. This
+	# can happen when there are... lines at the end of the scanned page.
+	# First find the maximum right value in our number columns
+	max_right = 0
+	for column in unique_columns:
+		for word in column:
+			if word.right > max_right:
+				max_right = word.right
+	
+	# Now loop through all the cells and remove any cells that have left's
+	# greater than that
+	for word in cell_list:
+		if word.left > max_right:
+			cell_list.remove(word)
+			column_dictionary[word.col_marker].remove(word)
+			if len(column_dictionary[word.col_marker]) == 0:
+				del column_dictionary[word.col_marker]
 
 	# We altered the input cells a bit, we we need to return our new version of them
 	altered_cells = []
@@ -182,5 +234,8 @@ def expand_columns(cell_list: list[CELL], column_dictionary: dict[int, list[CELL
 			altered_cells.append(cell)
 	# for column in unique_columns:
 		# print( [c.text for c in column] )
+  
+	# Sort unique_columns
+	unique_columns.sort(key=lambda c: c[0].col_marker)
 
 	return column_dictionary, altered_cells, unique_columns

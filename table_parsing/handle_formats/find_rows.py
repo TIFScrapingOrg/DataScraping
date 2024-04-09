@@ -1,10 +1,13 @@
 import re
 import sys
+import pprint
 from handle_formats.cell_class import CELL, DEBUG
 
 def find_rows(cell_list: list[CELL], vertical_threshold=15, horizontal_threshold=40):
 
-	if DEBUG: print(f'There are {len(cell_list)} cells available')
+	if DEBUG:
+		print(f'There are {len(cell_list)} cells available')
+		pprint.pp([word.text for word in cell_list])
 
 	# This dictionary will hold all of the lines
 	row_dictionary: dict[float, list[CELL]] = {}
@@ -77,7 +80,10 @@ def find_rows(cell_list: list[CELL], vertical_threshold=15, horizontal_threshold
 				curr_percent_numeric = sum([1 if re.match(u'[\d,$]', c) else 0 for c in curr.text]) / len(curr.text)
 				next_percent_numeric = sum([1 if re.match(u'[\d,$]', c) else 0 for c in next.text]) / len(next.text)
 
-				if curr_percent_numeric < 0.5 or next_percent_numeric < 0.5:
+				
+				edgecase_1 = curr.text.lower() == "ad" and next.text.lower() == "justments"
+
+				if (curr_percent_numeric < 0.5 or next_percent_numeric < 0.5) and not edgecase_1:
 					continue
 
 				# If the words are sufficiently far apart, we don't care
