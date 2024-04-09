@@ -1,10 +1,16 @@
 from expenditures import Expenditures
 from revenues import Revenues
+import re
+import pandas as pd
+
+FUND_BALANCE_BEGIN = re.compile(u'.*beginning\s?of\s?year$', re.IGNORECASE)
+FUND_BALANCE_END = re.compile(u'.*end\s?of\s?year$', re.IGNORECASE)
 
 class Statement_of_Revenues:
 
-	def __init__(self, beginning_balance) -> None:
+	def __init__(self, table: pd.DataFrame) -> None:
 
+		# Find beginning of year
 		self.beginning_balance = beginning_balance
 		
 		self.expenditures = Expenditures()
