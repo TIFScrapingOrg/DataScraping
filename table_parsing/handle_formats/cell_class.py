@@ -1,8 +1,26 @@
 from __future__ import annotations
 from enum import StrEnum
+import re
 
-DEBUG = True
-PRINT_TABLE = True
+DEBUG = False
+PRINT_TABLE = False
+
+# UGGGGGHhhhh
+revenue_after_expenditure_pattern = re.compile(""
+	"^over expenditures and other financing uses$|"
+	"^[’! ]*(excess of )?expenditures over revenues?( and)?[’!\s.,:\s]*$|"
+	"^[’!\s,]*(excess of )?(revenues? |sources )(over|and) (under )?expenditures( and)?[’!\s.,:\s]*$|"
+	"^[’!\s.,: —]*(financing )?uses over revenues?[’!\s.,: —]*$|"
+	"^[’!\s.,: —]*(financing sources )?over expenditures[’!\s.,: —]*|^[’!\s.,: —]*(revenues? )?over \(under\) expenditures[’!\s.,: —]*$|"
+	"^.*other financing sources.*$|"
+	"^.*of revenues over expen?ditures$|"
+	"^[’!\s.,: —]*(revenues )?\(?under\)? expenditures$|"
+	"^over revenues$"
+"", re.IGNORECASE)
+
+
+full_negative_pattern = re.compile('^\(\d*\)$|^[^\(]\d*\)|^\(\d*[^\)]')
+
 
 class CELL:
 

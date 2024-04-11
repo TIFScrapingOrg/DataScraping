@@ -207,7 +207,7 @@ def find_table(csv_path: str, page_num: int, year: int, tif_num: int):
 		
 	document_frame = pd.DataFrame(table_layout)
 
-	document_frame = document_frame.dropna(subset=['labels'])
+	document_frame = document_frame.dropna(subset=['labels'], ignore_index=True)
 
 
 	if DEBUG: print(document_frame)
