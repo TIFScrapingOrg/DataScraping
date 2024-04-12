@@ -37,9 +37,6 @@ class Expenditures:
 		if revenues_after_expenditures_index - expenditures_index == 2:
 			self.total_expenditures = int(column[revenues_after_expenditures_index - 1])
 			print('I Have one!')
-			print(column)
-			print(revenues_after_expenditures_index - 1)
-			print(column[revenues_after_expenditures_index - 1])
 			has_one_entry = True
 		else:
 			self.total_expenditures = 0
@@ -68,7 +65,6 @@ class Expenditures:
 
 		unmatched = []
 
-		print('aslkfejalskfejlaskfejlskfejlkjffkfkfkffk')
 		print(use_labels)
 
 		for index, value in use_labels.items():
@@ -89,18 +85,21 @@ class Expenditures:
 					# Check to see if negative
 					is_negative = False
 
+					print('Found match for', pair[1])
+
 					was_dirty = False
 					unclean_value = None
 
 					use_me = use_column[index]
 					
+					if found_match:
+						print(f'Found duplicate match for {value}')
+						continue
+						
+					found_match = True
+					
 					if re.match(full_negative_pattern, use_me):
 
-						if found_match:
-							print(f'Found duplicate match for {value}')
-							continue
-							
-						found_match = True
 						
 						is_negative = True
 						# We'll remove parents next
@@ -130,11 +129,9 @@ class Expenditures:
 				unmatched.append(value)
 				print(f'Unmatched field {value}')
 		
-		print('you')
 		print(self.total_expenditures)
 
 		if self.total_expenditures == 0:
-			print('you')
 			print(labels)
 			print("Couldn't find total expenditure hey I changed!")
 			sys.exit()

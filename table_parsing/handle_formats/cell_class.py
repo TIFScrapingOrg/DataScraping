@@ -14,7 +14,7 @@ revenue_after_expenditure_pattern = re.compile(""
 	"^[’!\s.,: —]*(financing sources )?over expenditures[’!\s.,: —]*|^[’!\s.,: —]*(revenues? )?over \(under\) expenditures[’!\s.,: —]*$|"
 	"^.*other financing sources.*$|"
 	"^.*of revenues over expen?ditures$|"
-	"^[’!\s.,: —]*(revenues )?\(?under\)? expenditures$|"
+	"^[’!\s.,: —]*(revenues? )?\(?under\)? expenditures$|"
 	"^over revenues$"
 "", re.IGNORECASE)
 

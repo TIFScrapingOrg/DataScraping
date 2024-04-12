@@ -61,7 +61,6 @@ class Statement:
 
 		# Find the location of revenue and drop items up until that point
 
-		print('HEYEYEHSKhejflkjasef')
 		print(len(labels))
 		for index, value in labels.items():
 			print(index, value, column[index])
