@@ -103,36 +103,34 @@ class Revenues:
 					# Check to see if negative
 					is_negative = False
 
-					print('matche')
+					print('match for', pair[1])
+
 					was_dirty = False
 					unclean_value = None
+
+					use_me = use_column[index].strip()
+
 					if found_match:
 						print(f'Found duplicate match for {value}')
 						continue
 					
 					found_match = True
-					use_me = use_column[index].strip()
+
 					if re.match(full_negative_pattern, use_me):
 
-
-							
-						
 						is_negative = True
 						# We'll remove parents next
 						use_me = re.sub('\(|\)', '', use_me)
 					
-					print(use_me)
 					if re.match('\D', use_me, re.IGNORECASE):
 						was_dirty = True
 						unclean_value = use_me
 						use_me = re.sub('\D', '', use_me, flags=re.IGNORECASE)
-						print(use_me, 'heey')
 					try:
 						use_me = int(use_me)
 						if is_negative:
 							use_me = -use_me
 						print('setting', pair[1], use_me)
-						print('can set int')
 						setattr(self, pair[1], use_me)
 					except ValueError as e:
 						print('Number is invalid in "Statement" step')
