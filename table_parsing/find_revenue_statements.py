@@ -100,50 +100,28 @@ def is_ignored(query_vector):
 	return match_ignore_1 or match_ignore_2 or match_ignore_3
 
 
-pages_we_skip = 0
-
+# These are here for the purpose of finding labels
 HAS_NO_EXPENDITURES = [
 	'1999_7',
 	"2006_139",
-	'2006_124',  # Maybe fix with tolerance
+	'2006_124',
 ]
 HAS_NO_REVENUES = [
 	"2010_169",
 	'2012_7'
 ]
-
-BROKEN = [
-	'2014_53',
-]
-
 ADJUSTMENT_EMPTY = {
 	"2008_50": 14,
 	"2009_113": 14,
 	'2015_177': 29,
 	"2017_154": 32
 }
-
-# I could fix these with code
 EMPTY_TOTAL_EXPENDITURES = [
 	'1997_28',
 	'2014_29',
 	'2017_122',
 	'2018_27',
 ]
-
-HAS_ANNOYING_PROBLEM = [
-	'1998_11',
-	'1998_3',  # dot is at beginning
-	'2005_25',  # extra '-' row
-	'2007_53',  # Squished column, fix later
-	'2017_174',  # Property tax missing
-	'2013_60',  # On page 32, 1 is misread as '{' for property tax
-]
-
-# Format is {
-#   misaligned_values: [ ('field', 'number') ]
-#   corrected_values: [ ('field', 'number')]
-# }
 
 
 def find_stuff(pair):
@@ -300,9 +278,6 @@ def who_dunnit(row):
 
 
 skip = False
-im_fixing = True
-
-# pd.set_option('display.max_colwidth', None)
 
 dot_count = 0
 
@@ -315,40 +290,17 @@ for pair in page_status:
 		dot_count = 0
 		print('.', end='', flush=True)
 
-	if pair in BROKEN:
-		continue
-
-	# if not skip:
-	# 	sys.exit()
-
 	if pair == '2012_60':
 		skip = False
-
-	if pair == '2006_139':
-		im_fixing = False
 
 	if skip:
 		continue
 	
 	print(pair)
 
-	# I'm organizing these if statements like this because if I correct an
-	# error, I want it to actually show up
-	if pair in SKIP_LIST:
+	if pair in SKIP_LIST or pair in HAND_FILLED or pair in ADJUSTMENT_EMPTY:
 		continue
-		# return False <- poi = False
-	if pair in HAND_FILLED:
-		continue
-		# return False <- poi = False
-	if pair in ADJUSTMENT_EMPTY:
-		continue
-	if pair in EMPTY_TOTAL_EXPENDITURES:
-		continue
-	if pair in HAS_ANNOYING_PROBLEM:  # TODO: I'll fix these at some point
-		continue
-		# poi = [ADJUSTMENT_EMPTY[pair]]
-	if pair in HAS_NO_EXPENDITURES or pair in HAS_NO_REVENUES:
-		continue
+
 	if pair in MANUAL_CORRECTIONS:
 		poi = MANUAL_CORRECTIONS[pair]
 	elif pair in known_pages and known_pages[pair]:
@@ -413,9 +365,6 @@ for pair in page_status:
 			return ''
 
 	table['labels'] = table['labels'].apply(func=lower_me)
-	# table.drop_duplicates(subset=['labels'], inplace=True)
-
-	# Collect unique revenue fields
 	labels = table['labels']
 
 	# We just want
@@ -456,12 +405,6 @@ for pair in page_status:
 		print('Pickle finished writing')
 
 	######
-
-	# if pair[:4] == '2003':
-	# 	break
-
-	# if pair[:4] not in ['1999', '2000', '2001']:
-	# 	continue
 
 	if FINDING_UNIQUE_FIELDS:
 	

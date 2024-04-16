@@ -36,7 +36,6 @@ class Revenues:
 	def __init__(self, labels: pd.Series, column: pd.Series, revenue_index: int, expenditures_index: int) -> None:
 
 		print('FINDING REVENUES')
-		print(f'Expenditures are at index {expenditures_index}: labels: {labels[expenditures_index]}')
 
 		self._revenue_index = revenue_index
 		self._expenditures_index = expenditures_index
@@ -71,6 +70,8 @@ class Revenues:
 			self.hazards.append('Cannot complete revenues object')
 			return
 
+		print(f'Expenditures are at index {expenditures_index}: labels: {labels[expenditures_index]}')
+		
 		pattern_pairs = [
 			(total_rev_pattern, 'total_revenue'),
 			(interest_pattern, 'interest'),
