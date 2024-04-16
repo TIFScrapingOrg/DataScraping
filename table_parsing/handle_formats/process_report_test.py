@@ -7,6 +7,7 @@ from handle_formats.cell_class import CELL, NUMBER_COLUMN_TYPE, DEBUG
 from handle_formats.find_rows import find_rows
 from handle_formats.find_columns import find_columns
 from handle_formats.expand_columns import expand_columns
+from handle_formats.statement import revenue_header_pattern
 	
 DATABASE_FIELDS = ['year', 'tif_number', 'page_num', 'block_num', 'par_num', 'line_num', 'word_num', 'left', 'top', 'width', 'height', 'conf', 'text']
 
@@ -14,7 +15,8 @@ DOC_YEAR = 2015
 DOC_NUM = 23
 DOC_PAGE = 30
 
-PROBLEM_CHARACTERS = re.compile(u'[|;‘i]$')
+PROBLEM_CHARACTERS = re.compile(r'[|;‘i_]$')
+
 
 def find_table(csv_path: str, page_num: int, year: int, tif_num: int):
 
@@ -24,10 +26,22 @@ def find_table(csv_path: str, page_num: int, year: int, tif_num: int):
 	page = tif_text[tif_text['page_num'] == page_num]
 
 	# Convert every row into cells that are easy to work with
-	cell_list: list[CELL] = []
+	baby_cell_list: list[CELL] = []
 	for _, row in page.iterrows():
 		if not re.match(PROBLEM_CHARACTERS, row['text']):
-			cell_list.append(CELL(row))
+			baby_cell_list.append(CELL(row))
+
+	cell_list = []
+	for cell in baby_cell_list:
+		if cell.width_text_ratio > 100 and cell.conf < 50:
+			# Remove it. These can be inordinately large boxes that OCR draws
+			# around text that is usually only a few or even one character long.
+			# Literally. The amount of times I've come across 'eee' being
+			# labeled as something 1 pixel thin and 500 miles wide is too many
+			# to count and it's pissing me off
+			pass
+		else:
+			cell_list.append(cell)
 
 	# Label the rows
 	row_query = find_rows(cell_list)
@@ -49,7 +63,7 @@ def find_table(csv_path: str, page_num: int, year: int, tif_num: int):
 		else:
 			row_dictionary[cell.row_marker].append(cell)
 
-	row_dictionary = { key: row_dictionary[key] for key in sorted(list(row_dictionary.keys()))}
+	row_dictionary = {key: row_dictionary[key] for key in sorted(list(row_dictionary.keys()))}
 
 	# Create a string representation of each line
 	string_line_dict: dict[int, list[str]] = {}
@@ -67,27 +81,21 @@ def find_table(csv_path: str, page_num: int, year: int, tif_num: int):
 			string_col_dict[label] = ['  '.join(word.text for word in col)]
 
 		# Sort
-		string_col_dict = { key: string_col_dict[key] for key in sorted(string_col_dict.keys())}
+		string_col_dict = {key: string_col_dict[key] for key in sorted(string_col_dict.keys())}
 
 		print('List of columns')
 		pprint.pp(string_col_dict)
 
-
 	# Lets try to find labels for those number columns
 	# First, find the row-marker of the revenue label
-	revenue_pattern = re.compile(""
-		"[\.:|;‘_\s-]*revenues?[:\.,\s-]*$|"
-		"tota[l!] revenues \.$|" # 2004_44. Speck
-		"Tota[l!] reven e[sn]\'?$|" # 2008_14
-		"Revenues: en$" # 2006_15
-	"", re.IGNORECASE)
 	revenue_marker = -1
 	for label, row in string_line_dict.items():
-		if re.match(revenue_pattern, row[0]):
+		if re.match(revenue_header_pattern, row[0]):
 			revenue_marker = label
 			break
 	else:
 		print('Could not find revenue marker')
+		sys.exit()
 		return False
 	
 	# Now that we know where revenue is, we can grab the results above it and
@@ -104,6 +112,7 @@ def find_table(csv_path: str, page_num: int, year: int, tif_num: int):
 		else:
 			print('Column is empty?')
 			pprint.pp([w.text for w in column])
+			sys.exit()
 			return False
 		# Our column header should be the first n elements of the column
 		supposed_header = column[:index_oi]
@@ -113,34 +122,38 @@ def find_table(csv_path: str, page_num: int, year: int, tif_num: int):
 			cell_list.remove(w)
 			column_dictionary[w.col_marker].remove(w)
 			row_dictionary[w.row_marker].remove(w)
-			if len(column_dictionary[w.col_marker]) == 0: # uff da if this happens
+			if len(column_dictionary[w.col_marker]) == 0:  # uff da if this happens
 				del column_dictionary[w.col_marker]
 			if len(row_dictionary[w.row_marker]) == 0:
 				del row_dictionary[w.row_marker]
 		header_string = ''.join([w.text.lower() for w in supposed_header])
 		if number_column_index == 0:
 			# It's either the current year or 'Governmental Funds'
-			if DEBUG: print(f'The header string is: {header_string}')
+			if DEBUG:
+				print(f'The header string is: {header_string}')
 			relation_year = SequenceMatcher(None, header_string, str(year)).ratio()
 			relation_gov = SequenceMatcher(None, header_string, 'governmentalfunds').ratio()
 
 			if relation_year < 0.5 and relation_gov < 0.5:
-				if DEBUG: print('It is likely empty')
+				if DEBUG:
+					print('It is likely empty')
 				if relation_gov > relation_year:
-					if DEBUG: print('relation to government is higher than year. Defaulting to government')
+					if DEBUG:
+						print('relation to government is higher than year. Defaulting to government')
 					number_header = [
 						NUMBER_COLUMN_TYPE.GOV_FUNDS,
 						NUMBER_COLUMN_TYPE.ADJUSTMTS,
 						NUMBER_COLUMN_TYPE.STATEMENT
 					]
 				else:
-					if DEBUG: print('relation to government is lower than year. Defaulting to year')
+					if DEBUG:
+						print('relation to government is lower than year. Defaulting to year')
 					is_just_year = True
 					number_header.append(NUMBER_COLUMN_TYPE.CURR_YEAR)
-			elif relation_year > 0.5: # 0 is usually what it is if we compare numbers to letters
+			elif relation_year > 0.5:  # 0 is usually what it is if we compare numbers to letters
 				is_just_year = True
 				number_header.append(NUMBER_COLUMN_TYPE.CURR_YEAR)
-			else: # Assume it's GF
+			else:  # Assume it's GF
 				number_header = [
 					NUMBER_COLUMN_TYPE.GOV_FUNDS,
 					NUMBER_COLUMN_TYPE.ADJUSTMTS,
@@ -166,12 +179,12 @@ def find_table(csv_path: str, page_num: int, year: int, tif_num: int):
 		row.sort(key=lambda c: c.left)
 		label_column[row[0].row_marker] = (' '.join([word.text for word in row if not word.does_contain_numbers]))
 
-
 	# Now it's time to create the dataframe
 	possible_rows = sorted(list({word.row_marker for word in cell_list}))
-	if DEBUG: print(possible_rows)
+	if DEBUG:
+		print(possible_rows)
 
-	label_column = [ label_column.get(key, pd.NA) for key in possible_rows ]
+	label_column = [label_column.get(key, pd.NA) for key in possible_rows]
 
 	if DEBUG:
 		print('Label column')
@@ -179,8 +192,8 @@ def find_table(csv_path: str, page_num: int, year: int, tif_num: int):
 
 		print('Number of columns:', len(number_columns))
 		for column in number_columns:
-			pprint.pp([ w.text for w in column ])
-			print( [w.row_marker for w in column] )
+			pprint.pp([w.text for w in column])
+			print([w.row_marker for w in column])
 
 	data_columns: list[str] = []
 	for numbers in number_columns:
@@ -196,21 +209,22 @@ def find_table(csv_path: str, page_num: int, year: int, tif_num: int):
 
 		data_columns.append(build)
 
-
-	table_layout = { 'rows': possible_rows, 'labels': label_column }
+	table_layout = {'rows': possible_rows, 'labels': label_column}
+	if len(data_columns) != len(number_header):
+		print('The number of columns does not equal the number of headers')
+		sys.exit()
 	for index, column in enumerate(data_columns):
 		if DEBUG:
 			pprint.pp(table_layout)
 			print(number_header[index])
 		table_layout[number_header[index]] = column
 		
-		
 	document_frame = pd.DataFrame(table_layout)
 
-	document_frame = document_frame.dropna(subset=['labels'], ignore_index=True)
+	# document_frame = document_frame.dropna(subset=['labels'], ignore_index=True)
 
-
-	if DEBUG: print(document_frame)
+	if DEBUG:
+		print(document_frame)
 	return document_frame
 
 # print('List of columns')
@@ -251,7 +265,7 @@ def find_table(csv_path: str, page_num: int, year: int, tif_num: int):
 # They will always be either "Revenues" or have "end of year" in them.
 #                               |       |
 #                                 1999
-#  Revenues                   
+#  Revenues
 #    Property tax                   7,455
 #    Sales tax                      5,555
 #    Interest                      10,666

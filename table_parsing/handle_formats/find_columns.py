@@ -1,5 +1,6 @@
 from handle_formats.cell_class import CELL, DEBUG
 
+
 def find_columns(cell_list: list[CELL], horizontal_threshold=10):
 
 	# This dictionary will hold all of the columns
@@ -42,7 +43,7 @@ def find_columns(cell_list: list[CELL], horizontal_threshold=10):
 		col.sort(key=lambda w: w.top)
 
 	# Round of the column indices
-	column_dictionary = { round(index): col for index, col in column_dictionary.items() }
+	column_dictionary = {round(index): col for index, col in column_dictionary.items()}
 
 	# Now go though and give each cell a col_marker
 	for marker, column in column_dictionary.items():
@@ -52,6 +53,5 @@ def find_columns(cell_list: list[CELL], horizontal_threshold=10):
 	if DEBUG:
 		for col in column_dictionary.values():
 			print(col[0].col_marker, ', '.join([c.text for c in col]))
-
 
 	return column_dictionary, cell_list
