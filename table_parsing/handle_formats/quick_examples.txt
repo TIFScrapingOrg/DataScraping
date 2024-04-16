@@ -1,0 +1,315 @@
+1998_8
+ona balance, beginning of year -> should be "fund balance"
+
+9   1420  Revenues and other financing sources         <NA>
+10  1470                     over expenditures      1797517
+
+1997_20
+8   1316                    Other financing uses         <NA>          <NA>
+9   1366        Operating transfers out (Note 2)    (1359557)          <NA>
+
+10  1464  Revenues over (under) expenditures and         <NA>          <NA>
+11  1514                    other financing uses     (894917)        468237
+
+1997_36
+15  1750  Revenues and other financing sources         <NA>          <NA>
+16  1798   over (under) expenditures and other         <NA>          <NA>
+17  1849                        financing uses       528386       1515971
+
+1997_44
+11  1464        Other financial sources (uses)         <NA>          <NA>
+12  1514      Operating transfers out (Note 3)    (1743617)          <NA>
+
+1998_1
+9   1386  Revenues and other financing sources         <NA>          <NA>
+10  1437             over (under) expenditures    (1540349)       1797517
+
+1998_37
+5   1078              Other financing sources”         <NA>          <NA>
+6   1128       Operating transfers in (Note 2)     10500000      24258006
+
+2001_13
+13  1730  Revenues and other financing sources over         <NA>          <NA>
+14  1781                       (under) expenditures       363599      (153809)
+
+2001_14
+17  2304      REVENUES AND OTHER FINANCING SOURCES         <NA>          <NA>
+18  2357       OVER (UNDER) EXPENDITURES AND OTHER         <NA>          <NA>
+19  2408                            FINANCING USES   (54363269)      97976785
+
+2001_30
+12  1671   Expenditures over revenues and         <NA>          <NA>
+13  1723          other financing sources       379509      23908771
+
+2001_41
+10  1423                  Total expenditures       307118        310140
+11  1526          Revenues over expenditures       408847        347888
+12  1629                Other financing uses         <NA>          <NA>
+13  1683    Operating transfers out (Note 3)    (2256419)          <NA>
+14  1782  Revenues over (under) expenditures         <NA>          <NA>
+15  1835            and other financing uses    (1847572)        347888
+
+2001_73
+13  1780        Revenues and other financing         <NA>          <NA>
+14  1834           sources over expenditures       407200         37784
+
+2001_88
+9   1419  Revenue and other financing sources         <NA>          <NA>
+10  1471                    over expenditures      1270832           658
+
+2002_1
+8   1419              Fund balance/net assets:               <NA>        <NA>                    <NA>
+9   1475                     Beginning of year            1170976      452634                 1623610
+10  1577                           End of year            1349576      670103                 2019679
+
+2002_3
+7   1318                 Other financing uses:               <NA>        <NA>                    <NA>
+8   1372      Operating transfers out (Note 2)           (880000)        <NA>                (880000)
+9   1471      Excess of expenditures and other               <NA>        <NA>                    <NA>
+10  1524          financing uses over revenues           (776193)      776193                    <NA>
+11  1627                  Change in net assets               <NA>    (808778)                (808778)
+12  1726              Fund balance/net assets:               <NA>        <NA>                    <NA>
+13  1782                     Beginning of year             798407      111513                  909920
+14  1883                           End of year              22214       78928                  101142
+
+2002_5
+9   1472  Excess of revenues over expenditures               <NA>        <NA>                    <NA>
+10  1526              and other financing uses              16167     (16167)                    <NA>
+
+2002_13
+11  1615                        Other financing sources:               <NA>        <NA>                    <NA>
+12  1666                 Operating transfers in (Note 3)             277486        <NA>                  277486
+13  1769  Excess of revenues and other financing sources               <NA>        <NA>                    <NA>
+14  1821                               over expenditures             132655    (132655)                    <NA>
+
+2002_14
+18  2319        CHANGE IN NET ASSETS (DEFICIT)               <NA>   (25099816)              (25099816)
+19  2418    FUND BALANCE/NET ASSETS (DEFICIT):               <NA>         <NA>                    <NA>
+20  2468                     Beginning of year          184293093  (236217121)              (51924028)
+21  2574                           End of year          129779350  (206803194)              (77023844)
+
+2002_19
+12  1731    Fund balance (deficit)/net assets:               <NA>        <NA>                    <NA>
+13  1785                     Beginning of year               <NA>      129208                  777450
+14  1887                           End of year            (11570)      128550                  116980
+
+2002_27
+13  1763  Excess of expenditures and other financing uses               <NA>        <NA>                    <NA>
+14  1815                                    over revenues           (236704)      236704                    <NA>
+
+2002_15
+11  1448                   Other financing sources/uses:               <NA>        <NA>                    <NA>
+12  1493                                Proceeds of debt           17906858  (17906858)                    <NA>
+13  1538           Payment to refunded bond escrow agent          (2810965)     2810965                    <NA>
+
+2002_36
+13  1770  Excess of expenditures and other financing               <NA>        <NA>                    <NA>
+14  1823                          uses over revenues          (6137514)     6137514                    <NA>
+
+2002_84
+12  1662  Excess of revenues and other financing               <NA>        <NA>                    <NA>
+13  1712               sources over expenditures            1901054   (1901054)                    <NA>
+
+2003_18
+13  1804  Fund balance/net assets (deficiency):               <NA>        <NA>                    <NA>
+14  1860                      Beginning of year             434096   (1418000)                (983904)
+15  1964                            End of year             409103   (1280000)                (870897)
+
+2020_1
+12  1748            Fund balance/net position:               <NA>        <NA>                    <NA>
+13  1802                     Beginning of year           35054012     9142640                44196652
+14  1902                           End of year           38919509    10039915                48959424
+
+11  1646                Change in net position               <NA>     4762772                 4762772
+
+2003_63
+9   1492          Excess of revenues and other               <NA>        <NA>                    <NA>
+10  1544   financing sources over expenditures            1930312   (1930312)                    <NA>
+
+2020_13
+7   1335                  Other financing sources (uses):               <NA>        <NA>                    <NA>
+8   1387                    Surplus distribution (Note 2)          (2584889)        <NA>               (2584889)
+9   1440                  Operating transfers in (Note 3)           25592920        <NA>                25592920
+
+11  1644  Excess of expenditures and other financing uses               <NA>        <NA>                    <NA>
+12  1696        over revenues and other financing sources           (349482)      349482                    <NA>
+
+2020_71
+10  1409           Total expenditures/expenses           13613324  (11140854)                 2472470
+11  1509  Excess of expenditures over revenues          (8156709)    12026562                 3869853
+
+14  1734  Excess of expenditures over revenues               <NA>        <NA>                    <NA>
+15  1782           and other financing sources          (2156709)     2156709                    <NA>
+# Yes that is two identical queries next to eachother
+
+2020_112
+9   1490   Excess of revenue over expenditures               <NA>        <NA>                    <NA>
+10  1542              and other financing uses            1214218   (1214218)                    <NA>
+
+2020_146
+19  1911  Fund balance/net position (deficiency):               <NA>        <NA>                    <NA>
+20  1961                        Beginning of year            3791059  (13526588)               (9735529)
+21  2041                              End of year            2082210   (7622539)               (5540329)
+
+2021_23
+12  1634  Excess of revenues and other financing sources               <NA>        <NA>                    <NA>
+13  1685      over expenditures and other financing uses           19373341  (19373341)                    <NA>
+
+2004_31
+14  1762  Excess of revenues over expenditures and               <NA>        <NA>                    <NA>
+15  1819                      other financing uses            9577504   (9577504)                    <NA>
+
+2004_66
+8   1417                 Fund balance/net assets:               <NA>        <NA>                    <NA>
+9   1473  Beginning of year, as restated (Note 2)             467232      423173                  890405
+10  1572                              End of year             647476        <NA>                    <NA>
+
+2005_14
+9   1652                       Debt service:               <NA>         <NA>                    <NA>
+10  1703                Principal retirement           58226452   (58226452)                    <NA>
+11  1753                    Interest expense           10143129      9691021                19834150
+
+2005_54
+16  2049             Fund balance/net assets:.               <NA>        <NA>                    <NA>
+17  2104                     Beginning of year            5271899      602003                 5873902
+18  2202                           End of year            4654384      801613                 5455997
+
+2006_14
+13  1912          REVENUES OVER EXPENDITURES           24900255     69652036                94552291
+14  2009    OTHER FINANCING USES — Operating               <NA>         <NA>                    <NA>
+15  2062              transfers out (Note 4)          (6459266)         <NA>               (6459266)
+16  2163      REVENUES OVER EXPENDITURES AND               <NA>         <NA>                    <NA>
+17  2218                OTHER FINANCING USES           18440989   (18440989)                    <NA>
+
+2006_77
+8   1413              Fund balance/net assets:               <NA>        <NA>                    <NA>
+9   1474                     Beginning of year            4948113     1566455                 6514568
+10  1580                         End of year _            6486917     2304132                 8191049
+
+2006_98
+7   1214  Excess of revenues over expenditures            1463255   (1463255)                    <NA>
+8   1304                  Change in net assets               <NA>        <NA>                    <NA>
+9   1322                                                     <NA>     1871993                 1871993
+10  1406              Fund balance/net assets:               <NA>        <NA>                    <NA>
+# Caution how change in net assets does not line up
+
+2006_139
+   rows                               labels Governmental Funds Adjustments Statement of Activities
+0   746                             Revenue:               <NA>        <NA>                    <NA>
+1   806                             Interest               3977        <NA>                    3977
+2   902             Other financing sources:               <NA>        <NA>                    <NA>
+3   959      Operating transfers in (Note 2)             500000        <NA>                  500000
+4  1062  Revenue and other financing sources             503977    (503977)                    <NA>
+5  1164                 Change in net assets               <NA>      503977                  503977
+6  1261             Fund balance/net assets:               <NA>        <NA>                    <NA>
+7  1317                    Beginning of year               <NA>        <NA>                    <NA>
+8  1421                          End of year             503977        <NA>                  503977
+# There is no revenue after expenditures, but that is because there is no
+# expenditures. It might be worth checking to see if there isn't a revenue or
+# expenditures location, do we have to go far?
+
+2007_85
+11  1518                Change in net assets —               <NA>     6181131                 6181131
+12  1600              Fund balance/net assets:               <NA>        <NA>                    <NA>
+13  1656                     Beginning of year            7170318     2038649                 9208967
+14  1739                           End of year           12156506     3233592                15390098
+
+2007_144
+11  1510  Excess of revenue and other financing               <NA>        <NA>                    <NA>
+12  1565              sources over expenditures             701650    (701650)                    <NA>
+
+2008_14
+34  2382  Expenditures over revenues and other financing...  (255226701)
+# ... is supposed to be sources
+# pandas replaced it
+
+2008_39
+8   1430              Fund baiance/net assets:               <NA>        <NA>                    <NA>
+9   1495                     Beginning of year            2839717      907446                 3747163
+10  1597                           End of year            4017488     1232100                 5249588
+
+2008_154
+30  2266                         Other financing sources- -         <NA>
+31  2312                             Operating transfers in       470000
+
+2009_7
+5   1177                 Other financing uses:               <NA>        <NA>                    <NA>
+6   1228   Tax liability distribution (Note 2)            (76395)        <NA>                 (76395)
+7   1329      Excess of expenditures and other               <NA>        <NA>                    <NA>
+8   1383          financing uses over revenues            (77092)       17092                    <NA>
+9   1484                  Change in net assets               <NA>     (77092)                 (77092)
+# Note the "tax liability distribution"
+
+2009_34
+9   1480       of revenues and other financing               <NA>        <NA>                    <NA>
+10  1532             sources over expenditures            4800716   (4800716)                    <NA>
+# 'Excess' was not recognized in OCR
+
+2011_95
+18  1806                 Fund balance/net assets:               <NA>        <NA>                    <NA>
+19  1857  Beginning of year, as restated (Note 7)           41464850  (14535973)                26928877
+20  1930                              End of year           40526645  (11594772)                28931873
+
+2011_130
+7   1332                 Other financing uses:               <NA>        <NA>                    <NA>
+8   1389   Tax liability distribution (Note 3)          (1830166)        <NA>               (1830166)
+
+2012_29
+11  1571            Tota! other financing sources (uses)            3510000        <NA>                 3510000
+
+2012_124
+9   1490         Excess expenditures and other               <NA>        <NA>                    <NA>
+10  1545          financing uses over revenues           (233623)      233623                    <NA>
+
+2012_131
+9   1428      Excess of expenditures and other               <NA>        <NA>                    <NA>
+10  1481           financing uses over revenue          (2659111)     2659111                    <NA>
+
+2012_138
+9   1455  Excess of revenues over expenditures               <NA>        <NA>                    <NA>
+10  1508             and other financings uses             211355    (211355)                    <NA>
+
+2013_32
+13  1680  Excess of expenditures and other financing uses               <NA>        <NA>                    <NA>
+14  1732      ! over revenues and other financing sources         (13965242)    13965242                    <NA>
+
+2013_95
+13  1656  : Excess of revenues over expenditures               <NA>        <NA>                    <NA>
+14  1707                and other financing uses            3973031   (3973031)                    <NA>
+
+2013_124
+9   1494   Excess revenues and other financing               <NA>        <NA>                    <NA>
+10  1547             sources over expenditures             423396    (423396)                    <NA>
+
+2014_37
+11  1628  Excess of expenditures and other financing uses               <NA>        <NA>                    <NA>
+12  1680        over revenues and other financing sources          (4162750)     4162750                    <NA>
+13  1782                         Change in net position ,               <NA>   (3921631)               (3921631)
+14  1883                       Fund balance/net position:               <NA>        <NA>                    <NA>
+15  1937                                Beginning of year           50371935    11552566                61924501
+16  2038                                      End of year           46209185    11793685                58002870
+
+2014_71
+17  1934  Fund balance/net position (deficiency): .               <NA>        <NA>                    <NA>
+18  1990                          Beginning of year           24371478  (32285442)               (7913964)
+19  2070                                End of year           18513166  (30773848)              (12260682)
+
+2014_127
+5   1094         Economic development projects             401369        <NA>                  401369
+6   1198  Excess of revenues over expenditures            4035513    (153598)                  881915
+7   1284                                 Other               <NA>        <NA>                    <NA>
+8   1300                       financing uses:               <NA>        <NA>                    <NA>
+9   1352      Operating transfers out (Note 2)          (1688175)        <NA>               (1688175)
+10  1452      Excess of expenditures and other               <NA>        <NA>                    <NA>
+11  1507          financing uses over revenues           (652662)      652662                    <NA>
+# The box for other is drawn really high because of a speck, so if we can't
+# figure out the continuation method, might be worth doing this one solo
+
+2016_82
+10  1530   - Excess of expenditures and other:               <NA>        <NA>                    <NA>
+11  1582          financing uses over revenues           (379564)      379564                    <NA>
+
+2018_131
+7   1357                 Other Financing uses:               <NA>        <NA>                    <NA>
+8   1411         Surplus distribution (Note 2)            (60000)        <NA>                 (60000)
+

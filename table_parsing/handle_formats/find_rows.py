@@ -3,7 +3,8 @@ import sys
 import pprint
 from handle_formats.cell_class import CELL, DEBUG
 
-def find_rows(cell_list: list[CELL], vertical_threshold=15, horizontal_threshold=40):
+
+def find_rows(cell_list: list[CELL], vertical_threshold=15, horizontal_threshold=30):
 
 	if DEBUG:
 		print(f'There are {len(cell_list)} cells available')
@@ -28,21 +29,45 @@ def find_rows(cell_list: list[CELL], vertical_threshold=15, horizontal_threshold
 		REDUCED = False
 		current_keys = sorted(list(row_dictionary.keys()))
 
-		for i in range(len(current_keys) - 1):
+		for i in range(len(current_keys)):
 
-			# If the distance between two keys is below threshold, combine them
-			if abs(current_keys[i] - current_keys[i+1]) <= vertical_threshold:
+			vertical_neighbors: list[tuple[int, float]] = []
 
-				REDUCED = True
-				avg = (current_keys[i] + current_keys[i+1]) / 2
+			for j in range(len(current_keys)):
+
+				if j == i:
+					continue
+
+				# If the distance between two keys is below threshold, they are
+				# eligible for merging
+				distance = abs(current_keys[i] - current_keys[j])
+				if distance <= vertical_threshold:
+					vertical_neighbors.append((distance, current_keys[j]))
 				
-				row_dictionary[avg] = row_dictionary[current_keys[i]] + row_dictionary[current_keys[i+1]]
+			if len(vertical_neighbors) == 0:
+				# No neighbors
+				continue
 
-				# Get rid of the original keys
-				del row_dictionary[current_keys[i]]
-				del row_dictionary[current_keys[i+1]]
+			REDUCED = True
 
-				break
+			this_key = current_keys[i]
+			that_key = None
+			smallest_distance = 9001
+
+			for n in vertical_neighbors:
+				if n[0] < smallest_distance:
+					smallest_distance = n[0]
+					that_key = n[1]
+
+			avg = (this_key + that_key) / 2
+
+			row_dictionary[avg] = row_dictionary[this_key] + row_dictionary[that_key]
+
+			# Get rid of the original keys
+			del row_dictionary[this_key]
+			del row_dictionary[that_key]
+
+			break
 
 	# Go through and sort each row
 	for row in row_dictionary.values():
@@ -61,7 +86,7 @@ def find_rows(cell_list: list[CELL], vertical_threshold=15, horizontal_threshold
 	# being recognized as
 	#   $  +  3,455,55  +  5
 	# They are the same number, OCR just didn't put them in the same group
- 
+
 	for row, words in row_dictionary.items():
 
 		furthest_reduced = 0
@@ -77,10 +102,9 @@ def find_rows(cell_list: list[CELL], vertical_threshold=15, horizontal_threshold
 				next = words[ind+1]
 				
 				# If the word we are looking at is not majority numbers, skip it
-				curr_percent_numeric = sum([1 if re.match(u'[\d,$]', c) else 0 for c in curr.text]) / len(curr.text)
-				next_percent_numeric = sum([1 if re.match(u'[\d,$]', c) else 0 for c in next.text]) / len(next.text)
+				curr_percent_numeric = sum([1 if re.match(r'[\d,$]', c) else 0 for c in curr.text]) / len(curr.text)
+				next_percent_numeric = sum([1 if re.match(r'[\d,$]', c) else 0 for c in next.text]) / len(next.text)
 
-				
 				edgecase_1 = curr.text.lower() == "ad" and next.text.lower() == "justments"
 
 				if (curr_percent_numeric < 0.5 or next_percent_numeric < 0.5) and not edgecase_1:
@@ -117,7 +141,7 @@ def find_rows(cell_list: list[CELL], vertical_threshold=15, horizontal_threshold
 				break
 		
 	# Go ahead and round off the row indices
-	row_dictionary = { round(index): row for index, row in row_dictionary.items() }
+	row_dictionary = {round(index): row for index, row in row_dictionary.items()}
 
 	# The table we are after has bounds. The bottom of tables will always have
 	# 'end of year' in it and the top will always be 'revenues'. Of course we
@@ -144,18 +168,18 @@ def find_rows(cell_list: list[CELL], vertical_threshold=15, horizontal_threshold
 		# would make the length longer than 1. Additionally, this character will
 		# only be of length 1
 		if len(content) > 1:
-			revenue_in_row = any([ re.search('revenue', c.text.lower()) for c in content])
+			revenue_in_row = any([re.search('revenue', c.text.lower()) for c in content])
 			if revenue_in_row:
 				# Check to see if there is only one count of a string longer than 1 char
 				# And 'en' because this is the pinnacle of machine learning
-				if sum([ 1 if len(c.text) > 1 and c.text != 'en' else 0 for c in content]) == 1:
+				if sum([1 if len(c.text) > 1 and c.text != 'en' else 0 for c in content]) == 1:
 					revenue_location = index
 					height_of_revenue = max([c.height for c in content])
 					break
 	else:
 		print("Couldn't find revenue")
-		return False
 		sys.exit()
+		return False
 
 	# Find the 'end of year' location
 	for index in range(revenue_location, len(row_keys)):
@@ -168,10 +192,8 @@ def find_rows(cell_list: list[CELL], vertical_threshold=15, horizontal_threshold
 			break
 	else:
 		print("Couldn't find 'end of year'")
-		return False
 		sys.exit()
-
-	
+		return False
 
 	# Now delete everything after 'end of year'
 	for index in range(end_year_location+1, len(row_keys)):
