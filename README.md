@@ -21,7 +21,7 @@
 
 ## Getting Started
 #### Prerequisites
-- List of technologies, libraries, or tools required to run the project are within the text file [requirements.txt] (https://github.com/TIFScrapingOrg/DataScraping/blob/main/requirements.txt).
+- List of technologies, libraries, or tools required to run the project are within the text file [requirements] (https://github.com/TIFScrapingOrg/DataScraping/blob/main/requirements.txt).
 
 
 #### Installation
