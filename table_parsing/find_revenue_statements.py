@@ -12,12 +12,16 @@ import copy
 from colorama import Fore, Style, init as colorama_init
 from handle_formats.statement import Statement
 from page_dictionary import SKIP_LIST, HAND_FILLED, MANUAL_CORRECTIONS
+import hmac
+import uuid
+import hashlib
 
 colorama_init()
 
 DATABASE_FIELDS = ['year', 'tif_number', 'page_num', 'block_num', 'par_num', 'line_num', 'word_num', 'left', 'top', 'width', 'height', 'conf', 'text']
 COMPLETION_STATUS_CSV = 'butter_json.csv'
 PARSED_PDFS_DIR = '../parsed_pdfs'
+PICKLE_KEY = uuid.getnode().to_bytes(6)
 
 FINDING_UNIQUE_FIELDS = False
 
@@ -82,6 +86,36 @@ def is_finance(query_vector, log=False):
 	# If not all the flags are met return False
 	return all(flag for flag in flags_to_watch.values())
 
+
+# Adapted from
+# https://pycharm-security.readthedocs.io/en/latest/checks/PIC100.html
+# https://stackoverflow.com/a/7100202/7362680
+def read_pickle(fname):
+
+	if not os.path.exists(fname):
+		return {}
+	
+	print('Found pickle', fname)
+	with open(fname, 'rb') as fp:
+		contents = fp.read()
+		digest = contents[:64]
+		pickle_maybe = contents[64:]
+		expected_digest = hmac.new(PICKLE_KEY, pickle_maybe, hashlib.blake2b).digest()
+
+	if hmac.compare_digest(digest, expected_digest):
+		# Keys match!
+		return pickle.loads(pickle_maybe)
+	else:
+		# Keys don't match. Scary pickle
+		return {}
+
+
+def write_pickle(data, fname):
+	write_me = pickle.dumps(data)
+	digest = hmac.new(PICKLE_KEY, write_me, hashlib.blake2b).digest()
+	with open(fname, 'wb') as fp:
+		fp.write(digest + write_me)
+		
 
 IGNORE_STRING_1 = 'no tax increment project expenditures'  # First seen 1997
 IGNORE_STRING_2 = 'no tax increment expenditures within the project area'  # First seen 1998_4
@@ -228,28 +262,12 @@ pickle_reset = 680
 
 unique_rev_fields = pd.DataFrame(columns=['labels', 'examples', 'where_at'], dtype=str)
 
-if os.path.exists('known_pages.p'):
-	print('Found pickle describing known_pages')
-	with open('known_pages.p', 'rb') as fp:
-		known_pages: dict[str, int] = pickle.load(fp)
-else:
-	known_pages: dict[str, int] = {}
 
-if os.path.exists('known_tables.p'):
-	print('Found pickle describing known_tables')
-	with open('known_tables.p', 'rb') as fp:
-		known_tables: dict[str, pd.DataFrame] = pickle.load(fp)
-else:
-	known_tables: dict[str, pd.DataFrame] = {}
-	with open('known_tables.p', 'wb') as fp:
-		pickle.dump(known_tables, fp, protocol=pickle.HIGHEST_PROTOCOL)
+known_pages: dict[str, int] = read_pickle('known_pages.txt')
 
-if os.path.exists('known_statements.p'):
-	print('Found pickle describing known_statements')
-	with open('known_statements.p', 'rb') as fp:
-		known_statements = pickle.load(fp)
-else:
-	known_statements = {}
+known_tables: dict[str, pd.DataFrame] = read_pickle('known_tables.txt')
+
+known_statements: dict[str, Statement] = read_pickle('known_statements.txt')
 
 
 def append_new(row):
@@ -310,13 +328,9 @@ for pair in page_status:
 		pickle_timer_pages -= 1
 
 	if pickle_timer_pages == 0:
-		pickle_timer_pages = pickle_reset
 		# Write known_pages
-		# Code adapted from https://stackoverflow.com/a/7100202/7362680
-		print('Writing pickle')
-		with open('known_pages.p', 'wb') as fp:
-			pickle.dump(known_pages, fp, protocol=pickle.HIGHEST_PROTOCOL)
-		print('Pickle finished writing')
+		pickle_timer_pages = pickle_reset
+		write_pickle(known_pages, 'known_pages.txt')
 	
 	if poi is False:
 		continue
@@ -345,13 +359,9 @@ for pair in page_status:
 		pickle_timer_tables -= 1
 
 		if pickle_timer_tables == 0:
-			pickle_timer_tables = pickle_reset
 			# Write known_pages
-			# Code adapted from https://stackoverflow.com/a/7100202/7362680
-			print('Writing pickle')
-			with open('known_tables.p', 'wb') as fp:
-				pickle.dump(known_tables, fp, protocol=pickle.HIGHEST_PROTOCOL)
-			print('Pickle finished writing')
+			pickle_timer_tables = pickle_reset
+			write_pickle(known_tables, 'known_tables.txt')
 
 	if len(table.columns) == 2 or len(table.columns) > 5:
 		print('Too many/few columns')
@@ -396,13 +406,9 @@ for pair in page_status:
 	all_statements.append(new_statement)
 
 	if pickle_timer_statements == 0:
+		# Write known_statements
 		pickle_timer_statements = pickle_reset
-		# Write known_pages
-		# Code adapted from https://stackoverflow.com/a/7100202/7362680
-		print('Writing pickle')
-		with open('known_statements.p', 'wb') as fp:
-			pickle.dump(known_statements, fp, protocol=pickle.HIGHEST_PROTOCOL)
-		print('Pickle finished writing')
+		write_pickle(known_statements, 'known_statements.txt')
 
 	######
 
@@ -583,10 +589,9 @@ if FINDING_UNIQUE_FIELDS:
 	unique_rev_fields.to_csv('unique_rev_fields.csv', index=False)
 
 print('Writing pickle')
-with open('known_pages.p', 'wb') as fp:
-	pickle.dump(known_pages, fp, protocol=pickle.HIGHEST_PROTOCOL)
-with open('known_tables.p', 'wb') as fp:
-	pickle.dump(known_tables, fp, protocol=pickle.HIGHEST_PROTOCOL)
+write_pickle(known_pages, 'known_pages.txt')
+write_pickle(known_tables, 'known_tables.txt')
+write_pickle(known_statements, 'known_statements.txt')
 print('Pickle(s) finished writing')
 	
 # print(f'There are {len(unique_rev_fields)} unique fields')
