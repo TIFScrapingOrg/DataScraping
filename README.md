@@ -1,5 +1,5 @@
 <div>
-  <img align="left" width="150" height="150" src="images/project_logo.png" alt="Logo">
+  <img align="left" width="140" height="140" src="images/project_logo.png" alt="Logo">
 </div>
 
 # Improving Chicago’s Fiscal Transparency By Extracting Historical Financial Data Through a Machine Learning Pipeline
