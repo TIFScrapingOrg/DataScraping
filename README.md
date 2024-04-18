@@ -15,7 +15,6 @@
 - [Usage](#usage)
 - [Features](#features)
 - [Visualizations](#visualizations)
-- [Contributing](#contributing)
 - [Credits](#credits)
 - [Conclusion + Future Work](#conclusion)
 ---
@@ -37,14 +36,15 @@ git clone https://github.com/TIFScrapingOrg/DataScraping/tree/main
 
 
 ## Usage
-This Repo contains the all of the processing programs for collecting, reading, and extracting data from old TIF reports. Execution of .py files starts fresh, unlike .ipynb (notebook) files where some variables can get carried over from the last execution. If you would like to see outputs of our code without running it all, see the folder "call it notebook or something? and link it here."
+This Repo contains the all of the processing programs for collecting, reading, and extracting data from old TIF reports. Execution of .py files starts fresh, unlike .ipynb (notebook) files where variables can be carried over from the last execution. If you would like to see outputs of our code without running it all, see the folder: [Notebooks](https://github.com/TIFScrapingOrg/DataScraping/tree/main/Notebooks)
 
 #### PDF Scraping
 [PDF_scraping.py](https://github.com/TIFScrapingOrg/DataScraping/blob/main/PDF_scraping.py) can be used to download all Chicago annual TIF reports. All reports will be downloaded to the TIFpdfs folder in the working directory, which will be created if it does not exist. You are able to modify the varaibles "start_year" and "end_year" to download all TIF reports within the desired interval (Note the default interval is 1997 to 2022).
-- The corresponding Notebook: [PDF_scraping.ipynb](https://github.com/TIFScrapingOrg/DataScraping/blob/main/PDF_scraping.ipynb) 
+- The corresponding Notebook: [PDF_scraping.ipynb](https://github.com/TIFScrapingOrg/DataScraping/blob/main/Notebooks/PDF_scraping.ipynb) 
 
 #### Finding Pages
-[collecting_pages.py]() is used to find and record the specific pages of the reports we wish to read by identifying certain strings with a specified margin of error.
+[collecting_pages.py](https://github.com/TIFScrapingOrg/DataScraping/blob/main/collecting_pages.py) is used to find and record the specific pages of the reports we wish to read by identifying certain strings with a specified margin of error.
+- The corresponding Notebook: [PDF_scraping.ipynb](https://github.com/TIFScrapingOrg/DataScraping/blob/main/Notebooks/collecting_pages.ipynb) 
 
 ## Features
 
