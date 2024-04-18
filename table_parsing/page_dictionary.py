@@ -335,7 +335,6 @@ HAND_FILLED = {
 	'2019_182': 5,
 	'2003_14': 120,  # So many matches. This appears to be in different
 					# format from previous 2 pages though.
-	'2016_14': [13, 14],  # It spans 2 pages
 
 	'2007_12': 14,  # Also not nice
 	'2008_12': 14,  # Just messed up
@@ -454,6 +453,7 @@ HAND_FILLED = {
 	'2009_157': 14,  # Bigg box?
 	'2015_163': 28,  # Literally the entire adjustments column was missed by OCR somehow
 	'2014_50': 29,  # NA value, something missed. Could fix
+	'2014_53': 30,
 }
 
 BROUGHT_OUT = {
