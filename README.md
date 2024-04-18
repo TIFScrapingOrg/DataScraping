@@ -52,8 +52,8 @@ This Repo contains the all of the processing programs for collecting, reading, a
 - The corresponding Notebook: [Contracts_Finder.ipynb](https://github.com/TIFScrapingOrg/DataScraping/blob/main/Notebooks/Contracts_Finder.ipynb) 
 
 ### Finding Statements
-[collecting_pages.py](https://github.com/TIFScrapingOrg/DataScraping/blob/main/collecting_pages.py) is used to find and record the specific pages of the reports we wish to read by identifying certain strings with a specified margin of error.
-- The corresponding Notebook: [PDF_scraping.ipynb](https://github.com/TIFScrapingOrg/DataScraping/blob/main/Notebooks/collecting_pages.ipynb) 
+[statement_finder.py](https://github.com/TIFScrapingOrg/DataScraping/blob/main/statement_finder.py) is used to find and save the locations of statements within each correspending TIF year and district. Outputs a file of CSVs with the naming scheme of "Year_TIF#".
+- The corresponding Notebook: [statement_finder.ipynb](https://github.com/TIFScrapingOrg/DataScraping/blob/main/Notebooks/statement_finder.ipynb) 
 
 
 ## Features
