@@ -15,5 +15,6 @@ The similar sounding name was a stylistic choice made by me, so don't expect it 
 ## Notes
 The thing is not necessarily the most optimized, so it is a little slow and will take a few minutes to run the first time.
 It does cache results it finds, though, so that reduces the amount of work on subsequent runs.
-The cache is inside of the `.p` files, so if you change something in the code, make sure you delete the appropriate cache file before you run it again if you want to see the changes.
+The cache is inside of the `.txt` files, so if you change something in the code, make sure you delete the appropriate cache file before you run it again if you want to see the changes.
 **DO NOT** upload those cache files to github though.
+Although if you do, it's not necessarily a biggy. The cache should just reset if it doesn't recognize your computer.
