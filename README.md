@@ -17,7 +17,6 @@
 - [Visualizations](#visualizations)
 - [Contributing](#contributing)
 - [Credits](#credits)
-- [License](#license)
 - [Conclusion + Future Work](#conclusion)
 ---
 
@@ -44,6 +43,9 @@ This Repo contains the majority of the processing programs for reading old TIF r
 <p><em>PDF_scraping.py</em> can be used to download all Chicago annual TIF reports. All reports will be downloaded to the TIFpdfs folder in the working directory, which will be created if it does not exist.</p>
 <p><em>collecting_pages.py</em> is used to find and record the specific pages of the reports we wish to read by identifying certain strings with a specified margin of error.</p>
 
+## Features
+
+## Visualizations
 
 
 
