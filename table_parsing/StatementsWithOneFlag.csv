@@ -1,0 +1,1095 @@
+year,tif_number,property_tax,total_expenditures,transfers_in,transfers_out,surplus,end_balance,flags
+1997,2,37572,2250,0,0,0,38379,Revenues after expenditure checksum failed
+1997,22,431983,14203,0,0,0,937328,Revenues after expenditure checksum failed
+1997,23,117224,3854,0,0,0,114359,Beginning of year balance has no value
+1997,26,389121,13210,0,0,0,0,End of year balance has no value
+1997,27,12301,405,0,0,0,11999,Beginning of year balance has no value
+1997,41,356739,310371,0,0,0,0,End of year balance has no value
+1998,11,47228,1599,0,0,0,46007,Beginning of year balance has no value
+1998,20,240279,18076,0,-297093,0,254206,Total of other finances did not match anything. Guessing total by adding individual
+1998,37,0,8850692,10500000,0,0,25806466,Total of other finances did not match anything. Guessing total by adding individual
+1998,39,161643,5472,0,0,0,0,End of year balance has no value
+1999,24,138562,3409,0,0,0,135661,Beginning of year balance has no value
+1999,26,436980,11021,0,0,0,2468781,Revenues after expenditure checksum failed
+1999,34,432157,11458,0,0,0,422407,Beginning of year balance has no value
+1999,37,874198,28286052,2500000,0,0,1727258,Total of other finances did not match anything. Guessing total by adding individual
+1999,38,132138,3235,0,0,0,129387,Beginning of year balance has no value
+1999,52,2825205,73534,0,0,0,2762694,Beginning of year balance has no value
+1999,54,290646,8089,0,0,0,283887,Beginning of year balance has no value
+1999,66,105340,2377,0,0,0,103311,Beginning of year balance has no value
+2000,9,377038,366777,0,0,0,0,End of year balance has no value
+2000,18,234090,316047,0,0,0,448554,Revenues after expenditure checksum failed
+2000,19,129323,8238,0,0,0,0,End of year balance has no value
+2000,21,455724,18350,0,0,0,0,End of year balance has no value
+2000,32,3108482,1755945,0,0,0,20598070,Total of other finances did not match anything. Guessing total by adding individual
+2000,41,277570,310140,0,0,0,0,End of year balance has no value
+2000,43,800838,77105,0,0,0,0,End of year balance has no value
+2000,47,126972,6920,0,0,0,1520536,"field ""sales_tax"" had no value attached"
+2000,56,311539,161598,0,0,0,0,End of year balance has no value
+2000,64,119177,2610,0,0,0,117374,Beginning of year balance has no value
+2000,75,107260,2154,0,0,0,105770,Beginning of year balance has no value
+2000,77,143453,3127,0,0,0,141338,Beginning of year balance has no value
+2001,8,477409,13926,0,0,0,0,End of year balance has no value
+2001,9,357821,351042,0,0,0,0,End of year balance has no value
+2001,13,417994,349461,260283,0,0,1333915,Total of other finances did not match anything. Guessing total by adding individual
+2001,17,230106,412131,0,0,0,106840,Revenues after expenditure checksum failed
+2001,20,203822,9549,0,-260283,0,1164711,Total of other finances did not match anything. Guessing total by adding individual
+2001,31,11685650,14286048,0,0,0,870715553,Revenues after expenditure checksum failed
+2001,34,2145644,42744,0,-1000000,0,2239833,Total of other finances did not match anything. Guessing total by adding individual
+2001,37,3361990,162010,0,0,0,0,End of year balance has no value
+2001,39,1230963,987206,0,0,0,0,End of year balance has no value
+2001,41,293993,307118,0,-2256419,0,2420919,Total of other finances did not match anything. Guessing total by adding individual
+2001,44,1981738,2749569,0,0,0,8559969,Revenues after expenditure checksum failed
+2001,45,1244544,4087674,0,0,0,0,End of year balance has no value
+2001,49,252066,4302,0,0,0,248762,Beginning of year balance has no value
+2001,54,791606,161535,0,0,0,2417532,Total of other finances did not match anything. Guessing total by adding individual
+2001,60,291249,6126,0,0,0,286394,Beginning of year balance has no value
+2001,73,239,100439,0,0,0,444984,Total of other finances did not match anything. Guessing total by adding individual
+2001,76,336023,5782,0,0,0,331537,Beginning of year balance has no value
+2001,82,167492,3917,0,0,0,164206,Beginning of year balance has no value
+2001,84,251023,5440,0,0,0,246721,Beginning of year balance has no value
+2001,87,722222,13813,0,0,0,712491,Beginning of year balance has no value
+2001,88,1289777,928382,0,0,0,1271490,Total of other finances did not match anything. Guessing total by adding individual
+2001,91,245608,5329,0,0,0,241210,Beginning of year balance has no value
+2001,92,322502,5922,0,0,0,319088,Beginning of year balance has no value
+2001,93,307849,6298,0,0,0,302992,Beginning of year balance has no value
+2001,95,2231796,39113,0,0,0,2201893,Beginning of year balance has no value
+2001,101,525847,10272,0,0,0,517431,Beginning of year balance has no value
+2002,3,103477,6919,0,-880000,0,22214,Total of other finances did not match anything. Guessing total by adding individual
+2002,14,53400347,101644265,0,-9593000,0,129779350,Total of other finances did not match anything. Guessing total by adding individual
+2002,15,1272093,1180962,0,0,0,27440308,Total of other finances did not match anything. Guessing total by adding individual
+2002,20,211941,9017,0,-277486,0,1226934,Total of other finances did not match anything. Guessing total by adding individual
+2002,25,213927,8277,0,-175000,0,791023,Total of other finances did not match anything. Guessing total by adding individual
+2002,26,1880470,297797,0,0,0,0,End of year balance has no value
+2002,27,271444,434288,0,-87839,0,710366,Total of other finances did not match anything. Guessing total by adding individual
+2002,36,2275977,788181,0,-7712540,0,1538857,Total of other finances did not match anything. Guessing total by adding individual
+2002,39,762853,1232381,0,0,0,0,End of year balance has no value
+2002,42,522950,585329,0,-1180350,0,1102379,Total of other finances did not match anything. Guessing total by adding individual
+2002,60,778686,17905,0,0,0,0,End of year balance has no value
+2002,73,80624,231118,0,0,0,0,End of year balance has no value
+2002,81,221264,3883,0,0,0,217735,Beginning of year balance has no value
+2002,85,510686,9107,0,0,0,502496,Beginning of year balance has no value
+2002,87,1187931,43468,0,0,0,2567007,Total of other finances did not match anything. Guessing total by adding individual
+2002,93,340519,1250461,0,0,0,606440,Total of other finances did not match anything. Guessing total by adding individual
+2002,94,614609,15205,0,0,0,0,End of year balance has no value
+2002,95,2467535,3760143,0,0,0,5856291,Total of other finances did not match anything. Guessing total by adding individual
+2002,99,178571,2961,0,0,0,175853,Beginning of year balance has no value
+2002,100,74854,2244,0,-27998,0,143408,Total of other finances did not match anything. Guessing total by adding individual
+2002,103,783568,14140,0,0,0,770583,Beginning of year balance has no value
+2002,104,439748,7864,0,0,0,432518,Beginning of year balance has no value
+2002,105,162705,2942,0,0,0,159997,Beginning of year balance has no value
+2002,106,280422,4178,0,0,0,276606,Beginning of year balance has no value
+2002,109,413398,7266,0,0,0,406733,Beginning of year balance has no value
+2002,110,1662526,28389,0,0,0,1636337,Beginning of year balance has no value
+2003,8,852229,670955,0,0,0,0,End of year balance has no value
+2003,13,531534,408973,270986,0,0,1871223,Total of other finances did not match anything. Guessing total by adding individual
+2003,20,216025,8657,0,-270986,0,1268467,Total of other finances did not match anything. Guessing total by adding individual
+2003,32,5782733,3965306,0,-5000000,0,18600453,Total of other finances did not match anything. Guessing total by adding individual
+2003,36,2502895,768876,1811000,0,0,5110312,Total of other finances did not match anything. Guessing total by adding individual
+2003,38,858472,217812,0,0,0,0,End of year balance has no value
+2003,44,2482581,1920284,0,-481259,0,8531055,Total of other finances did not match anything. Guessing total by adding individual
+2003,45,1937739,2094752,481259,0,0,14025604,Total of other finances did not match anything. Guessing total by adding individual
+2003,53,4088560,2842410,0,0,0,0,End of year balance has no value
+2003,63,4777867,3864273,1000000,0,0,4648898,Total of other finances did not match anything. Guessing total by adding individual
+2003,67,419992,287746,441840,0,0,736095,Total of other finances did not match anything. Guessing total by adding individual
+2003,75,837012,362032,0,0,0,1602577,Total of other finances did not match anything. Guessing total by adding individual
+2003,81,801077,153178,0,0,0,1674863,Total of other finances did not match anything. Guessing total by adding individual
+2003,85,1448997,527102,0,0,0,4434836,Total of other finances did not match anything. Guessing total by adding individual
+2003,86,3078522,75218,5000000,0,0,12707932,Total of other finances did not match anything. Guessing total by adding individual
+2003,88,2312068,662381,0,-400000,0,2707887,Total of other finances did not match anything. Guessing total by adding individual
+2003,101,859433,30423,0,-1000000,0,966397,Total of other finances did not match anything. Guessing total by adding individual
+2003,108,591571,208261,0,0,0,1754285,Total of other finances did not match anything. Guessing total by adding individual
+2003,115,438317,6038,0,0,0,432863,Beginning of year balance has no value
+2003,117,432051,5724,0,0,0,426772,Beginning of year balance has no value
+2003,118,295526,3646,0,0,0,292167,Beginning of year balance has no value
+2003,121,234832,2824,0,0,0,232259,Beginning of year balance has no value
+2003,128,167480,2149,0,0,0,165509,Beginning of year balance has no value
+2004,13,850064,484541,379717,0,0,2630141,Total of other finances did not match anything. Guessing total by adding individual
+2004,20,311460,9866,0,-379717,0,1296090,Total of other finances did not match anything. Guessing total by adding individual
+2004,31,24707926,11553737,0,-4175883,0,63989900,Total of other finances did not match anything. Guessing total by adding individual
+2004,33,2304102,120914,0,-391607,0,8676479,Total of other finances did not match anything. Guessing total by adding individual
+2004,34,3011710,2787644,0,-739324,0,6915448,Total of other finances did not match anything. Guessing total by adding individual
+2004,37,5612987,3138230,0,-4930000,0,13117175,Total of other finances did not match anything. Guessing total by adding individual
+2004,42,593830,637020,0,0,0,0,End of year balance has no value
+2004,45,1389224,2222558,348762,0,0,13601622,Total of other finances did not match anything. Guessing total by adding individual
+2004,52,9108394,1650012,0,-1104281,0,17899563,Total of other finances did not match anything. Guessing total by adding individual
+2004,53,5441873,18246830,0,0,0,44351056,Total of other finances did not match anything. Guessing total by adding individual
+2004,63,10426375,440933,0,-642076,0,14025919,Total of other finances did not match anything. Guessing total by adding individual
+2004,72,291497,5792371,5320000,0,0,737515,Total of other finances did not match anything. Guessing total by adding individual
+2004,81,1924246,235383,0,0,0,0,End of year balance has no value
+2004,87,2795221,606036,0,-182892,0,5976741,Total of other finances did not match anything. Guessing total by adding individual
+2004,91,400545,119643,0,0,0,0,End of year balance has no value
+2004,94,4743215,471055,0,-392008,0,7106699,Total of other finances did not match anything. Guessing total by adding individual
+2004,96,543186,12434,0,0,0,0,End of year balance has no value
+2004,106,1989505,107406,0,0,0,3929854,Total of other finances did not match anything. Guessing total by adding individual
+2004,115,1931119,44589,0,0,0,3073197,Total of other finances did not match anything. Guessing total by adding individual
+2004,127,1661556,27138,0,0,0,1635801,Beginning of year balance has no value
+2004,128,799091,16317,0,0,0,0,End of year balance has no value
+2004,130,171287,2798,0,0,0,168632,Beginning of year balance has no value
+2004,131,272069,4443,0,0,0,267872,Beginning of year balance has no value
+2005,13,727311,568018,223355,0,0,3062529,Total of other finances did not match anything. Guessing total by adding individual
+2005,16,2306929,681579,0,-1793647,0,5176858,Total of other finances did not match anything. Guessing total by adding individual
+2005,20,156612,34162,0,-223355,0,1326859,Total of other finances did not match anything. Guessing total by adding individual
+2005,26,1777437,131619,0,0,0,8898957,Revenues after expenditure checksum failed
+2005,27,519097,595259,90000,0,0,679676,Total of other finances did not match anything. Guessing total by adding individual
+2005,29,381116,10466,0,-195000,0,1400840,Total of other finances did not match anything. Guessing total by adding individual
+2005,30,10701865,7157208,0,-1000000,0,25167745,Total of other finances did not match anything. Guessing total by adding individual
+2005,37,7285971,5912435,0,-3315000,0,11531916,Total of other finances did not match anything. Guessing total by adding individual
+2005,40,631252,248249,0,0,0,3368406,Revenues after expenditure checksum failed
+2005,45,1579602,2357611,598857,0,0,13652290,Total of other finances did not match anything. Guessing total by adding individual
+2005,49,305625,217863,0,0,0,351572,Revenues after expenditure checksum failed
+2005,52,10450502,2057548,0,-1839470,0,24738992,Total of other finances did not match anything. Guessing total by adding individual
+2005,54,1547590,303927,0,-1939267,0,4654384,Total of other finances did not match anything. Guessing total by adding individual
+2005,58,1718492,1153118,0,-90000,0,4473030,Total of other finances did not match anything. Guessing total by adding individual
+2005,67,278093,114440,1793647,0,0,2652689,Total of other finances did not match anything. Guessing total by adding individual
+2005,75,916883,1517098,1108149,0,0,2928949,Total of other finances did not match anything. Guessing total by adding individual
+2005,80,463318,40421,0,0,0,622555,Revenues after expenditure checksum failed
+2005,95,6334373,2236644,0,-1108149,0,16209367,Total of other finances did not match anything. Guessing total by adding individual
+2005,106,2419624,1391811,0,0,0,5773599,Total of other finances did not match anything. Guessing total by adding individual
+2005,129,339592,4632,0,0,0,335721,Beginning of year balance has no value
+2005,134,483589,5983,0,0,0,478698,Beginning of year balance has no value
+2005,136,499963,6084,0,0,0,494983,Beginning of year balance has no value
+2006,3,153100,8080,0,0,0,626616,Revenues after expenditure checksum failed
+2006,14,94519209,87996890,0,-6459266,0,220631190,Total of other finances did not match anything. Guessing total by adding individual
+2006,20,280532,10384,0,-342551,0,1393637,Total of other finances did not match anything. Guessing total by adding individual
+2006,23,2452919,3198144,0,-229659,0,6743983,Total of other finances did not match anything. Guessing total by adding individual
+2006,27,556881,1065302,518497,0,0,735680,Total of other finances did not match anything. Guessing total by adding individual
+2006,29,376620,11739,615000,0,0,2460903,Total of other finances did not match anything. Guessing total by adding individual
+2006,31,32716916,26908757,0,-3315000,0,82323472,Total of other finances did not match anything. Guessing total by adding individual
+2006,41,339078,305970,0,0,0,4274291,Revenues after expenditure checksum failed
+2006,43,1383582,358348,0,0,0,7926399,Revenues after expenditure checksum failed
+2006,44,1896534,1937206,0,-246730,0,8191361,Total of other finances did not match anything. Guessing total by adding individual
+2006,45,1759471,2160818,246730,0,0,13849009,Total of other finances did not match anything. Guessing total by adding individual
+2006,57,599964,1706518,853000,0,0,1073214,Total of other finances did not match anything. Guessing total by adding individual
+2006,58,2172784,352180,0,-1371496,0,5003117,Total of other finances did not match anything. Guessing total by adding individual
+2006,59,10817907,223844,0,-810000,0,41004298,Total of other finances did not match anything. Guessing total by adding individual
+2006,63,12883154,6049241,0,-3500000,0,26349358,Total of other finances did not match anything. Guessing total by adding individual
+2006,72,250323,3748730,3510000,0,0,952134,Total of other finances did not match anything. Guessing total by adding individual
+2006,84,2935816,636218,0,-250000,0,9835065,Total of other finances did not match anything. Guessing total by adding individual
+2006,85,4004594,6320072,0,-250000,0,7170318,Total of other finances did not match anything. Guessing total by adding individual
+2006,88,4671081,1335278,0,-2500000,0,9604552,Total of other finances did not match anything. Guessing total by adding individual
+2006,95,6845395,3272636,0,-2883720,0,17209677,Total of other finances did not match anything. Guessing total by adding individual
+2006,101,1278743,415964,3500000,0,0,7385384,Total of other finances did not match anything. Guessing total by adding individual
+2006,107,671860,555837,0,0,0,2015025,Total of other finances did not match anything. Guessing total by adding individual
+2006,116,677921,2427251,2500000,0,0,2556525,Total of other finances did not match anything. Guessing total by adding individual
+2007,5,257169,7007,0,0,0,2609313,Revenues after expenditure checksum failed
+2007,13,1458301,592006,288449,0,0,5177547,Total of other finances did not match anything. Guessing total by adding individual
+2007,20,287671,16179,0,288449,0,1450075,Total of other finances did not match anything. Guessing total by adding individual
+2007,32,10551035,1806485,0,-7411497,0,39568404,Total of other finances did not match anything. Guessing total by adding individual
+2007,44,2209528,5073905,0,-2000000,0,3558759,Total of other finances did not match anything. Guessing total by adding individual
+2007,45,1998204,11616171,2000000,0,0,6564064,Total of other finances did not match anything. Guessing total by adding individual
+2007,52,15355677,6025702,0,2103109,0,38559991,Total of other finances did not match anything. Guessing total by adding individual
+2007,54,2328636,454916,0,1534291,0,5664109,Total of other finances did not match anything. Guessing total by adding individual
+2007,63,16371002,4086560,0,-9000000,0,29932342,Total of other finances did not match anything. Guessing total by adding individual
+2007,65,2348492,54904,0,2333217,0,5345946,Total of other finances did not match anything. Guessing total by adding individual
+2007,69,3529214,2447751,0,694464,0,6775938,Total of other finances did not match anything. Guessing total by adding individual
+2007,76,1173077,157918,0,1888363,0,6552201,Total of other finances did not match anything. Guessing total by adding individual
+2007,81,3073595,902124,0,1137388,0,8421679,Total of other finances did not match anything. Guessing total by adding individual
+2007,84,3992417,1510362,0,2320121,0,10120892,Total of other finances did not match anything. Guessing total by adding individual
+2007,87,5220658,5287104,0,0,0,19401823,Total of other finances did not match anything. Guessing total by adding individual
+2007,89,1604659,40013,0,1270798,0,3836738,Total of other finances did not match anything. Guessing total by adding individual
+2007,94,9830628,5911608,0,4150946,0,15218512,Total of other finances did not match anything. Guessing total by adding individual
+2007,98,2090475,245186,0,1387704,0,5193834,Total of other finances did not match anything. Guessing total by adding individual
+2007,101,1975356,8125650,9000000,0,0,10378035,Total of other finances did not match anything. Guessing total by adding individual
+2007,106,4380202,1397906,0,0,0,0,End of year balance has no value
+2007,114,679817,539157,0,0,0,1855915,Total of other finances did not match anything. Guessing total by adding individual
+2007,118,5584374,101959,0,0,0,14222283,Beginning of year balance has no value
+2007,123,703851,15865,0,-500680,0,1400583,Total of other finances did not match anything. Guessing total by adding individual
+2007,125,755920,740342,0,0,0,2080149,Total of other finances did not match anything. Guessing total by adding individual
+2007,126,531308,605912,380140,0,0,641120,Total of other finances did not match anything. Guessing total by adding individual
+2007,127,1839350,39834,0,-2013168,0,4247401,Total of other finances did not match anything. Guessing total by adding individual
+2007,134,340659,155832,0,0,0,1274203,Total of other finances did not match anything. Guessing total by adding individual
+2007,146,0,359550,1338363,0,0,8301297,Beginning of year balance has no value
+2007,147,9827888,167484,0,0,0,9672999,Beginning of year balance has no value
+2008,10,957819,967384,0,0,0,0,End of year balance has no value
+2008,13,1838281,920738,287963,0,0,6439333,Total of other finances did not match anything. Guessing total by adding individual
+2008,20,287095,25782,0,-287963,0,1490415,Total of other finances did not match anything. Guessing total by adding individual
+2008,29,878153,1233161,0,-390000,0,1800031,Total of other finances did not match anything. Guessing total by adding individual
+2008,31,46181171,33104426,0,-1450000,0,104518122,Total of other finances did not match anything. Guessing total by adding individual
+2008,32,10684458,2252666,0,-4217095,0,44925768,Total of other finances did not match anything. Guessing total by adding individual
+2008,37,10044765,10673770,0,-7030000,0,23542338,Total of other finances did not match anything. Guessing total by adding individual
+2008,38,2487078,360497,0,-375000,0,7208294,Total of other finances did not match anything. Guessing total by adding individual
+2008,40,1024455,722322,0,0,0,0,End of year balance has no value
+2008,43,1878585,446298,0,0,0,0,End of year balance has no value
+2008,51,0,4843,0,0,0,214277,"field ""property_tax"" had no value attached"
+2008,52,15986333,7530526,0,-2432174,0,44821059,Total of other finances did not match anything. Guessing total by adding individual
+2008,54,2277384,980566,0,-713454,0,6283868,Total of other finances did not match anything. Guessing total by adding individual
+2008,60,3529913,10249157,3310952,0,0,80173572,Total of other finances did not match anything. Guessing total by adding individual
+2008,64,6865104,2550709,0,-2515648,0,14718481,Total of other finances did not match anything. Guessing total by adding individual
+2008,65,3033865,50040,0,-1013287,0,7354260,Total of other finances did not match anything. Guessing total by adding individual
+2008,69,4055493,2258993,0,-637997,0,7998096,Total of other finances did not match anything. Guessing total by adding individual
+2008,71,2468694,8748877,314417,0,0,7654585,Total of other finances did not match anything. Guessing total by adding individual
+2008,72,646099,8030935,7420000,0,0,1640133,Total of other finances did not match anything. Guessing total by adding individual
+2008,74,1963150,594396,0,0,0,0,End of year balance has no value
+2008,76,2925826,344886,0,-379156,0,8792617,Total of other finances did not match anything. Guessing total by adding individual
+2008,77,2700205,3986904,1203854,0,0,39932687,Total of other finances did not match anything. Guessing total by adding individual
+2008,81,3150445,1448058,0,-212602,0,9965639,Total of other finances did not match anything. Guessing total by adding individual
+2008,84,4370048,1915457,0,-1203854,0,11440149,Total of other finances did not match anything. Guessing total by adding individual
+2008,86,13948078,30834902,4217095,0,0,51138958,Total of other finances did not match anything. Guessing total by adding individual
+2008,91,1166107,181824,0,0,0,4234904,Revenues after expenditure checksum failed
+2008,95,14328463,23101910,0,-2027639,0,40158582,Total of other finances did not match anything. Guessing total by adding individual
+2008,97,779974,9501148,1514944,0,0,29142404,Total of other finances did not match anything. Guessing total by adding individual
+2008,98,2253566,423831,0,-1027414,0,6028504,Total of other finances did not match anything. Guessing total by adding individual
+2008,99,819792,162755,240000,0,0,3566680,Total of other finances did not match anything. Guessing total by adding individual
+2008,106,5038674,174999,0,0,0,0,End of year balance has no value
+2008,107,1220692,1049012,0,0,0,3519671,Total of other finances did not match anything. Guessing total by adding individual
+2008,109,3207737,1302442,0,-3000000,0,4012167,Total of other finances did not match anything. Guessing total by adding individual
+2008,112,1363270,25191,0,0,0,0,End of year balance has no value
+2008,113,730363,957582,0,0,0,31286339,Revenues after expenditure checksum failed
+2008,115,6376991,17528650,5265294,0,0,28486516,Total of other finances did not match anything. Guessing total by adding individual
+2008,118,7825170,458211,0,-470000,0,21218370,Total of other finances did not match anything. Guessing total by adding individual
+2008,127,2126259,255140,0,-1285257,0,4861561,Total of other finances did not match anything. Guessing total by adding individual
+2008,135,267123,4024,0,0,0,263374,Beginning of year balance has no value
+2008,140,162860,2454,0,0,0,160592,Beginning of year balance has no value
+2008,142,1750029,23894,0,0,0,1728062,Beginning of year balance has no value
+2008,144,825466,705778,950000,0,0,1777311,Total of other finances did not match anything. Guessing total by adding individual
+2008,145,749565,10475,0,0,0,739864,Beginning of year balance has no value
+2008,146,640378,866564,379156,0,0,8645560,Total of other finances did not match anything. Guessing total by adding individual
+2008,147,19164707,676720,0,-1450000,0,26802911,Total of other finances did not match anything. Guessing total by adding individual
+2008,148,261958,3678,0,0,0,258532,Beginning of year balance has no value
+2008,149,902916,12369,0,0,0,891388,Beginning of year balance has no value
+2008,150,1186301,15901,0,0,0,84171506,Beginning of year balance has no value
+2008,151,253385,3339,0,0,0,250278,Beginning of year balance has no value
+2008,152,596362,8773,0,0,0,588204,Beginning of year balance has no value
+2008,156,1047185,13764,0,0,0,1034363,Beginning of year balance has no value
+2009,13,1805422,1029277,143578,0,0,7367669,Total of other finances did not match anything. Guessing total by adding individual
+2009,27,745498,1093554,120000,0,0,715294,Total of other finances did not match anything. Guessing total by adding individual
+2009,32,11552733,1601227,0,-4220475,0,50937516,Total of other finances did not match anything. Guessing total by adding individual
+2009,33,4408414,1181701,180604,0,0,24930382,Total of other finances did not match anything. Guessing total by adding individual
+2009,34,5644633,3375320,2500000,0,0,27654972,Total of other finances did not match anything. Guessing total by adding individual
+2009,37,10664963,4139508,0,-4115000,0,27279019,Total of other finances did not match anything. Guessing total by adding individual
+2009,38,2592384,98604,0,0,0,9714170,Revenues after expenditure checksum failed
+2009,46,92731,45465,0,0,0,176521,Revenues after expenditure checksum failed
+2009,52,17493350,9583908,0,-3058845,0,49738032,Total of other finances did not match anything. Guessing total by adding individual
+2009,55,2899227,1002651,0,-671680,0,7559298,Total of other finances did not match anything. Guessing total by adding individual
+2009,58,3263305,215381,0,-120000,0,13260394,Total of other finances did not match anything. Guessing total by adding individual
+2009,61,4251688,226053,0,0,0,21486499,Beginning of year balance has no value
+2009,63,19659528,5627663,91731,0,0,54750701,Total of other finances did not match anything. Guessing total by adding individual
+2009,64,7252088,2846649,0,-2600923,0,16544822,Total of other finances did not match anything. Guessing total by adding individual
+2009,65,3151470,75804,0,-1013463,0,9427929,Total of other finances did not match anything. Guessing total by adding individual
+2009,70,2467641,820283,2000000,0,0,9610566,Total of other finances did not match anything. Guessing total by adding individual
+2009,71,2738239,678110,303656,0,0,10028524,Total of other finances did not match anything. Guessing total by adding individual
+2009,72,1109711,4660538,4310000,0,0,2407421,Total of other finances did not match anything. Guessing total by adding individual
+2009,75,2011507,13099882,2105844,0,0,6078471,Total of other finances did not match anything. Guessing total by adding individual
+2009,76,2998749,1886657,0,-379339,0,9537792,Total of other finances did not match anything. Guessing total by adding individual
+2009,77,2991817,13194560,1205798,0,0,31154664,Total of other finances did not match anything. Guessing total by adding individual
+2009,81,3410246,3588686,0,-211642,0,9588817,Total of other finances did not match anything. Guessing total by adding individual
+2009,84,4785633,1292959,0,-3205798,0,11743235,Total of other finances did not match anything. Guessing total by adding individual
+2009,86,14329169,28859260,4220475,0,0,40975295,Total of other finances did not match anything. Guessing total by adding individual
+2009,87,6436495,6788467,52044,0,0,17687398,Total of other finances did not match anything. Guessing total by adding individual
+2009,89,1801602,51492,0,-729070,0,3684448,Total of other finances did not match anything. Guessing total by adding individual
+2009,95,14414560,14012555,0,-1946989,0,38906899,Total of other finances did not match anything. Guessing total by adding individual
+2009,97,823055,27048556,1518151,0,0,4548471,Total of other finances did not match anything. Guessing total by adding individual
+2009,98,2212427,64070,0,-789081,0,7397068,Total of other finances did not match anything. Guessing total by adding individual
+2009,104,11113970,7653459,0,-84225,0,23430754,Total of other finances did not match anything. Guessing total by adding individual
+2009,109,3281784,1088167,0,-1000000,0,5211296,Total of other finances did not match anything. Guessing total by adding individual
+2009,115,6385328,15688979,6211282,0,0,25416108,Total of other finances did not match anything. Guessing total by adding individual
+2009,118,8146598,164957,0,-1500000,0,27731588,Total of other finances did not match anything. Guessing total by adding individual
+2009,123,700307,14275,0,-375884,0,2172833,Total of other finances did not match anything. Guessing total by adding individual
+2009,126,734981,1253718,671680,0,0,1019465,Total of other finances did not match anything. Guessing total by adding individual
+2009,127,1917166,250250,0,-1285481,0,5250324,Total of other finances did not match anything. Guessing total by adding individual
+2009,128,1738875,124474,0,0,0,0,End of year balance has no value
+2009,130,0,4275,0,0,0,3833210,"field ""property_tax"" had no value attached"
+2009,139,867091,215419,0,0,0,2154146,Revenues after expenditure checksum failed
+2009,146,802610,8095452,379339,0,0,1754684,Total of other finances did not match anything. Guessing total by adding individual
+2009,152,850376,16716,0,-2500,0,1420505,Total of other finances did not match anything. Guessing total by adding individual
+2009,154,132068,1751044,1500000,0,0,449889,Total of other finances did not match anything. Guessing total by adding individual
+2009,161,1568773,24247,0,0,0,1544976,Beginning of year balance has no value
+2010,2,167445,73934,0,0,0,723077,Revenues after expenditure checksum failed
+2010,7,0,2778,0,0,0,427324,Revenues after expenditure checksum failed
+2010,13,2100457,714494,0,-700000,0,8054823,Total of other finances did not match anything. Guessing total by adding individual
+2010,16,2172889,482521,0,0,0,0,End of year balance has no value
+2010,27,628309,729178,62947,0,0,677920,Total of other finances did not match anything. Guessing total by adding individual
+2010,29,1295800,486238,0,-195000,0,2633236,Total of other finances did not match anything. Guessing total by adding individual
+2010,32,13372771,1838994,0,-8504376,0,54282776,Total of other finances did not match anything. Guessing total by adding individual
+2010,33,4078705,1542782,0,0,0,0,End of year balance has no value
+2010,39,931342,2092673,0,0,0,0,End of year balance has no value
+2010,50,745,63969,0,0,0,0,End of year balance has no value
+2010,52,17458853,14008782,0,-2974054,0,50393394,Total of other finances did not match anything. Guessing total by adding individual
+2010,54,2583580,948497,0,-1101912,0,7980090,Total of other finances did not match anything. Guessing total by adding individual
+2010,58,2966679,826075,0,-62947,0,15351560,Total of other finances did not match anything. Guessing total by adding individual
+2010,63,17342245,8382564,0,-10000000,0,53766168,Total of other finances did not match anything. Guessing total by adding individual
+2010,64,6529367,1575177,0,-3205336,0,18311486,Total of other finances did not match anything. Guessing total by adding individual
+2010,65,3024154,73515,0,-1147501,0,11241257,Total of other finances did not match anything. Guessing total by adding individual
+2010,68,3943105,7962744,0,0,0,5260916,Revenues after expenditure checksum failed
+2010,69,3227671,185897,0,-780141,0,11438019,Total of other finances did not match anything. Guessing total by adding individual
+2010,72,1333433,4548394,4310000,0,0,3508750,Total of other finances did not match anything. Guessing total by adding individual
+2010,75,2460256,2844953,2791560,0,0,8490168,Total of other finances did not match anything. Guessing total by adding individual
+2010,76,3315291,1077911,0,-1836601,0,9948576,Total of other finances did not match anything. Guessing total by adding individual
+2010,81,3750669,1185022,0,-247491,0,11917240,Total of other finances did not match anything. Guessing total by adding individual
+2010,84,5461945,1125562,0,-651676,0,15440620,Total of other finances did not match anything. Guessing total by adding individual
+2010,86,13356634,12672408,8504376,0,0,50204980,Total of other finances did not match anything. Guessing total by adding individual
+2010,89,1314488,45317,0,-866393,0,4092245,Total of other finances did not match anything. Guessing total by adding individual
+2010,95,14210154,6460307,0,-5514401,0,41898970,Total of other finances did not match anything. Guessing total by adding individual
+2010,98,2804016,142120,0,-1593937,0,8472916,Total of other finances did not match anything. Guessing total by adding individual
+2010,103,3311509,3724760,0,-1773456,0,14402458,Total of other finances did not match anything. Guessing total by adding individual
+2010,117,2976421,4110076,1163175,0,0,31104735,Summing everything checksum failed
+2010,118,7830248,2288678,0,-352200,0,32950255,Total of other finances did not match anything. Guessing total by adding individual
+2010,121,3085337,2529005,0,-1163175,0,11210430,Total of other finances did not match anything. Guessing total by adding individual
+2010,123,872062,18796,0,-452181,0,2576252,Total of other finances did not match anything. Guessing total by adding individual
+2010,127,2150683,243632,0,-1485068,0,5677913,Total of other finances did not match anything. Guessing total by adding individual
+2010,130,0,10524,0,0,0,3826110,"field ""property_tax"" had no value attached"
+2010,135,370944,9360,0,0,0,0,End of year balance has no value
+2010,139,1143585,190133,0,0,0,0,End of year balance has no value
+2010,147,19627645,3771270,0,-20000000,0,47454250,Total of other finances did not match anything. Guessing total by adding individual
+2010,157,1354888,225383,700000,0,0,2323240,Total of other finances did not match anything. Guessing total by adding individual
+2010,163,492203,7815,0,0,0,484423,Beginning of year balance has no value
+2010,165,515581,7618,0,0,0,507998,Beginning of year balance has no value
+2010,166,290943,3908,0,0,0,287052,Beginning of year balance has no value
+2011,1,5786159,2010440,0,0,-2000000,21477475,Total of other finances did not match anything. Guessing total by adding individual
+2011,7,0,2187,0,0,0,425619,Revenues after expenditure checksum failed
+2011,11,1696783,163123,0,0,-3500000,8692808,Total of other finances did not match anything. Guessing total by adding individual
+2011,27,694281,735748,500000,0,0,1137713,Total of other finances did not match anything. Guessing total by adding individual
+2011,29,1305564,220489,0,-195000,0,3588000,Total of other finances did not match anything. Guessing total by adding individual
+2011,30,18823812,6370697,0,0,-9000000,54857756,Total of other finances did not match anything. Guessing total by adding individual
+2011,31,69014434,12677772,0,0,-48000000,171266030,Total of other finances did not match anything. Guessing total by adding individual
+2011,34,7084579,3860169,0,0,-1000000,31216015,Total of other finances did not match anything. Guessing total by adding individual
+2011,36,3098803,1302117,0,0,-2000000,10734991,Total of other finances did not match anything. Guessing total by adding individual
+2011,37,15585357,4591910,0,-4115000,0,42017523,Total of other finances did not match anything. Guessing total by adding individual
+2011,38,2616509,425281,0,0,-2000000,12191164,Total of other finances did not match anything. Guessing total by adding individual
+2011,48,9066530,3171246,0,0,-6000000,23317899,Total of other finances did not match anything. Guessing total by adding individual
+2011,52,21116172,21940360,0,-4023558,0,46623992,Total of other finances did not match anything. Guessing total by adding individual
+2011,54,2981137,887193,0,-1232560,0,8863572,Total of other finances did not match anything. Guessing total by adding individual
+2011,59,8868044,101551,0,0,-73338000,8756646,Total of other finances did not match anything. Guessing total by adding individual
+2011,60,4452265,16831116,4317536,0,0,15894934,Total of other finances did not match anything. Guessing total by adding individual
+2011,61,4591200,3887585,0,0,-5500000,16703371,Total of other finances did not match anything. Guessing total by adding individual
+2011,63,21072969,2737465,0,0,-30000000,42206155,Total of other finances did not match anything. Guessing total by adding individual
+2011,64,7871968,1987062,0,-4683594,0,19563255,Total of other finances did not match anything. Guessing total by adding individual
+2011,65,3539991,917767,0,-1147585,0,12746729,Total of other finances did not match anything. Guessing total by adding individual
+2011,69,3377550,924312,0,-757836,0,13164951,Total of other finances did not match anything. Guessing total by adding individual
+2011,71,3217491,3609780,2091175,0,0,21745998,Total of other finances did not match anything. Guessing total by adding individual
+2011,72,1331578,4858893,4310000,0,0,4312727,Total of other finances did not match anything. Guessing total by adding individual
+2011,75,2560154,3907039,5764074,0,0,12927695,Total of other finances did not match anything. Guessing total by adding individual
+2011,76,3745086,3770792,0,-1612383,0,8336882,Total of other finances did not match anything. Guessing total by adding individual
+2011,77,2986603,9293538,1364658,0,0,9719658,Total of other finances did not match anything. Guessing total by adding individual
+2011,81,4051739,1631592,0,-1869269,0,12501597,Total of other finances did not match anything. Guessing total by adding individual
+2011,84,6149946,620836,0,-1364658,0,19650604,Total of other finances did not match anything. Guessing total by adding individual
+2011,85,7238609,5629444,0,0,-2000000,23616002,Total of other finances did not match anything. Guessing total by adding individual
+2011,86,17043984,10691629,6623760,0,0,63312034,Total of other finances did not match anything. Guessing total by adding individual
+2011,87,7894486,23921591,0,0,-2000000,23415183,Total of other finances did not match anything. Guessing total by adding individual
+2011,89,1430679,356734,0,-856871,0,4322967,Total of other finances did not match anything. Guessing total by adding individual
+2011,92,951379,748145,0,0,-500000,9465117,Total of other finances did not match anything. Guessing total by adding individual
+2011,94,16665268,11221410,0,0,-13000000,24781652,Total of other finances did not match anything. Guessing total by adding individual
+2011,97,835419,3158818,4834995,0,0,12876704,Total of other finances did not match anything. Guessing total by adding individual
+2011,101,5128557,1022923,0,0,-8500000,11716983,Total of other finances did not match anything. Guessing total by adding individual
+2011,104,12250558,1083371,0,0,-8000000,36970536,Total of other finances did not match anything. Guessing total by adding individual
+2011,106,5040935,1809184,0,0,-3000000,24047684,Total of other finances did not match anything. Guessing total by adding individual
+2011,115,7197963,22965997,7500051,0,0,68107901,Total of other finances did not match anything. Guessing total by adding individual
+2011,117,3000744,14987255,218603,0,0,19733059,Total of other finances did not match anything. Guessing total by adding individual
+2011,121,3780339,860932,0,-218603,0,13942869,Total of other finances did not match anything. Guessing total by adding individual
+2011,127,2854877,201803,0,-1485177,0,6862887,Total of other finances did not match anything. Guessing total by adding individual
+2011,128,1917057,163006,0,0,-1000000,10506800,Total of other finances did not match anything. Guessing total by adding individual
+2011,136,1770200,284494,0,0,-2000000,6290817,Total of other finances did not match anything. Guessing total by adding individual
+2011,139,1057818,359347,0,0,0,3817454,Revenues after expenditure checksum failed
+2011,143,1588823,14897,0,0,0,1574590,Beginning of year balance has no value
+2011,154,78723,1414438,450000,0,0,-62391,Total of other finances did not match anything. Guessing total by adding individual
+2012,1,5273855,2502831,0,0,-905000,23779182,Total of other finances did not match anything. Guessing total by adding individual
+2012,2,163146,5833,0,0,-130000,906489,Total of other finances did not match anything. Guessing total by adding individual
+2012,4,457115,85855,0,0,-376000,2351632,Total of other finances did not match anything. Guessing total by adding individual
+2012,5,356479,13652,0,0,-429000,3530204,Total of other finances did not match anything. Guessing total by adding individual
+2012,6,257571,7450,0,0,-458000,2456771,Total of other finances did not match anything. Guessing total by adding individual
+2012,9,922430,2144832,0,0,-114000,3474848,Total of other finances did not match anything. Guessing total by adding individual
+2012,11,1527279,45806,0,0,-1005000,9191886,Total of other finances did not match anything. Guessing total by adding individual
+2012,13,2006168,594432,0,0,-906000,10587288,Total of other finances did not match anything. Guessing total by adding individual
+2012,18,233727,8514,0,0,-30000,682904,Total of other finances did not match anything. Guessing total by adding individual
+2012,21,343191,125033,0,0,-503000,4817041,Total of other finances did not match anything. Guessing total by adding individual
+2012,24,513114,88464,0,0,-147000,5158883,Total of other finances did not match anything. Guessing total by adding individual
+2012,25,259588,7490,0,0,-496000,2547077,Total of other finances did not match anything. Guessing total by adding individual
+2012,27,620183,1038979,0,0,0,720812,Beginning of year balance has no value
+2012,30,17372302,15460733,0,0,-3231000,53852139,Total of other finances did not match anything. Guessing total by adding individual
+2012,31,62767177,16029964,0,0,-21539000,196806447,Total of other finances did not match anything. Guessing total by adding individual
+2012,33,4253051,298898,0,0,0,0,End of year balance has no value
+2012,34,5430165,10433288,0,0,-831000,25455128,Total of other finances did not match anything. Guessing total by adding individual
+2012,36,2686562,1512116,0,0,-1083000,10900280,Total of other finances did not match anything. Guessing total by adding individual
+2012,37,13981111,1228514,0,-4115000,0,54406262,Total of other finances did not match anything. Guessing total by adding individual
+2012,38,2738150,509683,0,0,-1528000,12922623,Total of other finances did not match anything. Guessing total by adding individual
+2012,39,868703,1084260,0,0,-203000,1896679,Total of other finances did not match anything. Guessing total by adding individual
+2012,40,796258,186814,0,0,-371000,8195531,Total of other finances did not match anything. Guessing total by adding individual
+2012,44,2125499,72556,0,0,-174000,7194487,Total of other finances did not match anything. Guessing total by adding individual
+2012,45,2167724,48448,0,0,1124000,10352405,Total of other finances did not match anything. Guessing total by adding individual
+2012,46,70007,3803,0,0,-38000,294574,Total of other finances did not match anything. Guessing total by adding individual
+2012,48,8907941,1703720,0,0,-1710000,28877994,Total of other finances did not match anything. Guessing total by adding individual
+2012,52,18787508,11710076,0,-3938144,-1064000,48824818,Other finances checksum failed
+2012,53,9960298,14422139,0,0,-843000,44989857,Total of other finances did not match anything. Guessing total by adding individual
+2012,55,2719657,350112,0,0,-451000,11088800,Total of other finances did not match anything. Guessing total by adding individual
+2012,56,860531,879229,0,0,-249000,5550913,Total of other finances did not match anything. Guessing total by adding individual
+2012,58,2526022,742400,0,0,-1265000,14346748,Total of other finances did not match anything. Guessing total by adding individual
+2012,60,3321889,6470834,4318608,0,0,17092996,Total of other finances did not match anything. Guessing total by adding individual
+2012,61,3842884,7305102,2900000,0,-1035000,14951517,Other finances checksum failed
+2012,63,18858179,9335655,0,0,-2957000,49237938,Total of other finances did not match anything. Guessing total by adding individual
+2012,66,714942,321553,0,0,-201000,2870599,Total of other finances did not match anything. Guessing total by adding individual
+2012,67,304957,121408,0,0,-221000,1591681,Total of other finances did not match anything. Guessing total by adding individual
+2012,70,2528834,2215721,0,0,-610000,9549388,Total of other finances did not match anything. Guessing total by adding individual
+2012,71,2911084,3508265,2091841,0,0,23481280,Total of other finances did not match anything. Guessing total by adding individual
+2012,72,1157490,4585553,4310000,0,0,5217029,Total of other finances did not match anything. Guessing total by adding individual
+2012,73,705857,236611,0,0,-131000,3012177,Total of other finances did not match anything. Guessing total by adding individual
+2012,74,2035241,2461002,0,0,-685000,8872079,Total of other finances did not match anything. Guessing total by adding individual
+2012,75,1616754,4451393,3380368,0,0,313498143,Total of other finances did not match anything. Guessing total by adding individual
+2012,77,2784034,2763701,635240,0,0,10404107,Total of other finances did not match anything. Guessing total by adding individual
+2012,78,78961,3978,0,0,-185000,964081,Total of other finances did not match anything. Guessing total by adding individual
+2012,79,722627,31162,0,0,-297000,3556109,Total of other finances did not match anything. Guessing total by adding individual
+2012,82,1144009,363516,0,0,-176000,4024612,Total of other finances did not match anything. Guessing total by adding individual
+2012,83,904799,290577,0,0,-501000,5923231,Total of other finances did not match anything. Guessing total by adding individual
+2012,85,6305134,6955277,0,0,-178000,22848255,Total of other finances did not match anything. Guessing total by adding individual
+2012,86,14583434,40379511,17940520,0,0,56159644,Total of other finances did not match anything. Guessing total by adding individual
+2012,87,7185608,7514897,0,0,-415000,23134413,Total of other finances did not match anything. Guessing total by adding individual
+2012,88,6783796,9303190,0,0,-666000,20096429,Total of other finances did not match anything. Guessing total by adding individual
+2012,89,1197355,38843,0,-856920,-166000,84473511,Summing everything checksum failed
+2012,90,385606,19395,0,0,-132000,1558284,Total of other finances did not match anything. Guessing total by adding individual
+2012,91,546830,217999,0,0,-39000,6088233,Total of other finances did not match anything. Guessing total by adding individual
+2012,92,668190,457295,0,0,-698679,9000524,Total of other finances did not match anything. Guessing total by adding individual
+2012,93,1887148,211865,0,0,-488000,6715738,Total of other finances did not match anything. Guessing total by adding individual
+2012,94,15359111,3427704,0,0,-1152000,35641495,Total of other finances did not match anything. Guessing total by adding individual
+2012,96,889745,114741,0,0,-389000,6925878,Total of other finances did not match anything. Guessing total by adding individual
+2012,97,547333,2934442,2383126,0,0,13110997,Total of other finances did not match anything. Guessing total by adding individual
+2012,101,5018157,397244,0,0,-837000,15535928,Total of other finances did not match anything. Guessing total by adding individual
+2012,102,313662,283243,0,0,-92000,708721,Total of other finances did not match anything. Guessing total by adding individual
+2012,103,2127726,2245711,0,0,-245000,14638952,Total of other finances did not match anything. Guessing total by adding individual
+2012,104,12802360,3518132,0,0,-1805000,44554332,Total of other finances did not match anything. Guessing total by adding individual
+2012,106,4433578,3971266,0,0,-414000,24159463,Total of other finances did not match anything. Guessing total by adding individual
+2012,107,1439963,694774,0,0,-111000,7451105,Total of other finances did not match anything. Guessing total by adding individual
+2012,108,3073052,7434934,0,0,-125000,6777370,Total of other finances did not match anything. Guessing total by adding individual
+2012,109,3022008,369961,0,0,-473000,13169640,Total of other finances did not match anything. Guessing total by adding individual
+2012,112,1496374,489754,0,0,-99000,6321196,Total of other finances did not match anything. Guessing total by adding individual
+2012,113,509504,331939,0,0,-314000,3421920,Total of other finances did not match anything. Guessing total by adding individual
+2012,114,478354,677586,0,0,-21000,3463124,Total of other finances did not match anything. Guessing total by adding individual
+2012,115,5787328,13686615,7089795,0,0,68110028,Total of other finances did not match anything. Guessing total by adding individual
+2012,116,1385155,1630295,0,0,-229000,9007491,Total of other finances did not match anything. Guessing total by adding individual
+2012,117,2550635,2422783,218826,0,0,20299523,Total of other finances did not match anything. Guessing total by adding individual
+2012,119,235102,484271,0,0,-93000,378983,Total of other finances did not match anything. Guessing total by adding individual
+2012,124,93877,307650,0,0,-21000,453209,Total of other finances did not match anything. Guessing total by adding individual
+2012,125,2520330,497667,0,-553381,-229000,6773745,Summing all rev/exp/other checksum failed
+2012,128,1524172,274376,0,0,-1369000,310413847,Total of other finances did not match anything. Guessing total by adding individual
+2012,129,2503001,2473258,0,0,-21000,2213477,Total of other finances did not match anything. Guessing total by adding individual
+2012,130,227534,66357,0,0,-262000,1675111,Total of other finances did not match anything. Guessing total by adding individual
+2012,131,470515,2806878,0,0,-334000,2182315,Total of other finances did not match anything. Guessing total by adding individual
+2012,136,1731818,672783,0,0,-746000,6619932,Total of other finances did not match anything. Guessing total by adding individual
+2012,137,3047,3056,0,0,-54000,498779,Total of other finances did not match anything. Guessing total by adding individual
+2012,138,520497,250079,0,0,-62000,1290446,Total of other finances did not match anything. Guessing total by adding individual
+2012,140,647454,12316,0,0,0,722537,Revenues after expenditure checksum failed
+2012,141,810162,17397,0,0,0,1065721,Revenues after expenditure checksum failed
+2012,145,541682,217332,0,0,-41000,2796027,Total of other finances did not match anything. Guessing total by adding individual
+2012,147,0,13073327,0,0,-159000,18783305,"field ""property_tax"" had no value attached"
+2012,148,44388,49397,0,0,-57000,671264,Total of other finances did not match anything. Guessing total by adding individual
+2012,150,2967567,320392,0,0,-620000,10182147,Total of other finances did not match anything. Guessing total by adding individual
+2012,151,252216,24987,0,0,-63000,1240597,Total of other finances did not match anything. Guessing total by adding individual
+2012,152,75126,208211,0,0,0,1551257,Total of other finances did not match anything. Guessing total by adding individual
+2012,153,194177,258913,0,0,-113000,1522099,Total of other finances did not match anything. Guessing total by adding individual
+2012,156,872721,529294,0,0,-256000,4485161,Total of other finances did not match anything. Guessing total by adding individual
+2012,160,169032,2655,0,0,0,721537,Total of other finances did not match anything. Guessing total by adding individual
+2012,165,124368,9851,0,0,0,786837,Total of other finances did not match anything. Guessing total by adding individual
+2013,1,4350228,6428250,0,0,-1384000,20328678,Total of other finances did not match anything. Guessing total by adding individual
+2013,5,350082,7035,0,-400000,0,3480258,Total of other finances did not match anything. Guessing total by adding individual
+2013,9,565674,154646,1200000,0,0,5131299,Total of other finances did not match anything. Guessing total by adding individual
+2013,11,1339117,40952,0,0,-1354000,9154681,Total of other finances did not match anything. Guessing total by adding individual
+2013,13,1732136,384223,0,-1125000,0,10831431,Total of other finances did not match anything. Guessing total by adding individual
+2013,31,60967751,100535661,0,-36500000,0,125431493,Total of other finances did not match anything. Guessing total by adding individual
+2013,34,5902428,2489705,0,-2500000,-883000,25539986,Summing everything checksum failed
+2013,37,14025876,11061879,0,-7115000,0,50371935,Total of other finances did not match anything. Guessing total by adding individual
+2013,44,1487807,2702979,0,0,-1146000,4847917,Total of other finances did not match anything. Guessing total by adding individual
+2013,45,1638208,46226,0,0,-1279000,10686439,Total of other finances did not match anything. Guessing total by adding individual
+2013,48,6693046,3985929,0,0,0,31645766,Revenues after expenditure checksum failed
+2013,50,0,185335,280500,0,0,123223,Total of other finances did not match anything. Guessing total by adding individual
+2013,52,16177357,13114168,0,-3879576,0,48112530,Total of other finances did not match anything. Guessing total by adding individual
+2013,54,2931368,967596,0,-2912685,0,6077848,Total of other finances did not match anything. Guessing total by adding individual
+2013,59,4504076,220798,0,-6000000,0,15951693,Total of other finances did not match anything. Guessing total by adding individual
+2013,61,2980379,1805325,0,0,0,16158744,Revenues after expenditure checksum failed
+2013,63,16861700,1049870,0,0,-3987000,61191121,Total of other finances did not match anything. Guessing total by adding individual
+2013,64,5830320,4859525,0,-3721579,0,18326511,Total of other finances did not match anything. Guessing total by adding individual
+2013,65,2386193,1630122,0,-2535276,0,10752268,Total of other finances did not match anything. Guessing total by adding individual
+2013,68,3691621,76646,0,0,0,0,End of year balance has no value
+2013,69,2011959,1478564,0,-720269,0,13214112,Total of other finances did not match anything. Guessing total by adding individual
+2013,70,2045345,1974966,0,-2000000,0,7640521,Total of other finances did not match anything. Guessing total by adding individual
+2013,71,2433602,3983268,2247003,0,0,24371478,Total of other finances did not match anything. Guessing total by adding individual
+2013,72,1075031,2521259,43810000,0,0,47636376,Total of other finances did not match anything. Guessing total by adding individual
+2013,73,511949,326267,0,0,0,0,End of year balance has no value
+2013,74,1697017,844532,0,-3136000,0,6598692,Total of other finances did not match anything. Guessing total by adding individual
+2013,75,1742066,5017624,3811771,0,0,14054665,Total of other finances did not match anything. Guessing total by adding individual
+2013,88,5766307,6362093,2500000,0,0,22044393,Total of other finances did not match anything. Guessing total by adding individual
+2013,89,1270026,64564,0,-1016634,0,4672621,Total of other finances did not match anything. Guessing total by adding individual
+2013,90,437456,23098,0,0,0,0,End of year balance has no value
+2013,92,-190729,138206,0,-350000,0,8339476,Total of other finances did not match anything. Guessing total by adding individual
+2013,94,18446757,1774002,0,0,-2240000,50158372,Total of other finances did not match anything. Guessing total by adding individual
+2013,95,11448176,4410957,0,-3161098,0,49077482,Total of other finances did not match anything. Guessing total by adding individual
+2013,97,467945,7140015,2695228,0,0,9070431,Total of other finances did not match anything. Guessing total by adding individual
+2013,98,1457197,446568,0,-1678594,0,5704684,Total of other finances did not match anything. Guessing total by adding individual
+2013,100,1479152,1255036,0,0,0,1473683,Beginning of year balance has no value
+2013,101,4835858,472469,0,0,-1574000,18359351,Total of other finances did not match anything. Guessing total by adding individual
+2013,103,127609,135549,0,-8034600,0,6617852,Total of other finances did not match anything. Guessing total by adding individual
+2013,104,13938535,4942251,0,0,-3123000,50523063,Total of other finances did not match anything. Guessing total by adding individual
+2013,109,3022844,1217283,0,-2872000,0,12130097,Total of other finances did not match anything. Guessing total by adding individual
+2013,111,304844,761108,353380,0,0,79281,Total of other finances did not match anything. Guessing total by adding individual
+2013,114,570342,244845,0,-280500,0,3515651,Total of other finances did not match anything. Guessing total by adding individual
+2013,115,4272824,13722741,7418559,0,0,8,Total of other finances did not match anything. Guessing total by adding individual
+2013,116,1188691,408744,0,-2500000,0,7306554,Total of other finances did not match anything. Guessing total by adding individual
+2013,117,1989315,4487363,218729,0,0,18211472,Total of other finances did not match anything. Guessing total by adding individual
+2013,118,5761473,1545474,0,-170354,0,32716899,Total of other finances did not match anything. Guessing total by adding individual
+2013,121,2331137,2608883,0,-218729,0,14223927,Total of other finances did not match anything. Guessing total by adding individual
+2013,124,407606,335611,350000,0,0,876605,Total of other finances did not match anything. Guessing total by adding individual
+2013,127,1400621,807015,0,-1687250,0,5535800,Total of other finances did not match anything. Guessing total by adding individual
+2013,134,102650,75763,3136000,0,0,4421051,Total of other finances did not match anything. Guessing total by adding individual
+2013,142,525142,756488,0,-2150000,0,5741477,Total of other finances did not match anything. Guessing total by adding individual
+2013,143,784829,823896,400000,0,0,3245119,Total of other finances did not match anything. Guessing total by adding individual
+2013,144,-53870,1096410,731362,0,0,1066219,Total of other finances did not match anything. Guessing total by adding individual
+2013,146,293788,2185314,1680289,0,0,9526297,Total of other finances did not match anything. Guessing total by adding individual
+2013,150,2203397,789329,0,0,0,11618328,Revenues after expenditure checksum failed
+2013,154,-732,187186,170354,0,0,199573,Total of other finances did not match anything. Guessing total by adding individual
+2013,157,-9142,1885195,3997000,0,0,3531593,Total of other finances did not match anything. Guessing total by adding individual
+2013,163,150544,12584,0,0,0,842681,Total of other finances did not match anything. Guessing total by adding individual
+2013,169,294047,90695,2734600,0,0,3663825,Total of other finances did not match anything. Guessing total by adding individual
+2013,171,-2398,411205,1250000,0,0,940713,Total of other finances did not match anything. Guessing total by adding individual
+2013,172,408105,10276,0,0,0,0,End of year balance has no value
+2014,4,390241,77832,0,0,-140920,2837963,Total of other finances did not match anything. Guessing total by adding individual
+2014,5,86444,7212,0,-2000000,0,1567441,Total of other finances did not match anything. Guessing total by adding individual
+2014,8,971633,35391,0,0,-55090,4147598,Total of other finances did not match anything. Guessing total by adding individual
+2014,11,1250442,37313,0,0,-8200000,2184795,Total of other finances did not match anything. Guessing total by adding individual
+2014,21,259170,10516373,7500000,0,0,1991381,Total of other finances did not match anything. Guessing total by adding individual
+2014,24,473091,19860,1062798,0,0,5619585,Total of other finances did not match anything. Guessing total by adding individual
+2014,36,2573315,270300,0,0,-102000,13201617,Total of other finances did not match anything. Guessing total by adding individual
+2014,52,18379029,6616177,0,-3690643,0,56348066,Total of other finances did not match anything. Guessing total by adding individual
+2014,54,2731992,1177678,0,-1765123,0,5886092,Total of other finances did not match anything. Guessing total by adding individual
+2014,56,600042,64730,0,0,-376410,6222771,Total of other finances did not match anything. Guessing total by adding individual
+2014,57,570876,206560,0,0,-132840,4508143,Total of other finances did not match anything. Guessing total by adding individual
+2014,58,1630968,1912086,0,0,-2075280,12445037,Total of other finances did not match anything. Guessing total by adding individual
+2014,60,2793166,10338475,5268841,0,0,16299774,Total of other finances did not match anything. Guessing total by adding individual
+2014,62,1664745,822260,0,0,-62780,6085546,Total of other finances did not match anything. Guessing total by adding individual
+2014,64,5588693,2268863,0,-3696488,0,18011851,Total of other finances did not match anything. Guessing total by adding individual
+2014,65,2617189,475679,0,-1535981,0,11392687,Total of other finances did not match anything. Guessing total by adding individual
+2014,67,309505,105858,0,0,-33880,2035903,Total of other finances did not match anything. Guessing total by adding individual
+2014,70,2050933,1107258,0,0,-143740,8463971,Total of other finances did not match anything. Guessing total by adding individual
+2014,71,3040190,11417949,2304932,0,0,18513166,Total of other finances did not match anything. Guessing total by adding individual
+2014,74,1721631,835526,0,0,-92980,7418806,Total of other finances did not match anything. Guessing total by adding individual
+2014,77,2380002,4276247,749328,0,0,8755466,Total of other finances did not match anything. Guessing total by adding individual
+2014,81,2094902,292206,0,-2049049,0,11223110,Total of other finances did not match anything. Guessing total by adding individual
+2014,82,886616,170237,0,0,-45210,5399582,Total of other finances did not match anything. Guessing total by adding individual
+2014,84,3961138,10384315,0,-1449328,0,16240917,Total of other finances did not match anything. Guessing total by adding individual
+2014,89,1088059,29023,0,-1029996,0,4717273,Total of other finances did not match anything. Guessing total by adding individual
+2014,93,1128096,341713,0,0,-188200,8427225,Total of other finances did not match anything. Guessing total by adding individual
+2014,94,19170514,1408981,0,0,-3624480,64467326,Total of other finances did not match anything. Guessing total by adding individual
+2014,95,12231406,12172418,0,-3278085,0,46069469,Total of other finances did not match anything. Guessing total by adding individual
+2014,96,500927,106010,0,0,-386730,7219919,Total of other finances did not match anything. Guessing total by adding individual
+2014,97,428257,4511031,2707622,0,0,7771110,Total of other finances did not match anything. Guessing total by adding individual
+2014,98,1560518,245617,0,-1677626,0,5360838,Total of other finances did not match anything. Guessing total by adding individual
+2014,99,385659,1363101,0,0,-54200,2395244,Total of other finances did not match anything. Guessing total by adding individual
+2014,101,4609865,1092493,0,0,-5791700,16137588,Total of other finances did not match anything. Guessing total by adding individual
+2014,103,2185703,1517035,0,-4200000,0,3109227,Total of other finances did not match anything. Guessing total by adding individual
+2014,105,1025942,800520,0,0,0,0,End of year balance has no value
+2014,106,3817324,6915810,0,-7500000,0,13506435,Total of other finances did not match anything. Guessing total by adding individual
+2014,107,958573,902208,0,0,-275080,7768352,Total of other finances did not match anything. Guessing total by adding individual
+2014,109,2701891,781788,0,0,-658520,13430039,Total of other finances did not match anything. Guessing total by adding individual
+2014,111,133001,451939,353384,0,0,114502,Total of other finances did not match anything. Guessing total by adding individual
+2014,112,1111944,32278,0,0,-738600,7668659,Total of other finances did not match anything. Guessing total by adding individual
+2014,114,575934,75316,97500,0,0,4124936,Total of other finances did not match anything. Guessing total by adding individual
+2014,117,1957476,5153516,218570,0,0,15425689,Total of other finances did not match anything. Guessing total by adding individual
+2014,121,2379634,1400237,0,-218570,0,15030184,Total of other finances did not match anything. Guessing total by adding individual
+2014,124,184254,2571625,2934023,0,0,1424424,Total of other finances did not match anything. Guessing total by adding individual
+2014,125,2459698,2973662,0,-353381,0,4895102,Total of other finances did not match anything. Guessing total by adding individual
+2014,128,694657,247535,0,0,-1692900,9995937,Total of other finances did not match anything. Guessing total by adding individual
+2014,131,1521272,3914475,2500000,0,0,2733347,Total of other finances did not match anything. Guessing total by adding individual
+2014,139,659184,339911,0,0,-250860,4575705,Total of other finances did not match anything. Guessing total by adding individual
+2014,143,682833,2342470,2000000,0,0,3598335,Total of other finances did not match anything. Guessing total by adding individual
+2014,145,92772,4867,0,0,-105200,2903589,Total of other finances did not match anything. Guessing total by adding individual
+2014,146,123787,7617330,1699498,0,0,3872927,Total of other finances did not match anything. Guessing total by adding individual
+2014,150,1813584,1388379,0,0,-850000,11227589,Total of other finances did not match anything. Guessing total by adding individual
+2014,155,64931,4931,0,0,-113080,2100214,Total of other finances did not match anything. Guessing total by adding individual
+2014,157,4260,885865,500000,0,0,3159897,Total of other finances did not match anything. Guessing total by adding individual
+2014,166,444047,2113725,5600000,0,0,4030129,Total of other finances did not match anything. Guessing total by adding individual
+2014,171,-1083,383375,250000,0,0,808859,Total of other finances did not match anything. Guessing total by adding individual
+2014,172,267939,672658,632000,0,0,881664,Total of other finances did not match anything. Guessing total by adding individual
+2015,1,4286017,1235022,1500000,0,0,27609821,Total of other finances did not match anything. Guessing total by adding individual
+2015,5,319691,10340,0,0,-157076,1723904,Total of other finances did not match anything. Guessing total by adding individual
+2015,11,1359154,36519,0,0,-411272,3101467,Total of other finances did not match anything. Guessing total by adding individual
+2015,13,1713335,293122,0,0,-382158,12555647,Total of other finances did not match anything. Guessing total by adding individual
+2015,34,6393193,632082,0,0,-5161732,18200852,Total of other finances did not match anything. Guessing total by adding individual
+2015,35,1028249,45011,0,0,-148495,2812651,Total of other finances did not match anything. Guessing total by adding individual
+2015,37,17108874,8241100,0,-16528924,0,38664675,Total of other finances did not match anything. Guessing total by adding individual
+2015,38,2415316,513925,0,-640000,-1544336,11053541,Revenues after expenditure checksum failed
+2015,39,1115368,1311035,0,0,-500000,1363520,Total of other finances did not match anything. Guessing total by adding individual
+2015,52,19207188,7542169,0,-4038819,0,64157714,Total of other finances did not match anything. Guessing total by adding individual
+2015,54,2634251,673295,0,-1912840,0,5952323,Total of other finances did not match anything. Guessing total by adding individual
+2015,56,538330,591415,0,0,-868616,5317766,Total of other finances did not match anything. Guessing total by adding individual
+2015,57,552010,298180,0,0,0,0,End of year balance has no value
+2015,59,8878935,20915793,0,0,0,0,End of year balance has no value
+2015,60,2403826,8813036,4915021,0,0,14833168,Total of other finances did not match anything. Guessing total by adding individual
+2015,61,2814891,742953,0,-1000000,0,15973277,Total of other finances did not match anything. Guessing total by adding individual
+2015,62,1398258,1384618,0,0,-370502,5757526,Total of other finances did not match anything. Guessing total by adding individual
+2015,64,5882378,1488109,0,-3746281,0,18716308,Total of other finances did not match anything. Guessing total by adding individual
+2015,65,2298703,1263697,0,-1285417,0,11175872,Total of other finances did not match anything. Guessing total by adding individual
+2015,66,579191,563893,0,0,-126060,232414186,Total of other finances did not match anything. Guessing total by adding individual
+2015,67,377249,110581,0,0,-1078959,1227856,Total of other finances did not match anything. Guessing total by adding individual
+2015,69,2029110,3270459,0,-761500,0,9045749,Total of other finances did not match anything. Guessing total by adding individual
+2015,70,2468562,1230290,0,0,-876635,8848843,Total of other finances did not match anything. Guessing total by adding individual
+2015,71,2612361,4207488,2300381,0,0,19404749,Total of other finances did not match anything. Guessing total by adding individual
+2015,72,1284525,22901623,16528924,0,0,9643201,Total of other finances did not match anything. Guessing total by adding individual
+2015,73,481978,369488,0,0,-26057,3365118,Total of other finances did not match anything. Guessing total by adding individual
+2015,77,2628139,3421978,748129,0,0,8734500,Total of other finances did not match anything. Guessing total by adding individual
+2015,79,671276,254357,0,-500000,0,4703220,Total of other finances did not match anything. Guessing total by adding individual
+2015,81,2104462,348511,0,-2049696,0,10962868,Total of other finances did not match anything. Guessing total by adding individual
+2015,82,779672,1040379,0,0,-94315,5060821,Total of other finances did not match anything. Guessing total by adding individual
+2015,83,693725,872017,0,0,-94940,5012105,Total of other finances did not match anything. Guessing total by adding individual
+2015,85,5932730,6726776,0,0,-118097,14118271,Total of other finances did not match anything. Guessing total by adding individual
+2015,90,479541,194907,0,0,-38759,2499556,Total of other finances did not match anything. Guessing total by adding individual
+2015,92,107165,8452,0,0,-952694,4318844,Total of other finances did not match anything. Guessing total by adding individual
+2015,93,1029776,158356,0,0,-905266,8417256,Total of other finances did not match anything. Guessing total by adding individual
+2015,94,23490058,3024534,0,0,474011,84679405,Total of other finances did not match anything. Guessing total by adding individual
+2015,95,12226562,14246108,0,-3277918,0,40958393,Total of other finances did not match anything. Guessing total by adding individual
+2015,97,383874,4024172,2708167,0,0,6905091,Total of other finances did not match anything. Guessing total by adding individual
+2015,98,1433774,237985,0,-1678014,0,4894695,Total of other finances did not match anything. Guessing total by adding individual
+2015,99,370348,452618,0,0,-158866,2159514,Total of other finances did not match anything. Guessing total by adding individual
+2015,101,5903945,542212,0,0,-3680073,17867371,Total of other finances did not match anything. Guessing total by adding individual
+2015,102,285664,163090,0,0,-500000,400837,Total of other finances did not match anything. Guessing total by adding individual
+2015,103,1719704,300173,0,-250000,0,4286145,Total of other finances did not match anything. Guessing total by adding individual
+2015,104,15055272,2044100,0,0,-2422891,54263073,Total of other finances did not match anything. Guessing total by adding individual
+2015,108,2569930,861113,0,0,-142204,7437081,Total of other finances did not match anything. Guessing total by adding individual
+2015,111,648627,807700,353381,0,0,310470,Total of other finances did not match anything. Guessing total by adding individual
+2015,112,1011710,36138,0,0,-419444,8247156,Total of other finances did not match anything. Guessing total by adding individual
+2015,114,526116,765381,0,0,-214822,3682105,Total of other finances did not match anything. Guessing total by adding individual
+2015,115,4601066,28816038,7641244,0,0,40009037,Total of other finances did not match anything. Guessing total by adding individual
+2015,121,2385013,1591470,0,-218318,0,15650421,Total of other finances did not match anything. Guessing total by adding individual
+2015,127,1180344,590606,0,-1687435,0,3798389,Total of other finances did not match anything. Guessing total by adding individual
+2015,128,888478,228616,0,0,-2000357,8680308,Total of other finances did not match anything. Guessing total by adding individual
+2015,129,1913763,2399105,0,0,-75000,2462935,Total of other finances did not match anything. Guessing total by adding individual
+2015,133,941786,769358,0,0,0,0,End of year balance has no value
+2015,139,917733,126485,0,0,-139185,5244935,Total of other finances did not match anything. Guessing total by adding individual
+2015,144,-6953,1325590,1280000,0,0,791828,Total of other finances did not match anything. Guessing total by adding individual
+2015,145,118716,535026,0,0,-273700,2224136,Total of other finances did not match anything. Guessing total by adding individual
+2015,146,58988,2123900,1724652,0,0,3649411,Total of other finances did not match anything. Guessing total by adding individual
+2015,150,1859664,1492952,0,0,-438855,11185809,Total of other finances did not match anything. Guessing total by adding individual
+2015,157,-11601,1776054,575824,0,0,1957191,Total of other finances did not match anything. Guessing total by adding individual
+2015,166,969921,4228636,750000,0,0,1526733,Total of other finances did not match anything. Guessing total by adding individual
+2016,5,200382,6092,0,0,-16000,1904468,Total of other finances did not match anything. Guessing total by adding individual
+2016,9,862540,211302,0,-1700000,0,2422504,Total of other finances did not match anything. Guessing total by adding individual
+2016,11,1890776,43144,0,0,-1500000,3435304,Total of other finances did not match anything. Guessing total by adding individual
+2016,36,2903308,4592284,0,0,-992000,11681045,Total of other finances did not match anything. Guessing total by adding individual
+2016,37,24245090,3406762,0,-11310000,0,48195486,Total of other finances did not match anything. Guessing total by adding individual
+2016,42,484166,14111,0,-1000000,0,1007571,Total of other finances did not match anything. Guessing total by adding individual
+2016,43,1445388,2381941,0,0,0,6028613,Revenues after expenditure checksum failed
+2016,45,1653824,987725,0,0,-370000,4953358,Total of other finances did not match anything. Guessing total by adding individual
+2016,48,10362400,2700110,0,0,-704000,32173968,Total of other finances did not match anything. Guessing total by adding individual
+2016,52,28278344,9533086,0,-5847930,0,77619700,Total of other finances did not match anything. Guessing total by adding individual
+2016,53,12597360,15954601,0,0,-1933000,39071984,Total of other finances did not match anything. Guessing total by adding individual
+2016,54,3035985,556744,0,-1823173,0,6617295,Total of other finances did not match anything. Guessing total by adding individual
+2016,56,777752,192751,0,0,-182000,5724725,Total of other finances did not match anything. Guessing total by adding individual
+2016,58,1847698,2386437,0,0,-395000,12887412,Total of other finances did not match anything. Guessing total by adding individual
+2016,60,2596970,7133431,5141826,0,0,15343929,Total of other finances did not match anything. Guessing total by adding individual
+2016,62,1714988,1629797,0,0,-220000,5624280,Total of other finances did not match anything. Guessing total by adding individual
+2016,63,25715500,2318874,0,0,-35000000,68714936,Total of other finances did not match anything. Guessing total by adding individual
+2016,65,2987098,377712,0,-1426041,0,12360533,Total of other finances did not match anything. Guessing total by adding individual
+2016,70,2966892,1332628,0,0,-293000,10173149,Total of other finances did not match anything. Guessing total by adding individual
+2016,71,2508206,9214856,2631737,0,0,15457229,Total of other finances did not match anything. Guessing total by adding individual
+2016,72,1680732,10687830,11310000,0,0,11885717,Total of other finances did not match anything. Guessing total by adding individual
+2016,73,559694,1758582,0,0,-428000,1761808,Total of other finances did not match anything. Guessing total by adding individual
+2016,76,1792232,234530,0,-1907049,0,1498777,Total of other finances did not match anything. Guessing total by adding individual
+2016,77,2934946,3761572,831913,0,0,8715967,Total of other finances did not match anything. Guessing total by adding individual
+2016,79,976723,28249,0,0,0,5642639,Total expenditures did not match. Guessing total by adding individual
+2016,81,2490225,1270739,0,-2262961,0,9947252,Total of other finances did not match anything. Guessing total by adding individual
+2016,82,831578,1152673,0,0,-54000,4681257,Total of other finances did not match anything. Guessing total by adding individual
+2016,84,7241338,5174952,0,-3896743,0,13175941,Total of other finances did not match anything. Guessing total by adding individual
+2016,89,4815619,865354,0,-4276201,0,4515726,Total of other finances did not match anything. Guessing total by adding individual
+2016,91,991672,146583,0,0,-5000,5830961,Total of other finances did not match anything. Guessing total by adding individual
+2016,92,142318,261567,0,0,-296000,3902299,Total of other finances did not match anything. Guessing total by adding individual
+2016,94,24813487,1626591,0,0,-40000000,67738444,Total of other finances did not match anything. Guessing total by adding individual
+2016,95,14491670,12817862,520790,-3517723,0,39629012,Revenues after expenditure checksum failed
+2016,96,602973,2233761,0,0,-81000,5223486,Total of other finances did not match anything. Guessing total by adding individual
+2016,97,508925,3574856,5169673,0,0,8961002,Total of other finances did not match anything. Guessing total by adding individual
+2016,101,8239523,1603298,0,0,-12000000,12468850,Total of other finances did not match anything. Guessing total by adding individual
+2016,104,18823186,4015795,0,0,-10000000,58983767,Total of other finances did not match anything. Guessing total by adding individual
+2016,107,1040259,24461,0,-2500000,0,6550637,Total of other finances did not match anything. Guessing total by adding individual
+2016,108,3194289,1467329,0,-500000,0,8647594,Total of other finances did not match anything. Guessing total by adding individual
+2016,109,3457485,365827,0,-575824,0,15231973,Total of other finances did not match anything. Guessing total by adding individual
+2016,112,1228203,25650,0,0,-283000,9157430,Total of other finances did not match anything. Guessing total by adding individual
+2016,113,387228,10001,0,-500000,0,1192152,Total of other finances did not match anything. Guessing total by adding individual
+2016,114,1145160,1657524,0,-375000,0,2807379,Total of other finances did not match anything. Guessing total by adding individual
+2016,115,5563243,17094739,9690189,0,0,38533516,Total of other finances did not match anything. Guessing total by adding individual
+2016,117,2365895,3272587,175092,0,0,10677603,Total of other finances did not match anything. Guessing total by adding individual
+2016,118,6960378,18445813,0,0,0,21037610,Beginning of year balance has no value
+2016,125,2884860,1615253,0,-625000,0,5984635,Total of other finances did not match anything. Guessing total by adding individual
+2016,141,869070,574824,0,0,0,1192949,Revenues after expenditure checksum failed
+2016,142,461589,4312502,1700000,0,0,1320019,Total of other finances did not match anything. Guessing total by adding individual
+2016,144,137976,2270515,1991523,0,0,659003,Total of other finances did not match anything. Guessing total by adding individual
+2016,146,198146,2141408,1907049,0,0,3720196,Total of other finances did not match anything. Guessing total by adding individual
+2016,149,2639732,3228317,2000000,0,0,4365614,Total of other finances did not match anything. Guessing total by adding individual
+2016,150,3403878,927124,0,0,-1379000,12263328,Total of other finances did not match anything. Guessing total by adding individual
+2016,154,0,5357,0,0,0,168695,"field ""property_tax"" had no value attached"
+2016,156,664662,205683,235000,0,0,4504064,Total of other finances did not match anything. Guessing total by adding individual
+2016,157,11068,1549857,575824,0,0,1001258,Total of other finances did not match anything. Guessing total by adding individual
+2016,163,12747,2097,0,0,0,672319,Revenues after expenditure checksum failed
+2016,166,1296036,2077062,1050000,0,0,1795581,Total of other finances did not match anything. Guessing total by adding individual
+2017,1,6976459,6037088,0,0,-371200,28296330,Total of other finances did not match anything. Guessing total by adding individual
+2017,2,189908,5910,0,0,-161000,1270446,Total of other finances did not match anything. Guessing total by adding individual
+2017,4,387501,69104,0,0,-80000,1473187,Total of other finances did not match anything. Guessing total by adding individual
+2017,5,135242,190883,0,0,-258000,1621413,Total of other finances did not match anything. Guessing total by adding individual
+2017,13,2104233,41451,0,0,-1500000,14665399,Total of other finances did not match anything. Guessing total by adding individual
+2017,21,339504,83426,45883,0,0,3066382,Total of other finances did not match anything. Guessing total by adding individual
+2017,23,4277221,3458079,0,0,-307100,15312845,Total of other finances did not match anything. Guessing total by adding individual
+2017,24,599352,12047,0,0,-32700,3534767,Total of other finances did not match anything. Guessing total by adding individual
+2017,27,593419,140821,0,0,-1000000,1684782,Total of other finances did not match anything. Guessing total by adding individual
+2017,29,1613595,310131,0,0,-102200,7543679,Total of other finances did not match anything. Guessing total by adding individual
+2017,30,29623909,10140635,0,0,-1627600,66430080,Total of other finances did not match anything. Guessing total by adding individual
+2017,33,4375755,504000,0,0,-344900,15980620,Total of other finances did not match anything. Guessing total by adding individual
+2017,34,7922373,932321,0,0,-488000,32624261,Total of other finances did not match anything. Guessing total by adding individual
+2017,35,1432658,58879,0,0,-124000,5294020,Total of other finances did not match anything. Guessing total by adding individual
+2017,36,2561525,1170385,0,0,-7000000,6300088,Total of other finances did not match anything. Guessing total by adding individual
+2017,37,25855083,26595715,0,-4310000,0,43805392,Total of other finances did not match anything. Guessing total by adding individual
+2017,43,1229762,476961,0,0,-608000,6269833,Total of other finances did not match anything. Guessing total by adding individual
+2017,45,1423433,91648,0,0,-1147000,5206127,Total of other finances did not match anything. Guessing total by adding individual
+2017,53,12643045,8778911,0,0,-1209000,42165252,Total of other finances did not match anything. Guessing total by adding individual
+2017,54,3116385,558762,0,-1823236,0,7482713,Total of other finances did not match anything. Guessing total by adding individual
+2017,55,2822428,3376248,0,0,-172300,13299639,Total of other finances did not match anything. Guessing total by adding individual
+2017,56,752624,178389,0,0,-49000,6331718,Total of other finances did not match anything. Guessing total by adding individual
+2017,57,946829,312314,0,0,-45900,5509967,Total of other finances did not match anything. Guessing total by adding individual
+2017,59,6493485,208083,0,0,-16000000,10430408,Total of other finances did not match anything. Guessing total by adding individual
+2017,60,2438760,8104646,5566982,0,0,15577837,Total of other finances did not match anything. Guessing total by adding individual
+2017,61,3095966,504907,2000000,0,-226100,19105215,Other finances checksum failed
+2017,62,1704001,930526,0,0,-114600,6356471,Total of other finances did not match anything. Guessing total by adding individual
+2017,63,28783334,3567644,0,0,-25000000,69833448,Total of other finances did not match anything. Guessing total by adding individual
+2017,65,3028018,1007794,0,-1851069,0,12721596,Total of other finances did not match anything. Guessing total by adding individual
+2017,66,724311,95365,0,0,-77000,2966503,Total of other finances did not match anything. Guessing total by adding individual
+2017,67,408240,152668,0,0,-126000,1680941,Total of other finances did not match anything. Guessing total by adding individual
+2017,69,3352064,114312,0,-728076,0,11913610,Total of other finances did not match anything. Guessing total by adding individual
+2017,70,3247710,1209305,0,0,-969000,11375184,Total of other finances did not match anything. Guessing total by adding individual
+2017,72,1706116,5075582,4310000,0,0,12951133,Total of other finances did not match anything. Guessing total by adding individual
+2017,76,2108900,2307256,2090000,-1940921,0,1442524,Revenues after expenditure checksum failed
+2017,78,51664,3465,0,0,-2800,1247213,Total of other finances did not match anything. Guessing total by adding individual
+2017,79,1016747,21017,0,0,-57800,6660370,Total of other finances did not match anything. Guessing total by adding individual
+2017,82,913679,2460639,0,0,-302000,2916771,Total of other finances did not match anything. Guessing total by adding individual
+2017,83,808878,661872,0,0,-830000,3996327,Total of other finances did not match anything. Guessing total by adding individual
+2017,84,7111942,7062751,0,-1758015,0,11720264,Total of other finances did not match anything. Guessing total by adding individual
+2017,85,7179132,4248491,0,0,-3945200,19789168,Total of other finances did not match anything. Guessing total by adding individual
+2017,89,10291977,452626,0,-1156208,0,13178042,Total of other finances did not match anything. Guessing total by adding individual
+2017,90,471894,120744,0,0,-195000,2785038,Total of other finances did not match anything. Guessing total by adding individual
+2017,91,1107221,20409,0,0,-697000,6973801,Total of other finances did not match anything. Guessing total by adding individual
+2017,92,152691,55525,0,0,-134000,3924386,Total of other finances did not match anything. Guessing total by adding individual
+2017,93,1173058,475938,0,0,-167000,6928209,Total of other finances did not match anything. Guessing total by adding individual
+2017,94,21896129,878074,0,0,-50000000,39812669,Total of other finances did not match anything. Guessing total by adding individual
+2017,96,580960,1338309,0,0,-38800,4509463,Total of other finances did not match anything. Guessing total by adding individual
+2017,97,749666,6102182,3003134,0,0,6832932,Total of other finances did not match anything. Guessing total by adding individual
+2017,98,1402877,81274,0,-1846926,0,3976311,Total of other finances did not match anything. Guessing total by adding individual
+2017,99,228823,638561,0,0,-13800,1381945,Total of other finances did not match anything. Guessing total by adding individual
+2017,101,5904320,996411,0,0,-11000000,6589306,Total of other finances did not match anything. Guessing total by adding individual
+2017,102,301837,185597,0,0,-17900,611081,Total of other finances did not match anything. Guessing total by adding individual
+2017,104,16640646,2785130,0,0,-11000000,62657054,Total of other finances did not match anything. Guessing total by adding individual
+2017,107,1186368,2067488,0,0,-68100,5704313,Total of other finances did not match anything. Guessing total by adding individual
+2017,108,3416063,966231,0,0,-198600,11009827,Total of other finances did not match anything. Guessing total by adding individual
+2017,112,1073599,891085,0,0,-2544000,6940243,Total of other finances did not match anything. Guessing total by adding individual
+2017,113,341769,9199,0,-233186,0,1306060,Total of other finances did not match anything. Guessing total by adding individual
+2017,114,1176017,413129,0,0,-68100,3540098,Total of other finances did not match anything. Guessing total by adding individual
+2017,115,5640775,17255380,7931473,0,0,35431819,Total of other finances did not match anything. Guessing total by adding individual
+2017,116,1212211,1900169,0,0,-77300,5507389,Total of other finances did not match anything. Guessing total by adding individual
+2017,121,2920143,2644702,0,-2500000,0,12601035,Total of other finances did not match anything. Guessing total by adding individual
+2017,124,35567,176571,0,0,-15900,1680684,Total of other finances did not match anything. Guessing total by adding individual
+2017,125,4572379,1980989,0,0,-222700,8425238,Total of other finances did not match anything. Guessing total by adding individual
+2017,127,1553795,626291,0,-1892677,0,2319041,Total of other finances did not match anything. Guessing total by adding individual
+2017,128,984274,66553,0,0,-52500,7624392,Total of other finances did not match anything. Guessing total by adding individual
+2017,129,1406381,1605855,0,0,-122600,3669119,Total of other finances did not match anything. Guessing total by adding individual
+2017,136,1380662,30847,0,0,-194000,12410914,Total of other finances did not match anything. Guessing total by adding individual
+2017,139,1457769,283624,0,0,-5500000,1819872,Total of other finances did not match anything. Guessing total by adding individual
+2017,140,266413,455828,0,0,-31300,671922,Total of other finances did not match anything. Guessing total by adding individual
+2017,142,663934,2486571,1500000,0,0,1021852,Total of other finances did not match anything. Guessing total by adding individual
+2017,143,913482,401800,0,0,-70100,4852058,Total of other finances did not match anything. Guessing total by adding individual
+2017,144,319077,295716,576000,0,0,1266286,Total of other finances did not match anything. Guessing total by adding individual
+2017,145,322434,17154,0,0,-20900,1272146,Total of other finances did not match anything. Guessing total by adding individual
+2017,146,321536,2400792,1940921,0,0,3740348,Total of other finances did not match anything. Guessing total by adding individual
+2017,147,35644502,26047388,0,0,-15000000,49982793,Total of other finances did not match anything. Guessing total by adding individual
+2017,153,387616,202681,0,0,-17000,971841,Total of other finances did not match anything. Guessing total by adding individual
+2017,155,94910,5676,0,0,-6000,1787729,Total of other finances did not match anything. Guessing total by adding individual
+2017,156,701734,737123,0,0,-41200,4496945,Total of other finances did not match anything. Guessing total by adding individual
+2017,157,11590,496384,575800,0,0,1118591,Total of other finances did not match anything. Guessing total by adding individual
+2017,161,-27612,273862,1000000,0,0,4127976,Total of other finances did not match anything. Guessing total by adding individual
+2017,166,776261,1059825,233186,0,0,1770487,Total of other finances did not match anything. Guessing total by adding individual
+2017,175,194152,4529,0,0,0,187824,Beginning of year balance has no value
+2017,177,24229,937193,926666,0,0,23200,Total of other finances did not match anything. Guessing total by adding individual
+2017,178,401366,8915,300000,0,0,805093,Total of other finances did not match anything. Guessing total by adding individual
+2018,1,8659118,1899028,0,0,-6275200,28904728,Total of other finances did not match anything. Guessing total by adding individual
+2018,2,206032,173489,0,0,-46800,1262426,Total of other finances did not match anything. Guessing total by adding individual
+2018,4,465973,176422,0,0,-127100,1641443,Total of other finances did not match anything. Guessing total by adding individual
+2018,5,254863,5897,0,0,-13700,1861181,Total of other finances did not match anything. Guessing total by adding individual
+2018,9,1221138,169065,0,-1000000,0,1987306,Total of other finances did not match anything. Guessing total by adding individual
+2018,13,2361236,10485540,0,0,-1138200,5626821,Total of other finances did not match anything. Guessing total by adding individual
+2018,23,6556364,5831039,0,0,-1030100,15063037,Total of other finances did not match anything. Guessing total by adding individual
+2018,24,775390,1028548,0,0,-52100,3249351,Total of other finances did not match anything. Guessing total by adding individual
+2018,28,1140015,696311,0,0,-500000,850820,Total of other finances did not match anything. Guessing total by adding individual
+2018,29,1871123,115998,0,0,-3000000,6344105,Total of other finances did not match anything. Guessing total by adding individual
+2018,30,33785985,7224212,0,0,-5805100,87184078,Total of other finances did not match anything. Guessing total by adding individual
+2018,33,6536401,788936,0,0,-1739500,20002096,Total of other finances did not match anything. Guessing total by adding individual
+2018,34,12267939,495859,0,0,-1685000,42726830,Total of other finances did not match anything. Guessing total by adding individual
+2018,35,2250355,31385,0,0,-348000,7170288,Total of other finances did not match anything. Guessing total by adding individual
+2018,37,31707329,36587034,41000000,0,0,79780759,Total of other finances did not match anything. Guessing total by adding individual
+2018,38,3575404,335180,0,0,-636800,13636864,Total of other finances did not match anything. Guessing total by adding individual
+2018,43,1932172,195567,0,0,-1047900,6975299,Total of other finances did not match anything. Guessing total by adding individual
+2018,45,1889945,30206,0,0,-1236900,5839650,Total of other finances did not match anything. Guessing total by adding individual
+2018,52,44057698,27751066,0,-18730088,0,95678423,Total of other finances did not match anything. Guessing total by adding individual
+2018,53,17666066,7484407,0,0,-6830200,45727431,Total of other finances did not match anything. Guessing total by adding individual
+2018,54,4086967,1858570,0,-1822797,0,7931788,Total of other finances did not match anything. Guessing total by adding individual
+2018,55,3780170,2238539,0,0,-612200,14273179,Total of other finances did not match anything. Guessing total by adding individual
+2018,56,969073,127914,0,0,-72800,7118708,Total of other finances did not match anything. Guessing total by adding individual
+2018,57,1273810,133866,0,0,-81900,6576330,Total of other finances did not match anything. Guessing total by adding individual
+2018,58,3072230,441325,0,0,-164700,12201553,Total of other finances did not match anything. Guessing total by adding individual
+2018,59,12820529,2408626,0,0,-9700000,11159605,Total of other finances did not match anything. Guessing total by adding individual
+2018,60,3400461,8552710,5565642,0,0,16195797,Total of other finances did not match anything. Guessing total by adding individual
+2018,62,2056810,4475555,1000000,0,0,4926758,Total of other finances did not match anything. Guessing total by adding individual
+2018,64,9058076,12104115,0,-5087647,0,13966406,Total of other finances did not match anything. Guessing total by adding individual
+2018,65,3544196,55204,0,-1850624,0,14406879,Total of other finances did not match anything. Guessing total by adding individual
+2018,66,1230366,910454,0,0,-76100,3218971,Total of other finances did not match anything. Guessing total by adding individual
+2018,67,497213,124663,0,0,-174700,1883357,Total of other finances did not match anything. Guessing total by adding individual
+2018,69,4484724,987184,0,-3100000,0,12379600,Total of other finances did not match anything. Guessing total by adding individual
+2018,70,4006047,760688,0,0,-2925100,11726353,Total of other finances did not match anything. Guessing total by adding individual
+2018,71,4268101,4159989,2059694,0,0,15009202,Total of other finances did not match anything. Guessing total by adding individual
+2018,72,3391228,887746,0,0,0,15544540,Revenues after expenditure checksum failed
+2018,75,2474574,28325048,18890000,0,0,3321686,Total of other finances did not match anything. Guessing total by adding individual
+2018,76,3182846,164354,0,-1968193,0,2509501,Total of other finances did not match anything. Guessing total by adding individual
+2018,77,3972755,17116614,10500000,0,0,4084255,Total of other finances did not match anything. Guessing total by adding individual
+2018,79,1122001,178167,0,0,-860200,6770170,Total of other finances did not match anything. Guessing total by adding individual
+2018,81,6597854,549568,0,-1972047,0,14097845,Total of other finances did not match anything. Guessing total by adding individual
+2018,82,1388444,330330,0,0,-272600,3701996,Total of other finances did not match anything. Guessing total by adding individual
+2018,86,23591439,28162838,0,0,-15386600,49763204,Total of other finances did not match anything. Guessing total by adding individual
+2018,89,2748443,229329,0,-11641286,0,4346498,Total of other finances did not match anything. Guessing total by adding individual
+2018,90,511465,96828,0,0,-831500,2384076,Total of other finances did not match anything. Guessing total by adding individual
+2018,91,1733263,578394,0,0,-1559200,6605640,Total of other finances did not match anything. Guessing total by adding individual
+2018,93,1535490,1063300,0,0,-229500,7200502,Total of other finances did not match anything. Guessing total by adding individual
+2018,94,34034914,5795267,0,0,-10000000,57917125,Total of other finances did not match anything. Guessing total by adding individual
+2018,96,827681,694829,0,0,-55200,4607662,Total of other finances did not match anything. Guessing total by adding individual
+2018,97,785968,18580306,13954017,0,0,3171304,Total of other finances did not match anything. Guessing total by adding individual
+2018,98,2201497,167431,0,-2612731,0,3443456,Total of other finances did not match anything. Guessing total by adding individual
+2018,99,518610,311894,0,0,-27300,1564719,Total of other finances did not match anything. Guessing total by adding individual
+2018,100,1988062,1829557,0,0,0,1973489,Beginning of year balance has no value
+2018,101,7908634,593760,0,0,-5000000,8874959,Total of other finances did not match anything. Guessing total by adding individual
+2018,102,344426,207496,0,0,-24300,725436,Total of other finances did not match anything. Guessing total by adding individual
+2018,104,22699022,2320848,0,0,-20000000,63244598,Total of other finances did not match anything. Guessing total by adding individual
+2018,106,4499023,2634888,0,0,-500200,23202086,Total of other finances did not match anything. Guessing total by adding individual
+2018,107,1417901,772798,0,0,-102700,6259351,Total of other finances did not match anything. Guessing total by adding individual
+2018,108,4206656,2873242,0,0,-1267300,11130203,Total of other finances did not match anything. Guessing total by adding individual
+2018,109,4401829,1240732,0,-575824,0,13691879,Total of other finances did not match anything. Guessing total by adding individual
+2018,111,1038646,1426644,706761,0,0,2524684,Total of other finances did not match anything. Guessing total by adding individual
+2018,112,1756655,274514,0,0,-2172800,6284609,Total of other finances did not match anything. Guessing total by adding individual
+2018,113,608518,32564,0,-946978,0,949683,Total of other finances did not match anything. Guessing total by adding individual
+2018,114,1335553,173525,0,0,-210500,4498791,Total of other finances did not match anything. Guessing total by adding individual
+2018,115,7013275,33646395,18026466,0,0,27776452,Total of other finances did not match anything. Guessing total by adding individual
+2018,127,1892689,603793,0,-1892221,0,1750507,Total of other finances did not match anything. Guessing total by adding individual
+2018,128,1448315,230921,0,0,-83900,8773336,Total of other finances did not match anything. Guessing total by adding individual
+2018,129,3061965,1643636,0,0,-619500,4470807,Total of other finances did not match anything. Guessing total by adding individual
+2018,130,524766,810600,1400000,0,0,5103894,Total of other finances did not match anything. Guessing total by adding individual
+2018,131,2124744,1912455,0,0,-60000,2378974,Total of other finances did not match anything. Guessing total by adding individual
+2018,136,1591896,115444,0,0,-3347400,10610302,Total of other finances did not match anything. Guessing total by adding individual
+2018,140,605606,492366,0,0,-41900,743313,Total of other finances did not match anything. Guessing total by adding individual
+2018,142,1219200,2317530,1831115,0,0,1748954,Total of other finances did not match anything. Guessing total by adding individual
+2018,146,361450,2453260,1968193,0,0,3776762,Total of other finances did not match anything. Guessing total by adding individual
+2018,149,3858324,2227136,300000,0,0,3755821,Total of other finances did not match anything. Guessing total by adding individual
+2018,150,4441304,886009,0,0,-1549300,13242302,Total of other finances did not match anything. Guessing total by adding individual
+2018,153,596074,20055,0,0,-32500,1512826,Total of other finances did not match anything. Guessing total by adding individual
+2018,154,0,2812,0,0,0,165438,"field ""property_tax"" had no value attached"
+2018,157,64919,651387,575824,0,0,1116821,Total of other finances did not match anything. Guessing total by adding individual
+2018,166,1237566,1101473,946978,0,0,2839240,Total of other finances did not match anything. Guessing total by adding individual
+2018,173,266331,6994,0,0,0,1063411,Beginning of year balance has no value
+2018,174,0,124635,0,0,0,504876,"field ""property_tax"" had no value attached"
+2018,177,335096,377039,366666,0,0,341649,Total of other finances did not match anything. Guessing total by adding individual
+2018,178,928492,1689723,1587500,0,0,1583992,Total of other finances did not match anything. Guessing total by adding individual
+2018,179,0,331165,0,0,0,21875,"field ""property_tax"" had no value attached"
+2019,1,9723133,3718784,0,-1400000,0,35054012,Total of other finances did not match anything. Guessing total by adding individual
+2019,5,168683,513747,0,-800000,0,790140,Total of other finances did not match anything. Guessing total by adding individual
+2019,9,1177368,985561,1200000,0,0,3514807,Total of other finances did not match anything. Guessing total by adding individual
+2019,13,2660846,51810,0,0,-2239000,6237138,Total of other finances did not match anything. Guessing total by adding individual
+2019,27,873540,149730,0,0,-99000,2867858,Total of other finances did not match anything. Guessing total by adding individual
+2019,30,32435777,3308171,0,0,-15767000,104925148,Total of other finances did not match anything. Guessing total by adding individual
+2019,35,1139902,123600,0,0,-214000,8329874,Total of other finances did not match anything. Guessing total by adding individual
+2019,42,686696,14936,0,-1280000,0,1942775,Total of other finances did not match anything. Guessing total by adding individual
+2019,43,1946471,40140,0,0,-595000,8649429,Total of other finances did not match anything. Guessing total by adding individual
+2019,45,1606519,125793,0,0,-576000,7037259,Total of other finances did not match anything. Guessing total by adding individual
+2019,54,3952899,1549635,0,-3000000,0,7726527,Total of other finances did not match anything. Guessing total by adding individual
+2019,56,836016,720533,0,-1000000,0,6591940,Total of other finances did not match anything. Guessing total by adding individual
+2019,60,2970098,20135710,8000000,0,0,7570581,Total of other finances did not match anything. Guessing total by adding individual
+2019,61,4822973,1861305,1400000,0,0,28629998,Total of other finances did not match anything. Guessing total by adding individual
+2019,64,7967342,1002907,0,-180000,0,21524537,Total of other finances did not match anything. Guessing total by adding individual
+2019,65,3660943,1652939,0,-5800000,0,11357727,Total of other finances did not match anything. Guessing total by adding individual
+2019,67,416550,116820,0,0,-112000,2166970,Total of other finances did not match anything. Guessing total by adding individual
+2019,70,3947648,2724210,0,0,-849000,12677819,Total of other finances did not match anything. Guessing total by adding individual
+2019,72,3944907,538021,17000000,0,0,37139951,Total of other finances did not match anything. Guessing total by adding individual
+2019,73,716663,128284,0,-1000000,0,1294921,Total of other finances did not match anything. Guessing total by adding individual
+2019,76,3139784,246085,0,-2106384,0,3440870,Total of other finances did not match anything. Guessing total by adding individual
+2019,83,1288033,389590,0,0,0,0,End of year balance has no value
+2019,84,8559650,987191,0,-366668,0,15188413,Total of other finances did not match anything. Guessing total by adding individual
+2019,85,9731851,2684516,0,0,-978000,31997089,Total of other finances did not match anything. Guessing total by adding individual
+2019,86,27721675,13972835,0,0,-2122000,63966180,Total of other finances did not match anything. Guessing total by adding individual
+2019,88,7383792,9506277,1000000,0,0,12468149,Total of other finances did not match anything. Guessing total by adding individual
+2019,89,3371621,43279,0,-4500000,0,3351931,Total of other finances did not match anything. Guessing total by adding individual
+2019,91,904647,881187,0,0,-191000,6776744,Total of other finances did not match anything. Guessing total by adding individual
+2019,92,858114,54808,0,0,-174000,6054113,Total of other finances did not match anything. Guessing total by adding individual
+2019,97,801120,1083918,1010306,0,0,4064936,Total of other finances did not match anything. Guessing total by adding individual
+2019,98,2016525,308000,0,-1010306,0,4329282,Total of other finances did not match anything. Guessing total by adding individual
+2019,101,9213721,640336,0,0,-5363000,12531171,Total of other finances did not match anything. Guessing total by adding individual
+2019,104,25956969,5959068,0,0,-33225000,52791189,Total of other finances did not match anything. Guessing total by adding individual
+2019,106,2524668,2265840,0,-3175000,0,21484215,Total of other finances did not match anything. Guessing total by adding individual
+2019,107,1792591,441561,0,0,-196000,7760572,Total of other finances did not match anything. Guessing total by adding individual
+2019,108,4021169,1031337,0,0,-385000,14312885,Total of other finances did not match anything. Guessing total by adding individual
+2019,109,4663309,700379,0,-575824,0,17818091,Total of other finances did not match anything. Guessing total by adding individual
+2019,112,1376456,184731,0,0,-478000,7314092,Total of other finances did not match anything. Guessing total by adding individual
+2019,118,8884846,2009945,0,-1400000,0,27962840,Total of other finances did not match anything. Guessing total by adding individual
+2019,121,3227214,731527,0,-1587500,0,13983390,Total of other finances did not match anything. Guessing total by adding individual
+2019,127,1918182,106838,750000,0,0,4437071,Total of other finances did not match anything. Guessing total by adding individual
+2019,129,2004065,1923010,0,0,-241000,4500775,Total of other finances did not match anything. Guessing total by adding individual
+2019,134,1459500,1283899,0,-3000000,0,3091989,Total of other finances did not match anything. Guessing total by adding individual
+2019,144,99349,604352,288000,0,0,1080049,Total of other finances did not match anything. Guessing total by adding individual
+2019,145,476063,8934,0,-750000,0,1452038,Total of other finances did not match anything. Guessing total by adding individual
+2019,146,598916,2919442,2106384,0,0,3791059,Total of other finances did not match anything. Guessing total by adding individual
+2019,148,0,139835,0,0,0,287889,"field ""property_tax"" had no value attached"
+2019,149,4594951,6344226,4500000,0,0,6793259,Total of other finances did not match anything. Guessing total by adding individual
+2019,152,0,135582,0,0,0,1008303,"field ""property_tax"" had no value attached"
+2019,155,287298,19341,1000000,0,0,3347255,Total of other finances did not match anything. Guessing total by adding individual
+2019,156,1242783,1233392,0,0,-141000,5143663,Total of other finances did not match anything. Guessing total by adding individual
+2019,157,785220,614027,575824,0,0,1937241,Total of other finances did not match anything. Guessing total by adding individual
+2019,161,42704,171020,2370000,0,0,5314551,Total of other finances did not match anything. Guessing total by adding individual
+2019,163,1009673,145219,1400000,0,0,2936339,Total of other finances did not match anything. Guessing total by adding individual
+2019,165,-250,107999,200000,0,0,572534,Total of other finances did not match anything. Guessing total by adding individual
+2019,171,320,116246,800000,0,0,988691,Total of other finances did not match anything. Guessing total by adding individual
+2019,172,7074511,4715316,0,-632000,0,2420453,Total of other finances did not match anything. Guessing total by adding individual
+2019,173,198248,5952,0,0,0,1314309,Revenues after expenditure checksum failed
+2019,177,348022,373626,366668,0,0,706371,Total of other finances did not match anything. Guessing total by adding individual
+2019,178,1211809,4659313,4762500,0,0,3047783,Total of other finances did not match anything. Guessing total by adding individual
+2019,179,99167,3937,176000,0,0,297137,Total of other finances did not match anything. Guessing total by adding individual
+2019,181,477834,6217,0,0,0,476057,Beginning of year balance has no value
+2020,1,10846352,2835033,0,-5300000,0,38919509,Total of other finances did not match anything. Guessing total by adding individual
+2020,4,574745,198658,0,0,-91000,2205001,Total of other finances did not match anything. Guessing total by adding individual
+2020,5,218182,8990,0,-500000,0,519264,Total of other finances did not match anything. Guessing total by adding individual
+2020,24,595706,792818,0,0,-111000,2752888,Total of other finances did not match anything. Guessing total by adding individual
+2020,29,2934662,709526,0,0,-5109000,6626986,Total of other finances did not match anything. Guessing total by adding individual
+2020,48,11737673,2029771,0,0,-8274000,26969735,Total of other finances did not match anything. Guessing total by adding individual
+2020,52,62715635,11665311,0,-10660335,0,169833503,Total of other finances did not match anything. Guessing total by adding individual
+2020,53,22470976,9117520,0,0,-16445000,48796787,Total of other finances did not match anything. Guessing total by adding individual
+2020,54,3625074,2322128,0,-1500000,0,7743462,Total of other finances did not match anything. Guessing total by adding individual
+2020,57,1423473,4039538,2500000,0,0,4828490,Total of other finances did not match anything. Guessing total by adding individual
+2020,61,5553632,4280179,3600000,0,0,34522353,Total of other finances did not match anything. Guessing total by adding individual
+2020,63,40184303,5658501,0,0,-3822000,76742941,Total of other finances did not match anything. Guessing total by adding individual
+2020,64,9875536,1177830,0,-6000000,0,24986223,Total of other finances did not match anything. Guessing total by adding individual
+2020,67,432004,117147,0,0,-325000,2221173,Total of other finances did not match anything. Guessing total by adding individual
+2020,70,4174953,355904,0,0,-5217000,11593906,Total of other finances did not match anything. Guessing total by adding individual
+2020,71,5011961,13613324,6000000,0,0,11141753,Total of other finances did not match anything. Guessing total by adding individual
+2020,74,3094191,1922752,0,0,-1521000,9880585,Total of other finances did not match anything. Guessing total by adding individual
+2020,75,3033500,371638,0,-144305,0,7697376,Total of other finances did not match anything. Guessing total by adding individual
+2020,77,3629756,233361,0,0,-1907000,7905485,Total of other finances did not match anything. Guessing total by adding individual
+2020,79,1490721,359629,4500000,0,0,12659147,Total of other finances did not match anything. Guessing total by adding individual
+2020,82,1463926,32006,0,0,-828000,5914128,Total of other finances did not match anything. Guessing total by adding individual
+2020,83,1397400,39269,0,0,-97000,5146428,Total of other finances did not match anything. Guessing total by adding individual
+2020,85,11144073,1803631,0,0,-3495000,38969127,Total of other finances did not match anything. Guessing total by adding individual
+2020,86,32258151,5591050,0,0,-36992000,55140132,Total of other finances did not match anything. Guessing total by adding individual
+2020,87,12869784,8644480,0,0,-607000,29909320,Total of other finances did not match anything. Guessing total by adding individual
+2020,88,8489465,18758792,0,0,0,17179262,Total of other finances did not match anything. Guessing total by adding individual
+2020,89,2875401,100826,0,-2500000,0,3747776,Total of other finances did not match anything. Guessing total by adding individual
+2020,90,567817,47768,0,0,-2036769,1580019,Total of other finances did not match anything. Guessing total by adding individual
+2020,91,933198,393727,0,0,-848000,6700117,Total of other finances did not match anything. Guessing total by adding individual
+2020,94,34026128,766976,0,0,-45000000,29182089,Total of other finances did not match anything. Guessing total by adding individual
+2020,95,15438112,7125109,0,-115500,0,42629086,Total of other finances did not match anything. Guessing total by adding individual
+2020,97,2235535,3133588,1745000,0,0,5087838,Total of other finances did not match anything. Guessing total by adding individual
+2020,99,723223,12467,0,0,-27000,2790045,Total of other finances did not match anything. Guessing total by adding individual
+2020,101,8885157,1774268,0,0,-7529000,12461964,Total of other finances did not match anything. Guessing total by adding individual
+2020,102,341909,260200,0,0,0,0,End of year balance has no value
+2020,104,26809139,4399412,0,0,-21124000,55588280,Total of other finances did not match anything. Guessing total by adding individual
+2020,112,2076888,157373,0,0,-944000,8528310,Total of other finances did not match anything. Guessing total by adding individual
+2020,113,477531,397674,0,-296120,0,1199145,Total of other finances did not match anything. Guessing total by adding individual
+2020,115,5942113,16692783,10660335,0,0,28070792,Total of other finances did not match anything. Guessing total by adding individual
+2020,116,2047372,966959,0,0,-74000,7719291,Total of other finances did not match anything. Guessing total by adding individual
+2020,118,10276080,267248,0,-3600000,0,36405678,Total of other finances did not match anything. Guessing total by adding individual
+2020,119,494093,210394,0,0,-75000,1822713,Total of other finances did not match anything. Guessing total by adding individual
+2020,121,3168365,553581,0,0,-1086000,15975740,Total of other finances did not match anything. Guessing total by adding individual
+2020,134,2114889,4301270,2870497,0,0,3880728,Total of other finances did not match anything. Guessing total by adding individual
+2020,136,1933398,359355,0,0,-201000,14853747,Total of other finances did not match anything. Guessing total by adding individual
+2020,143,822149,71656,500000,0,0,5052905,Total of other finances did not match anything. Guessing total by adding individual
+2020,144,179244,493228,288609,0,0,1095121,Total of other finances did not match anything. Guessing total by adding individual
+2020,147,119840238,20544846,0,0,-100000000,121182204,Total of other finances did not match anything. Guessing total by adding individual
+2020,149,4848545,3205738,2500000,0,0,11265484,Total of other finances did not match anything. Guessing total by adding individual
+2020,153,823733,246139,0,0,-51000,2756174,Total of other finances did not match anything. Guessing total by adding individual
+2020,161,58659,250246,115500,0,0,5408078,Total of other finances did not match anything. Guessing total by adding individual
+2020,163,1129353,3614687,800000,0,0,1319938,Total of other finances did not match anything. Guessing total by adding individual
+2020,166,2795869,3364863,1796120,0,0,4993343,Total of other finances did not match anything. Guessing total by adding individual
+2020,172,16166063,147313,0,-62000,0,18731311,Total of other finances did not match anything. Guessing total by adding individual
+2020,173,1215515,39280,0,0,-50000,2504463,Total of other finances did not match anything. Guessing total by adding individual
+2020,174,0,34459,0,0,0,1067582,"field ""property_tax"" had no value attached"
+2020,177,-12947,1125441,1100000,0,0,691907,Total of other finances did not match anything. Guessing total by adding individual
+2020,180,48371096,582356,0,-110169265,0,9445303,Total of other finances did not match anything. Guessing total by adding individual
+2021,1,12726077,16458755,0,-5770000,0,29461743,Total of other finances did not match anything. Guessing total by adding individual
+2021,21,547652,152036,0,0,0,0,End of year balance has no value
+2021,24,760059,105427,0,0,-366918,3037192,Total of other finances did not match anything. Guessing total by adding individual
+2021,29,3702629,125209,0,0,-4412537,5754797,Total of other finances did not match anything. Guessing total by adding individual
+2021,30,38267614,7814548,0,0,-68858463,99957410,Total of other finances did not match anything. Guessing total by adding individual
+2021,33,8794749,5399153,0,-52712074,0,1852167,Total of other finances did not match anything. Guessing total by adding individual
+2021,34,9269915,276650,0,-29600000,0,25864063,Total of other finances did not match anything. Guessing total by adding individual
+2021,35,1961380,122075,0,-11231488,0,485868,Total of other finances did not match anything. Guessing total by adding individual
+2021,45,2321841,464375,0,0,-186363,10398121,Total of other finances did not match anything. Guessing total by adding individual
+2021,54,5567551,1426710,0,-2000000,0,9905091,Total of other finances did not match anything. Guessing total by adding individual
+2021,58,4181740,516502,0,0,-3758528,11835569,Total of other finances did not match anything. Guessing total by adding individual
+2021,62,2737529,1716359,0,0,-150415,7969504,Total of other finances did not match anything. Guessing total by adding individual
+2021,63,45858015,5700685,0,0,-16287960,100704376,Total of other finances did not match anything. Guessing total by adding individual
+2021,64,11669624,3002714,8231438,0,0,41960870,Total of other finances did not match anything. Guessing total by adding individual
+2021,67,492798,119191,0,0,-317703,2274455,Total of other finances did not match anything. Guessing total by adding individual
+2021,68,6975000,6204097,0,0,0,0,End of year balance has no value
+2021,70,5100137,2934235,0,0,-3258308,10469605,Total of other finances did not match anything. Guessing total by adding individual
+2021,72,5417112,9901739,0,0,-10563973,26031623,Total of other finances did not match anything. Guessing total by adding individual
+2021,76,4271548,980058,0,-3076677,0,5399956,Total of other finances did not match anything. Guessing total by adding individual
+2021,77,4011804,900389,0,0,-1464045,9560702,Total of other finances did not match anything. Guessing total by adding individual
+2021,82,1341708,46749,0,0,-58296,7165222,Total of other finances did not match anything. Guessing total by adding individual
+2021,85,12468247,3541081,0,0,-10149242,37638233,Total of other finances did not match anything. Guessing total by adding individual
+2021,86,34225840,3773420,0,0,-15531407,70060520,Total of other finances did not match anything. Guessing total by adding individual
+2021,88,9395519,4471509,0,0,-1623019,20540431,Total of other finances did not match anything. Guessing total by adding individual
+2021,91,2093295,684083,0,0,-2080899,5995158,Total of other finances did not match anything. Guessing total by adding individual
+2021,94,37902378,480025,0,0,-33845864,32625515,Total of other finances did not match anything. Guessing total by adding individual
+2021,96,912715,201932,0,0,-2093727,5249118,Total of other finances did not match anything. Guessing total by adding individual
+2021,97,2363909,1058459,1656159,0,0,8119189,Total of other finances did not match anything. Guessing total by adding individual
+2021,98,2340139,321832,0,0,0,5074715,"Revenue after expenditures had no value ('excess of revenues over expenditures', 0)"
+2021,99,700160,471534,0,0,-1946,3022600,Total of other finances did not match anything. Guessing total by adding individual
+2021,103,5887437,378001,0,-4512000,0,18326382,Total of other finances did not match anything. Guessing total by adding individual
+2021,104,28981551,1193168,0,0,-20883248,62378574,Total of other finances did not match anything. Guessing total by adding individual
+2021,105,6690785,1247727,0,0,-2027406,12411073,Total of other finances did not match anything. Guessing total by adding individual
+2021,107,2155873,2379229,0,0,-82782,9607274,Total of other finances did not match anything. Guessing total by adding individual
+2021,113,632237,167147,0,-240135,0,1421185,Total of other finances did not match anything. Guessing total by adding individual
+2021,115,6863575,2594473,5036857,0,0,37667900,Total of other finances did not match anything. Guessing total by adding individual
+2021,119,444345,500558,0,0,-170974,1592647,Total of other finances did not match anything. Guessing total by adding individual
+2021,124,673712,460720,0,0,-14244,1299193,Total of other finances did not match anything. Guessing total by adding individual
+2021,130,459809,8814,0,0,-231048,6589981,Total of other finances did not match anything. Guessing total by adding individual
+2021,134,1848000,3338746,1979212,0,0,4371914,Total of other finances did not match anything. Guessing total by adding individual
+2021,146,1060676,1606994,3076677,0,0,4701163,Total of other finances did not match anything. Guessing total by adding individual
+2021,147,151520861,13083474,0,0,-62844432,196978275,Total of other finances did not match anything. Guessing total by adding individual
+2021,150,6692920,844558,0,0,-3527529,15058560,Total of other finances did not match anything. Guessing total by adding individual
+2021,156,1549122,2074015,3000000,0,0,8720794,Total of other finances did not match anything. Guessing total by adding individual
+2021,157,1554879,13322666,13368424,0,0,3936273,Total of other finances did not match anything. Guessing total by adding individual
+2021,161,165653,488863,800000,0,0,5888884,Total of other finances did not match anything. Guessing total by adding individual
+2021,163,1639714,2238530,5770000,0,0,6504343,Total of other finances did not match anything. Guessing total by adding individual
+2021,166,3506484,3873378,2240135,0,0,6866182,Total of other finances did not match anything. Guessing total by adding individual
+2021,172,14349414,175555,0,0,-13113446,19719624,Total of other finances did not match anything. Guessing total by adding individual
+2021,174,0,10082,0,0,0,1057131,"field ""property_tax"" had no value attached"
+2021,180,55647235,677769,0,-55000027,0,9436792,Total of other finances did not match anything. Guessing total by adding individual
+2021,182,595644,4522554,4512000,0,0,609005,Total of other finances did not match anything. Guessing total by adding individual
+2021,183,4124939,367340,61312074,0,0,68779527,Total of other finances did not match anything. Guessing total by adding individual
+2021,184,2257760,644925,51075247,0,0,56643691,Total of other finances did not match anything. Guessing total by adding individual
+2022,1,16370579,7217766,0,0,-7398400,30350502,Total of other finances did not match anything. Guessing total by adding individual
+2022,13,3046471,11806182,11260198,0,0,8037085,Total of other finances did not match anything. Guessing total by adding individual
+2022,21,626800,469462,0,0,0,6095175,Beginning of year balance has no value
+2022,23,8190413,3370249,0,0,-4970300,32870079,Total of other finances did not match anything. Guessing total by adding individual
+2022,52,86697996,24824649,0,-1024092,0,266651096,Total of other finances did not match anything. Guessing total by adding individual
+2022,54,3881531,1119695,0,-2000000,0,10353393,Total of other finances did not match anything. Guessing total by adding individual
+2022,60,4181586,2294097,2000000,0,0,13891204,Total of other finances did not match anything. Guessing total by adding individual
+2022,63,43097168,13325964,0,0,-24782100,102092533,Total of other finances did not match anything. Guessing total by adding individual
+2022,65,5052940,829439,0,-2000000,0,21431002,Total of other finances did not match anything. Guessing total by adding individual
+2022,74,3735635,1005155,0,0,-1516800,13245066,Total of other finances did not match anything. Guessing total by adding individual
+2022,76,4558247,1530498,0,-376636,0,7759147,Total of other finances did not match anything. Guessing total by adding individual
+2022,82,1467931,448173,0,0,-1131000,6830821,Total of other finances did not match anything. Guessing total by adding individual
+2022,86,34832190,1621830,0,0,-22590200,78148354,Total of other finances did not match anything. Guessing total by adding individual
+2022,89,3787582,223004,0,-6600000,0,5190404,Total of other finances did not match anything. Guessing total by adding individual
+2022,90,632273,11110,0,0,-1326700,1408965,Total of other finances did not match anything. Guessing total by adding individual
+2022,91,1714711,1117364,0,0,-380000,6017635,Total of other finances did not match anything. Guessing total by adding individual
+2022,94,34119533,3038383,0,0,-35941684,27145501,Total of other finances did not match anything. Guessing total by adding individual
+2022,97,1555434,1375642,164338,0,0,8203792,Total of other finances did not match anything. Guessing total by adding individual
+2022,98,2355207,545775,0,-164338,0,6505703,Total of other finances did not match anything. Guessing total by adding individual
+2022,104,34835062,868813,0,0,-3175400,90554230,Total of other finances did not match anything. Guessing total by adding individual
+2022,110,12419621,16421269,2125852,0,0,12262849,Total of other finances did not match anything. Guessing total by adding individual
+2022,114,829852,145969,0,-719405,0,6169072,Total of other finances did not match anything. Guessing total by adding individual
+2022,115,9280149,7990740,1024092,0,0,39306276,Total of other finances did not match anything. Guessing total by adding individual
+2022,130,657189,2621695,0,0,-640500,3905123,Total of other finances did not match anything. Guessing total by adding individual
+2022,134,2354354,2251338,1190012,0,0,5488115,Total of other finances did not match anything. Guessing total by adding individual
+2022,146,960059,2699078,376636,0,0,3301771,Total of other finances did not match anything. Guessing total by adding individual
+2022,147,161059713,13215784,0,0,-111131269,226613423,Total of other finances did not match anything. Guessing total by adding individual
+2022,150,7945626,1487070,0,0,-6243200,14807609,Total of other finances did not match anything. Guessing total by adding individual
+2022,157,3624896,8263676,7857455,0,0,6926556,Total of other finances did not match anything. Guessing total by adding individual
+2022,160,1784226,74072,0,0,-17900,5360981,Total of other finances did not match anything. Guessing total by adding individual
+2022,166,2725515,4020133,2349660,0,0,7712399,Total of other finances did not match anything. Guessing total by adding individual
+2022,172,7970040,439945,0,0,-12058900,14681316,Total of other finances did not match anything. Guessing total by adding individual
+2022,180,64522588,917454,0,-31005606,0,40914348,Total of other finances did not match anything. Guessing total by adding individual
+2022,183,4629188,20929777,25000000,0,0,74716996,Total of other finances did not match anything. Guessing total by adding individual

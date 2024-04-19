@@ -1,0 +1,279 @@
+year,tif_number,property_tax,total_expenditures,transfers_in,transfers_out,surplus,end_balance,flags
+1997,1,1194,34231,1743618,0,0,1797517,Beginning of year balance has no value|Total of other finances did not match anything. Guessing total by adding individual
+1997,13,37570,1114656,1359557,0,0,0,Beginning of year balance has no value|End of year balance has no value|Revenues after expenditure checksum failed
+1997,17,650,21,0,0,0,0,"Beginning of year balance has no value|End of year balance has no value|Revenue checksum fails|field ""interest"" had no value attached|Checksum failed"
+1997,20,256051,10612,0,-1359557,0,0,End of year balance has no value|Total of other finances did not match anything. Guessing total by adding individual
+1997,28,766169,579781,0,0,0,498415,Number 579781 was not attached to a field|Total expenditures did not match. Guessing total by adding individual
+1997,36,957120,561386,0,0,0,3061033,"field ""debt_plus_bond_refund"" had no value attached|field ""transfers_out"" had no value attached|Sum of everything has no value|Total of other finances did not match anything. Guessing total by adding individual"
+1997,37,0,1319995,24258006,0,0,0,Beginning of year balance has no value|End of year balance has no value|Total of other finances did not match anything. Guessing total by adding individual|Revenues after expenditure checksum failed
+1997,39,200664,0,0,0,0,0,Could not find Revenues after Expenditures|Could not find any header after expenditures. Is the table blank?|Could not exit other finance section|Could not find any header after other finance section. Is the table blank?|Could not find anything after net position. Is the table blank|Could not find beginning of year balance|Could not find end of year balance|Expenditure checksum fails|Cannot complete expenditures object
+1997,43,209863,15652,525000,0,0,727544,Beginning of year balance has no value|Total of other finances did not match anything. Guessing total by adding individual
+1997,44,2348743,14124305,0,-1743617,0,6875457,"Other finances checksum failed|Revenue checksum fails|Expenditure checksum fails|Revenues after expenditure checksum failed|Checksum failed|field ""interest"" had no value attached|Checksum failed"
+1997,45,1657797,12831118,0,-525000,0,0,End of year balance has no value|Other finances checksum failed|Summing everything checksum failed
+1997,46,909,30,0,0,0,888,"Beginning of year balance has no value|Revenue checksum fails|field ""interest"" had no value attached|Checksum failed"
+1998,1,29682,1642690,0,0,0,257168,"field ""transfers_in"" had no value attached|Total of other finances did not match anything. Guessing total by adding individual"
+1998,2,94884,39241,0,0,0,95177,Revenue checksum fails|Checksum failed
+1998,8,161159,0,0,0,0,0,Could not find Revenues after Expenditures|Could not find any header after expenditures. Is the table blank?|Could not exit other finance section|Could not find any header after other finance section. Is the table blank?|Could not find anything after net position. Is the table blank|Could not find beginning of year balance|Could not find end of year balance|Expenditure checksum fails|Cannot complete expenditures object
+1998,9,234671,1701970,0,0,0,0,End of year balance has no value|Summing everything checksum failed
+1998,14,36846876,0,0,0,0,0,Could not find Revenues after Expenditures|Could not find any header after expenditures. Is the table blank?|Could not exit other finance section|Could not find any header after other finance section. Is the table blank?|Could not find anything after net position. Is the table blank|Could not find beginning of year balance|Could not find end of year balance|Expenditure checksum fails|Cannot complete expenditures object
+1999,7,0,0,0,0,0,0,Could not find Expenditures header|Could not find Revenues after Expenditures|Could not find any header after expenditures. Is the table blank?|Could not exit other finance section|Could not find any header after other finance section. Is the table blank?|Could not find anything after net position. Is the table blank|Could not find beginning of year balance|Could not find end of year balance|Revenue checksum fails|Expenditure checksum fails|Cannot complete revenues object|Cannot complete expenditures object
+1999,27,428179,315547,0,0,0,674387,"field ""debt_plus_bond_refund"" had no value attached|Sum of everything has no value|Total of other finances did not match anything. Guessing total by adding individual|field ""miscellaneous"" had no value attached"
+1999,28,886166,905940,0,0,0,1887422,"field ""debt_plus_bond_refund"" had no value attached|Total of other finances did not match anything. Guessing total by adding individual|field ""capital_projects"" had no value attached|field ""bond_issuance_costs"" had no value attached"
+1999,29,209013,30329,0,0,0,654080,"field ""transfers_out"" had no value attached|Total of other finances did not match anything. Guessing total by adding individual"
+1999,30,1441844,18543401,0,0,0,0,Beginning of year balance has no value|End of year balance has no value|Other finances checksum failed|Summing all rev/exp/other checksum failed
+1999,31,6984676,726476,183333,0,0,0,"field ""debt_plus_bond_refund"" had no value attached|Sum of everything has no value|Beginning of year balance has no value|End of year balance has no value|Total of other finances did not match anything. Guessing total by adding individual|Expenditure checksum fails|Revenues after expenditure checksum failed|field ""interest"" had no value attached|Checksum failed"
+1999,33,764525,2049,0,0,0,746816,Beginning of year balance has no value|Revenue checksum fails|Revenues after expenditure checksum failed|Checksum failed
+1999,47,285487,98,0,0,0,18460,Revenue checksum fails|Revenues after expenditure checksum failed|Checksum failed
+1999,48,492737,31435,0,0,0,483041,Beginning of year balance has no value|Revenues after expenditure checksum failed
+1999,59,16416,480,183333,0,0,199366,Beginning of year balance has no value|Total of other finances did not match anything. Guessing total by adding individual
+1999,61,0,350000,0,0,0,0,"field ""debt_plus_bond_refund"" had no value attached|Sum of everything has no value|Could not exit other finance section|Could not find any header after other finance section. Is the table blank?|Could not find anything after net position. Is the table blank|Could not find beginning of year balance|Could not find end of year balance|Total of other finances did not match anything. Guessing total by adding individual|Summing all rev/exp/other checksum failed"
+1999,65,0,650000,0,0,0,0,"field ""debt_plus_bond_refund"" had no value attached|Could not exit other finance section|Could not find any header after other finance section. Is the table blank?|Could not find anything after net position. Is the table blank|Could not find beginning of year balance|Could not find end of year balance|Total of other finances did not match anything. Guessing total by adding individual"
+2000,7,139131,7090,0,0,0,291694,Revenue checksum fails|Checksum failed
+2000,8,150654,461250,0,0,0,0,End of year balance has no value|Revenues after expenditure checksum failed
+2000,13,231301,693104,245483,0,0,970316,Total of other finances did not match anything. Guessing total by adding individual|Revenues after expenditure checksum failed
+2000,14,0,0,0,0,0,0,"Could not find Revenues after Expenditures|Could not find any header after expenditures. Is the table blank?|Could not exit other finance section|Could not find any header after other finance section. Is the table blank?|Could not find anything after net position. Is the table blank|Could not find beginning of year balance|Could not find end of year balance|Revenue checksum fails|Expenditure checksum fails|field ""property_tax"" had no value attached|field ""interest_other"" had no value attached|Checksum failed|Cannot complete expenditures object"
+2000,20,244837,11368,0,-245483,0,1097886,"Total of other finances did not match anything. Guessing total by adding individual|field ""sales_tax"" had no value attached"
+2000,29,154108,188931,0,0,0,664984,"field ""transfers_out"" had no value attached|Total of other finances did not match anything. Guessing total by adding individual"
+2000,30,2353250,27826742,0,0,0,15711369,"field ""debt_plus_bond_refund"" had no value attached|Total of other finances did not match anything. Guessing total by adding individual|Revenues after expenditure checksum failed|field ""bond_issuance_costs"" had no value attached"
+2000,31,8809910,16764692,0,0,0,24842328,"Total of other finances did not match anything. Guessing total by adding individual|Revenues after expenditure checksum failed|field ""bond_issuance_costs"" had no value attached"
+2000,37,1805844,215748,0,0,0,3581016,"field ""transfers_in"" had no value attached|Total of other finances did not match anything. Guessing total by adding individual"
+2000,39,998425,637909,0,0,0,1015523,Revenue checksum fails|Revenues after expenditure checksum failed|Checksum failed
+2000,58,177935,130218,0,0,0,1500466,"field ""debt_plus_bond_refund"" had no value attached|Total of other finances did not match anything. Guessing total by adding individual"
+2000,59,144308,187034,0,0,0,162088,"field ""transfers_in"" had no value attached|Total of other finances did not match anything. Guessing total by adding individual"
+2000,61,212173,654606,0,0,0,211478,Total of other finances did not match anything. Guessing total by adding individual|Revenues after expenditure checksum failed
+2000,65,0,350000,0,0,0,1817,Total of other finances did not match anything. Guessing total by adding individual|Revenues after expenditure checksum failed
+2000,69,157370,24809,0,0,0,1848043,Beginning of year balance has no value|Total of other finances did not match anything. Guessing total by adding individual
+2000,71,176342,0,0,0,0,173866,"Beginning of year balance has no value|Revenues after expenditure checksum failed|field ""capital_projects"" had no value attached|Total expenditures did not match. Guessing total by adding individual"
+2001,14,50571696,0,0,0,0,0,Could not find Revenues after Expenditures|Could not find any header after expenditures. Is the table blank?|Could not exit other finance section|Could not find any header after other finance section. Is the table blank?|Could not find anything after net position. Is the table blank|Could not find beginning of year balance|Could not find end of year balance|Expenditure checksum fails|Cannot complete expenditures object
+2001,18,219601,310821,0,0,0,377929,"Revenues after expenditure checksum failed|field ""other"" had no value attached"
+2001,23,1673657,3328317,0,0,0,4071964,"field ""debt_plus_bond_refund"" had no value attached|Total of other finances did not match anything. Guessing total by adding individual|Revenues after expenditure checksum failed|field ""bond_issuance_costs"" had no value attached"
+2001,30,4147439,6063917,1000000,0,0,15331860,Total of other finances did not match anything. Guessing total by adding individual|Revenues after expenditure checksum failed
+2001,32,4273932,2617830,0,-5000000,0,0,"field ""debt_plus_bond_refund"" had no value attached|End of year balance has no value|Summing everything checksum failed|field ""bond_issuance_costs"" had no value attached"
+2001,57,85798,151351,0,0,0,812194,"field ""debt_plus_bond_refund"" had no value attached|Total of other finances did not match anything. Guessing total by adding individual"
+2001,61,585355,660421,0,0,0,144686,"field ""debt_plus_bond_refund"" had no value attached|Total of other finances did not match anything. Guessing total by adding individual|Revenues after expenditure checksum failed"
+2001,65,467430,408329,0,0,0,63299,"field ""debt_plus_bond_refund"" had no value attached|Total of other finances did not match anything. Guessing total by adding individual"
+2001,86,872761,2118919,5000000,0,0,6197512,Beginning of year balance has no value|Total of other finances did not match anything. Guessing total by adding individual|Revenues after expenditure checksum failed
+2001,94,181097,4117,0,0,0,177712,Beginning of year balance has no value|Revenue checksum fails|Checksum failed
+2002,5,307966,11352,0,-288000,0,0,End of year balance has no value|Total of other finances did not match anything. Guessing total by adding individual
+2002,13,259395,422254,277486,0,0,0,End of year balance has no value|Total of other finances did not match anything. Guessing total by adding individual
+2002,19,99993,6254,0,-760000,0,-11570,Beginning of year balance has no value|Total of other finances did not match anything. Guessing total by adding individual
+2002,83,120772,2168,2000000,0,0,0,Beginning of year balance has no value|End of year balance has no value|Total of other finances did not match anything. Guessing total by adding individual
+2002,84,937245,40386,0,0,0,2147775,"Total of other finances did not match anything. Guessing total by adding individual|field ""interest"" had no value attached"
+2002,108,219144,3543,0,0,0,0,Beginning of year balance has no value|End of year balance has no value
+2003,104,580979,14029,0,0,0,1002401,Revenue checksum fails|Revenues after expenditure checksum failed|Checksum failed
+2003,112,114629,1548,0,0,0,0,Beginning of year balance has no value|End of year balance has no value
+2003,116,220214,3251,400000,0,0,617446,Beginning of year balance has no value|Total of other finances did not match anything. Guessing total by adding individual
+2004,29,261018,8545,0,-390000,0,0,End of year balance has no value|Total of other finances did not match anything. Guessing total by adding individual
+2004,32,6832901,1468511,0,-1421365,0,22702520,Total of other finances did not match anything. Guessing total by adding individual|Revenues after expenditure checksum failed
+2004,44,1864697,1844601,0,-348762,0,0,End of year balance has no value|Total of other finances did not match anything. Guessing total by adding individual
+2004,114,230781,6271,0,0,0,292652,"Revenue checksum fails|field ""interest"" had no value attached|Checksum failed"
+2004,116,614635,0,0,0,0,1221771,"Revenues after expenditure checksum failed|field ""capital_projects"" had no value attached|Total expenditures did not match. Guessing total by adding individual"
+2005,15,1621122,6548664,0,0,0,18639556,Expenditure checksum fails|Checksum failed
+2005,31,28013617,21,0,-1560733,0,76993325,Total of other finances did not match anything. Guessing total by adding individual|Revenue checksum fails|Expenditure checksum fails|Revenues after expenditure checksum failed|Checksum failed|Checksum failed
+2005,44,2385786,1967000,0,-598857,0,8211760,Total of other finances did not match anything. Guessing total by adding individual|Expenditure checksum fails|Checksum failed
+2005,46,48201,178343,0,0,0,8904,"Revenue checksum fails|field ""interest"" had no value attached|Checksum failed"
+2005,57,99941,185840,0,0,0,1303593,Revenue checksum fails|Checksum failed
+2005,59,10801785,162182,0,-3500000,0,30599906,Total of other finances did not match anything. Guessing total by adding individual|Revenues after expenditure checksum failed
+2005,64,2799474,328965,0,-502601,0,9426909,Total of other finances did not match anything. Guessing total by adding individual|Revenue checksum fails|Checksum failed
+2005,69,2013387,456432,0,-304927,0,4631014,"Total of other finances did not match anything. Guessing total by adding individual|Revenue checksum fails|field ""interest"" had no value attached|Checksum failed"
+2005,73,335962,107017,0,0,0,691997,Expenditure checksum fails|Checksum failed
+2005,77,1468380,90277,0,0,0,4948113,Revenue checksum fails|Revenues after expenditure checksum failed|Checksum failed
+2005,81,1946734,476553,0,0,0,5198657,Expenditure checksum fails|Revenues after expenditure checksum failed|Checksum failed
+2005,98,1295548,21355,0,0,0,3213042,Revenue checksum fails|Revenues after expenditure checksum failed|Checksum failed
+2005,100,1073424,2721478,0,0,0,64323,Revenue checksum fails|Checksum failed
+2006,6,0,10106,0,0,0,0,"End of year balance has no value|Revenue checksum fails|field ""property_tax"" had no value attached|Checksum failed"
+2006,13,973528,532050,342551,0,0,3937024,Total of other finances did not match anything. Guessing total by adding individual|Revenue checksum fails|Revenues after expenditure checksum failed|Checksum failed
+2006,24,0,209694,0,0,0,2805449,"Revenue checksum fails|field ""property_tax"" had no value attached|Checksum failed"
+2006,25,207096,7659,0,0,0,1635087,Revenue checksum fails|Checksum failed
+2006,38,1502362,784385,0,0,0,3981154,Revenue checksum fails|Revenues after expenditure checksum failed|Checksum failed
+2006,80,0,14051,0,0,0,1134828,"Revenue checksum fails|field ""property_tax"" had no value attached|Checksum failed"
+2006,93,554353,263255,0,0,0,1680070,"field ""total_revenue"" had no value attached|Total revenue did not match. Guessing total by adding individual"
+2006,115,2657142,885457,0,0,0,9066434,Revenue checksum fails|Revenues after expenditure checksum failed|Checksum failed
+2006,124,198948,0,0,0,0,198948,"Beginning of year balance has no value|field ""economic_dev"" had no value attached|Total expenditures did not match. Guessing total by adding individual"
+2006,139,0,0,0,0,0,0,Could not find Expenditures header|Could not find Revenues after Expenditures|Could not find any header after expenditures. Is the table blank?|Could not exit other finance section|Could not find any header after other finance section. Is the table blank?|Could not find anything after net position. Is the table blank|Could not find beginning of year balance|Could not find end of year balance|Revenue checksum fails|Expenditure checksum fails|Cannot complete revenues object|Cannot complete expenditures object
+2007,4,385900,107226,0,0,0,884528,Revenue checksum fails|Revenues after expenditure checksum failed|Checksum failed
+2007,11,1697243,849291,0,0,0,6530610,Revenue checksum fails|Checksum failed
+2007,16,2346549,153724,0,0,0,8839937,Expenditure checksum fails|Revenues after expenditure checksum failed|Checksum failed
+2007,17,0,8800,0,0,0,1132560,"Revenue checksum fails|field ""property_tax"" had no value attached|Checksum failed"
+2007,30,14018809,9886032,0,0,0,34402992,Expenditure checksum fails|Checksum failed
+2007,50,13120,0,0,0,0,0,"Revenue after expenditures had no value ('revenues over expenditures', 0)|Beginning of year balance has no value|End of year balance has no value|Revenues after expenditure checksum failed|field ""sales_tax"" had no value attached|field ""interest"" had no value attached|field ""total_revenue"" had no value attached|Total revenue did not match. Guessing total by adding individual|Number 2829 was not attached to a field|field ""interest"" had no value attached|field ""total_expenditures"" had no value attached|Total expenditures did not match. Guessing total by adding individual"
+2007,55,2067732,593732,0,380140,0,3935891,Total of other finances did not match anything. Guessing total by adding individual|Revenues after expenditure checksum failed
+2007,56,147737,16684,0,0,0,2088148,Revenue checksum fails|Checksum failed
+2007,64,6322808,2395977,0,3913864,0,12834621,Total of other finances did not match anything. Guessing total by adding individual|Revenues after expenditure checksum failed
+2007,88,6377515,30153030,0,0,0,28444618,Beginning of year balance has no value|Total of other finances did not match anything. Guessing total by adding individual
+2007,124,142755,198033,0,0,0,115604,Revenue checksum fails|Checksum failed
+2007,133,0,1993,0,0,0,132172,"Beginning of year balance has no value|Revenue checksum fails|field ""property_tax"" had no value attached|Checksum failed"
+2007,144,0,301795,0,0,0,701650,Beginning of year balance has no value|Total of other finances did not match anything. Guessing total by adding individual
+2008,2,166006,75981,0,0,0,496958,Revenue checksum fails|Checksum failed
+2008,48,7221167,1594375,0,0,0,12316463,"Revenue checksum fails|field ""interest"" had no value attached|Checksum failed"
+2008,49,345424,317660,0,0,0,380325,Revenue checksum fails|Checksum failed
+2008,89,1646006,2130878,0,-727530,0,0,End of year balance has no value|Total of other finances did not match anything. Guessing total by adding individual
+2008,102,381828,289809,0,0,0,494767,Revenue checksum fails|Checksum failed
+2008,123,0,23684,0,-298954,0,1859654,"Total of other finances did not match anything. Guessing total by adding individual|Revenue checksum fails|field ""property_tax"" had no value attached|Checksum failed"
+2008,126,287219,67050,0,0,0,865870,Revenue checksum fails|Revenues after expenditure checksum failed|Checksum failed
+2008,141,55854,0,0,0,0,55863,"Revenue after expenditures had no value ('revenues over expenditures', 0)|Beginning of year balance has no value|Revenues after expenditure checksum failed|field ""sales_tax"" had no value attached|field ""interest"" had no value attached|field ""total_expenditures"" had no value attached|Total expenditures did not match. Guessing total by adding individual"
+2008,153,0,5230,0,0,0,385551,"Beginning of year balance has no value|Revenue checksum fails|field ""property_tax"" had no value attached|Checksum failed"
+2008,154,98213,1406,470000,0,0,567954,"Beginning of year balance has no value|Total of other finances did not match anything. Guessing total by adding individual|Expenditure checksum fails|field ""sales_tax"" had no value attached|Number 1406 was not attached to a field|field ""interest"" had no value attached|Checksum failed"
+2008,155,456913,6117,0,0,0,0,Beginning of year balance has no value|End of year balance has no value
+2008,157,186824,3002525,3000000,0,0,185263,Beginning of year balance has no value|Total of other finances did not match anything. Guessing total by adding individual
+2009,7,0,2638,0,0,0,0,End of year balance has no value|Total of other finances did not match anything. Guessing total by adding individual
+2009,8,0,804374,0,0,0,3850530,"Revenue checksum fails|field ""property_tax"" had no value attached|Checksum failed"
+2009,10,926071,795874,0,0,0,1081978,Revenue checksum fails|Checksum failed
+2009,16,2662171,56200,0,0,0,12913317,Revenue checksum fails|Revenues after expenditure checksum failed|Checksum failed
+2009,20,279400,1179733,0,0,0,458185,"field ""transfers_out"" had no value attached|Total of other finances did not match anything. Guessing total by adding individual"
+2009,24,516911,169864,0,0,0,4163103,Revenue checksum fails|Revenues after expenditure checksum failed|Checksum failed
+2009,28,1128982,1157189,0,0,0,1814499,"Revenue checksum fails|field ""interest"" had no value attached|Checksum failed"
+2009,29,661037,331249,0,-195000,0,0,End of year balance has no value|Total of other finances did not match anything. Guessing total by adding individual
+2009,54,2456956,585496,0,-725660,0,7439409,Total of other finances did not match anything. Guessing total by adding individual|Revenue checksum fails|Checksum failed
+2009,57,998254,396664,0,0,0,2797787,Revenue checksum fails|Revenues after expenditure checksum failed|Checksum failed
+2009,60,3591832,39232541,3400487,0,0,0,End of year balance has no value|Total of other finances did not match anything. Guessing total by adding individual
+2009,69,3387282,1814662,0,-802383,0,8786314,"Total of other finances did not match anything. Guessing total by adding individual|field ""total_revenue"" had no value attached|Total revenue did not match. Guessing total by adding individual"
+2009,73,0,39214,0,0,0,2347308,"Revenue checksum fails|field ""property_tax"" had no value attached|Checksum failed"
+2009,93,984934,279216,0,0,0,3076485,Revenue checksum fails|Checksum failed
+2009,158,28269,0,0,0,0,0,"Beginning of year balance has no value|End of year balance has no value|Revenues after expenditure checksum failed|field ""sales_tax"" had no value attached|field ""interest"" had no value attached|field ""total_expenditures"" had no value attached|Total expenditures did not match. Guessing total by adding individual"
+2010,30,15362269,12825881,0,0,0,51317215,Expenditure checksum fails|Checksum failed
+2010,43,1657286,0,0,0,0,14346998,"Revenues after expenditure checksum failed|field ""economic_dev"" had no value attached|Total expenditures did not match. Guessing total by adding individual"
+2010,60,4033490,33133913,4186662,0,0,0,End of year balance has no value|Total of other finances did not match anything. Guessing total by adding individual
+2010,77,2802299,20167772,0,0,0,0,"field ""transfers_in"" had no value attached|End of year balance has no value|Total of other finances did not match anything. Guessing total by adding individual"
+2010,96,904754,180724,0,0,0,5739635,Revenue checksum fails|Checksum failed
+2010,99,987919,626125,0,0,0,2162639,Revenue checksum fails|Checksum failed
+2010,112,61741869,2638080,0,0,0,0,End of year balance has no value|Revenue checksum fails|Checksum failed
+2010,133,414311,7975,0,0,0,944005,Revenue checksum fails|Checksum failed
+2010,154,103904,75300,352200,0,0,831188,Total of other finances did not match anything. Guessing total by adding individual|Revenue checksum fails|Checksum failed
+2010,158,0,2911,0,0,0,157089,"Revenue checksum fails|field ""property_tax"" had no value attached|Checksum failed"
+2010,167,257032,3791,1000000,0,0,1253869,Beginning of year balance has no value|Total of other finances did not match anything. Guessing total by adding individual
+2010,169,0,1126410,1773456,0,0,647046,Beginning of year balance has no value|Total of other finances did not match anything. Guessing total by adding individual|Revenues after expenditure checksum failed|Total revenue did not match. Guessing total by adding individual
+2010,172,0,20000000,20000000,0,0,2105,Beginning of year balance has no value|Total of other finances did not match anything. Guessing total by adding individual
+2011,2,0,71215,0,0,0,876942,"Revenue checksum fails|field ""property_tax"" had no value attached|Checksum failed"
+2011,8,1025658,844775,0,0,0,2068462,Revenue checksum fails|Revenues after expenditure checksum failed|Checksum failed
+2011,45,2094851,2572545,0,0,0,9332854,Expenditure checksum fails|Checksum failed
+2011,57,1188094,202915,0,0,0,4562681,Revenue checksum fails|Revenues after expenditure checksum failed|Checksum failed
+2011,74,2669829,519429,0,0,0,9959343,Revenue checksum fails|Checksum failed
+2011,93,1594851,345944,0,0,0,5512985,Revenue checksum fails|Revenues after expenditure checksum failed|Checksum failed
+2011,99,1058860,324009,0,0,0,2893656,Revenue checksum fails|Revenues after expenditure checksum failed|Checksum failed
+2011,100,1248809,512053,0,0,0,1335453,Revenue checksum fails|Revenues after expenditure checksum failed|Checksum failed
+2011,107,31604401,31166,0,0,0,6799115,Revenue checksum fails|Checksum failed
+2011,108,3406049,0,0,0,0,11237614,"Revenues after expenditure checksum failed|field ""economic_dev"" had no value attached|Total expenditures did not match. Guessing total by adding individual"
+2011,116,1991186,74091,0,0,0,9458413,Revenue checksum fails|Checksum failed
+2011,123,943252,33491,0,-452214,0,0,End of year balance has no value|Total of other finances did not match anything. Guessing total by adding individual
+2011,125,2554300,486487,0,0,0,5518764,Revenue checksum fails|Revenues after expenditure checksum failed|Checksum failed
+2011,130,0,231414,0,0,0,1771772,"Total of other finances did not match anything. Guessing total by adding individual|field ""property_tax"" had no value attached"
+2011,146,661753,2601098,1612383,0,0,9568912,Total of other finances did not match anything. Guessing total by adding individual|Revenue checksum fails|Checksum failed
+2011,152,0,116902,0,0,0,1803990,"Revenue checksum fails|field ""property_tax"" had no value attached|Checksum failed"
+2011,157,678906,767649,0,0,0,2235964,Revenue checksum fails|Checksum failed
+2011,161,2586845,1003087,0,0,0,5456009,Revenue checksum fails|Revenues after expenditure checksum failed|Checksum failed
+2011,169,0,268100,300000,0,0,894933,"Total of other finances did not match anything. Guessing total by adding individual|Revenue checksum fails|field ""property_tax"" had no value attached|field ""interest"" had no value attached|Checksum failed"
+2011,171,102534,4000,0,0,0,101579,Beginning of year balance has no value|Revenues after expenditure checksum failed
+2011,172,59330,9000651,9000000,0,0,63265,Total of other finances did not match anything. Guessing total by adding individual|Revenue checksum fails|Revenues after expenditure checksum failed|Checksum failed
+2012,7,0,77443,0,0,-69000,279176,Total of other finances did not match anything. Guessing total by adding individual|Total revenue did not match. Guessing total by adding individual
+2012,17,155631,5649,0,0,-287000,1771293,"Total of other finances did not match anything. Guessing total by adding individual|Revenue checksum fails|field ""interest"" had no value attached|Checksum failed"
+2012,19,156439,6504,0,0,-274000,1588233,Total of other finances did not match anything. Guessing total by adding individual|Revenue checksum fails|Revenues after expenditure checksum failed|Checksum failed
+2012,23,4362140,2342902,0,0,-668000,12891725,Total of other finances did not match anything. Guessing total by adding individual|Expenditure checksum fails|Checksum failed
+2012,35,1114865,370253,0,0,-204000,2641431,Total of other finances did not match anything. Guessing total by adding individual|Revenues after expenditure checksum failed
+2012,57,0,879241,0,0,-235000,4443966,"Total of other finances did not match anything. Guessing total by adding individual|Revenue checksum fails|field ""property_tax"" had no value attached|Checksum failed"
+2012,69,33069758,816388,0,-735709,-1344000,13372844,Revenue checksum fails|Summing everything checksum failed|Checksum failed
+2012,99,752002,319132,0,0,0,3334113,Revenue checksum fails|Checksum failed
+2012,100,1234257,1328693,0,0,0,1247643,Revenue checksum fails|Revenues after expenditure checksum failed|Checksum failed
+2012,105,679874,378713,0,0,0,2584854,Revenue checksum fails|Checksum failed
+2012,122,393627,564296,0,0,0,183635,Revenue checksum fails|Checksum failed
+2012,134,6348309,1320261,0,0,-48000,1254578,Total of other finances did not match anything. Guessing total by adding individual|Revenue checksum fails|Checksum failed
+2012,139,0,214942,0,0,-319000,4033474,"Total of other finances did not match anything. Guessing total by adding individual|Revenue checksum fails|field ""property_tax"" had no value attached|Checksum failed"
+2012,142,1318566,257002,0,0,-789000,8108370,Total of other finances did not match anything. Guessing total by adding individual|Revenues after expenditure checksum failed
+2012,146,270936,1947615,1539900,0,0,9595420,Total of other finances did not match anything. Guessing total by adding individual|Revenue checksum fails|Checksum failed
+2012,154,36433,4283597,4553272,0,0,216448,Revenue checksum fails|Checksum failed
+2012,169,88916,169947,0,0,0,722080,"Total of other finances did not match anything. Guessing total by adding individual|Revenue checksum fails|field ""interest"" had no value attached|Checksum failed"
+2013,2,166175,134929,0,0,0,929691,Revenue checksum fails|Checksum failed
+2013,35,71004806,2756412,0,0,0,895737,Revenue checksum fails|Checksum failed
+2013,39,1044827,913857,0,0,0,2031524,"Revenue checksum fails|field ""interest"" had no value attached|Checksum failed"
+2013,56,690985,107922,0,0,0,6045634,Revenue checksum fails|Checksum failed
+2013,57,651721,841480,0,0,0,0,Beginning of year balance has no value|End of year balance has no value
+2013,58,1864153,542554,0,0,-939000,14758868,Total of other finances did not match anything. Guessing total by adding individual|Revenues after expenditure checksum failed
+2013,60,2790021,6284764,4914483,0,0,18537978,"Total of other finances did not match anything. Guessing total by adding individual|Revenue checksum fails|field ""land"" had no value attached|Checksum failed"
+2013,79,651397,43786,0,0,0,4171495,Revenue checksum fails|Checksum failed
+2013,81,2382654,284659,0,-1994811,0,11432894,Total of other finances did not match anything. Guessing total by adding individual|Revenue checksum fails|Checksum failed
+2013,93,1100770,26080,0,0,0,7805169,Revenue checksum fails|Checksum failed
+2013,113,314868,194742,0,-1300000,0,2247917,Total of other finances did not match anything. Guessing total by adding individual|Revenues after expenditure checksum failed
+2013,123,388028,162534,0,-529272,0,2665980,Total of other finances did not match anything. Guessing total by adding individual|Revenues after expenditure checksum failed
+2013,130,219887,19775,0,0,0,1878764,Revenue checksum fails|Checksum failed
+2013,140,375729,963277,0,0,0,136036,Revenue checksum fails|Checksum failed
+2013,152,0,117483,0,0,0,1419549,"Revenue checksum fails|field ""property_tax"" had no value attached|Checksum failed"
+2013,156,653732,727222,0,0,0,4321034,Revenue checksum fails|Checksum failed
+2013,161,0,1175363,0,0,0,4728314,"Revenue checksum fails|field ""property_tax"" had no value attached|Checksum failed"
+2013,164,-4295,4351,0,0,0,452958,"Revenue checksum fails|field ""interest"" had no value attached|Checksum failed"
+2014,23,4009433,16055143,10000000,0,-54390,0,End of year balance has no value|Summing everything checksum failed
+2014,29,1377532,0,3000000,0,0,6740575,"Total of other finances did not match anything. Guessing total by adding individual|field ""economic_dev"" had no value attached|Total expenditures did not match. Guessing total by adding individual"
+2014,30,17924411,11699083,0,0,0,64075780,"Expenditure checksum fails|field ""economic_dev"" had no value attached|Checksum failed"
+2014,31,566491273,102323934,0,-45300000,0,34604993,Total of other finances did not match anything. Guessing total by adding individual|Revenue checksum fails|Checksum failed
+2014,45,1183366,46514,0,0,-1472100,10382603,Total of other finances did not match anything. Guessing total by adding individual|Revenues after expenditure checksum failed
+2014,59,8978246,34526030,28000000,-3000000,0,15460734,Revenue checksum fails|Revenues after expenditure checksum failed|Checksum failed
+2014,61,3125574,1975359,0,-2500000,0,14859609,Total of other finances did not match anything. Guessing total by adding individual|Revenues after expenditure checksum failed
+2014,66,634928,1227344,0,0,0,2518805,Revenue checksum fails|Checksum failed
+2014,69,1869694,3430819,0,-670284,0,11021197,Total of other finances did not match anything. Guessing total by adding individual|Revenue checksum fails|Checksum failed
+2014,72,0,53804217,23902753,-4115000,0,0,"End of year balance has no value|Revenue checksum fails|Summing everything checksum failed|field ""property_tax"" had no value attached|Checksum failed"
+2014,73,525591,461267,0,0,0,3278114,Revenue checksum fails|Checksum failed
+2014,110,6259683,0,0,0,0,14333547,"Revenues after expenditure checksum failed|field ""economic_dev"" had no value attached|Total expenditures did not match. Guessing total by adding individual"
+2014,113,0,33496,0,-1400000,0,982970,"Total of other finances did not match anything. Guessing total by adding individual|Revenue checksum fails|field ""property_tax"" had no value attached|Checksum failed"
+2014,115,4559975,22728872,7072541,0,0,56017958,"Total of other finances did not match anything. Guessing total by adding individual|Expenditure checksum fails|field ""interest"" had no value attached|Checksum failed"
+2014,123,346779,105838,0,-529562,0,2385623,Total of other finances did not match anything. Guessing total by adding individual|Revenues after expenditure checksum failed
+2014,126,0,802584,0,0,0,3000887,"Revenue checksum fails|field ""property_tax"" had no value attached|Checksum failed"
+2014,127,1418590,401369,0,-1688175,0,4883138,Total of other finances did not match anything. Guessing total by adding individual|Revenues after expenditure checksum failed
+2014,140,635878,606395,0,0,0,166956,Revenue checksum fails|Revenues after expenditure checksum failed|Checksum failed
+2014,144,0,2032004,1819760,0,0,841222,"Total of other finances did not match anything. Guessing total by adding individual|Revenue checksum fails|field ""property_tax"" had no value attached|Checksum failed"
+2014,151,3516,84383,0,0,0,1094944,Revenue checksum fails|Checksum failed
+2015,36,2298956,665180,0,0,-603915,14272173,Total of other finances did not match anything. Guessing total by adding individual|Total expenditures did not match. Guessing total by adding individual
+2015,45,1437898,234430,0,0,-7036015,4568782,Total of other finances did not match anything. Guessing total by adding individual|Revenues after expenditure checksum failed
+2015,48,6817143,5465818,0,0,-657440,24833134,Total of other finances did not match anything. Guessing total by adding individual|Revenues after expenditure checksum failed
+2015,53,10513921,17101877,0,0,0,44360379,Expenditure checksum fails|Checksum failed
+2015,63,23073689,6663567,0,0,-2514189,80386129,Beginning of year balance has no value|Total of other finances did not match anything. Guessing total by adding individual
+2015,74,1620205,1806955,0,0,-842403,0,End of year balance has no value|Total of other finances did not match anything. Guessing total by adding individual
+2015,75,1755505,6961948,3932589,-640000,0,11579287,Expenditure checksum fails|Checksum failed
+2015,76,1648983,2758403,0,-1724652,0,1826548,Total of other finances did not match anything. Guessing total by adding individual|Revenue checksum fails|Revenues after expenditure checksum failed|Checksum failed
+2015,84,5799099,5396131,0,-1668129,0,15020442,Total of other finances did not match anything. Guessing total by adding individual|Revenue checksum fails|Revenues after expenditure checksum failed|Checksum failed
+2015,89,1127197,34104,0,0,0,4795022,"field ""transfers_out"" had no value attached|Total of other finances did not match anything. Guessing total by adding individual"
+2015,96,584443,29514,0,0,-840737,6953694,Total of other finances did not match anything. Guessing total by adding individual|Revenues after expenditure checksum failed
+2015,123,227181,439529,0,-529330,0,1950638,Total of other finances did not match anything. Guessing total by adding individual|Revenues after expenditure checksum failed
+2015,126,866888,534997,0,0,0,3342219,Revenue checksum fails|Checksum failed
+2015,140,520367,523016,0,0,0,165843,"field ""total_revenue"" had no value attached|Total revenue did not match. Guessing total by adding individual"
+2015,156,544718,71939,0,0,-82548,3818865,Total of other finances did not match anything. Guessing total by adding individual|Revenue checksum fails|Revenues after expenditure checksum failed|Checksum failed
+2015,169,198510,1013325,0,0,0,1653173,Revenue checksum fails|Checksum failed
+2015,171,-965,136679,0,0,0,673250,Revenue checksum fails|Revenues after expenditure checksum failed|Checksum failed
+2015,173,520084,11185,0,0,0,510253,Beginning of year balance has no value|Revenues after expenditure checksum failed
+2016,90,409172,210586,0,0,-105000,2590759,Total of other finances did not match anything. Guessing total by adding individual|Total expenditures did not match. Guessing total by adding individual
+2016,98,1522973,121437,0,-1893472,0,4423648,Beginning of year balance has no value|Total of other finances did not match anything. Guessing total by adding individual
+2016,122,365092,0,0,0,0,631583,"field ""economic_dev"" had no value attached|Total expenditures did not match. Guessing total by adding individual"
+2016,131,1993204,1356286,0,0,-1248000,1234839,Total of other finances did not match anything. Guessing total by adding individual|Revenue checksum fails|Checksum failed
+2016,139,1349354,453572,0,0,-92000,0,End of year balance has no value|Total of other finances did not match anything. Guessing total by adding individual
+2016,158,6818991,433675,0,0,0,1097222,Revenue checksum fails|Checksum failed
+2016,167,4669,0,0,0,0,711453,"Revenues after expenditure checksum failed|field ""economic_dev"" had no value attached|Total expenditures did not match. Guessing total by adding individual"
+2016,169,303122,2212463,1700000,0,0,0,End of year balance has no value|Total of other finances did not match anything. Guessing total by adding individual
+2016,174,0,0,625000,0,0,614406,"Beginning of year balance has no value|Total of other finances did not match anything. Guessing total by adding individual|field ""property_tax"" had no value attached|field ""economic_dev"" had no value attached|Total expenditures did not match. Guessing total by adding individual"
+2016,176,441840,8936,1000000,0,0,1411668,Beginning of year balance has no value|Total of other finances did not match anything. Guessing total by adding individual
+2016,177,0,3061830,3064830,0,0,9319,"Beginning of year balance has no value|Total of other finances did not match anything. Guessing total by adding individual|field ""property_tax"" had no value attached"
+2017,52,30108683,7931743,0,-3910826,0,97311310,Total of other finances did not match anything. Guessing total by adding individual|Revenues after expenditure checksum failed
+2017,74,1913019,0,0,0,0,8068915,"Revenues after expenditure checksum failed|field ""economic_dev"" had no value attached|Total expenditures did not match. Guessing total by adding individual"
+2017,105,3521069,3524904,0,0,0,5827922,Revenue checksum fails|Revenues after expenditure checksum failed|Checksum failed
+2017,122,358214,0,0,0,-500000,497602,"Total of other finances did not match anything. Guessing total by adding individual|field ""economic_dev"" had no value attached|Total expenditures did not match. Guessing total by adding individual"
+2017,135,346404,8467,0,0,0,0,Beginning of year balance has no value|End of year balance has no value
+2017,165,-1864,2088,0,0,0,458821,Revenue checksum fails|Revenues after expenditure checksum failed|Checksum failed
+2017,167,1491,189098,1900000,0,0,2409110,Total of other finances did not match anything. Guessing total by adding individual|Revenues after expenditure checksum failed
+2017,174,0,0,0,0,0,624731,"field ""property_tax"" had no value attached|field ""economic_dev"" had no value attached|Total expenditures did not match. Guessing total by adding individual"
+2017,179,0,0,350000,0,0,345375,"Beginning of year balance has no value|Total of other finances did not match anything. Guessing total by adding individual|field ""property_tax"" had no value attached|field ""economic_dev"" had no value attached|Total expenditures did not match. Guessing total by adding individual"
+2017,180,8333898,118875,0,0,0,0,Beginning of year balance has no value|End of year balance has no value
+2018,27,873011,0,0,0,-437000,2120418,"Total of other finances did not match anything. Guessing total by adding individual|field ""economic_dev"" had no value attached|Total expenditures did not match. Guessing total by adding individual"
+2018,78,0,263164,0,0,0,991485,"Beginning of year balance has no value|field ""property_tax"" had no value attached"
+2018,145,482603,8414,0,0,-33000,1663786,Total of other finances did not match anything. Guessing total by adding individual|Revenue checksum fails|Checksum failed
+2018,148,0,13989,0,0,0,406906,"Revenue checksum fails|field ""property_tax"" had no value attached|field ""interest"" had no value attached|Checksum failed"
+2019,29,2494994,52437,0,0,0,9141232,"Revenue checksum fails|field ""interest"" had no value attached|Checksum failed"
+2019,62,1836077,0,10350000,0,0,9026522,"Total of other finances did not match anything. Guessing total by adding individual|Revenues after expenditure checksum failed|field ""economic_dev"" had no value attached|Total expenditures did not match. Guessing total by adding individual"
+2019,94,25682510,3631847,0,0,-42043000,40135380,Total of other finances did not match anything. Guessing total by adding individual|Revenue checksum fails|Checksum failed
+2019,140,795614,0,0,0,0,1016343,"Revenues after expenditure checksum failed|field ""economic_dev"" had no value attached|Total expenditures did not match. Guessing total by adding individual"
+2019,164,0,30554,1280000,0,0,1657691,"Total of other finances did not match anything. Guessing total by adding individual|field ""property_tax"" had no value attached"
+2019,174,0,23867,550000,0,0,1069947,"Total of other finances did not match anything. Guessing total by adding individual|field ""property_tax"" had no value attached"
+2020,167,197020,346992,0,0,0,0,Beginning of year balance has no value|End of year balance has no value
+2020,183,3639892,92083,100000,0,0,3727526,Beginning of year balance has no value|Total of other finances did not match anything. Guessing total by adding individual
+2020,184,1522041,75746,2450000,0,0,3986633,Beginning of year balance has no value|Total of other finances did not match anything. Guessing total by adding individual
+2021,38,5171116,1614200,0,0,-441388,20112665,Total of other finances did not match anything. Guessing total by adding individual|Revenues after expenditure checksum failed
+2021,110,11806561,20742650,0,0,0,14476253,"field ""transfers_in"" had no value attached|Total of other finances did not match anything. Guessing total by adding individual"
+2022,68,5768991,6319409,0,0,0,8635485,Beginning of year balance has no value|Revenue checksum fails|Revenues after expenditure checksum failed|Checksum failed
+2022,84,10631083,0,0,0,0,33827789,"Revenues after expenditure checksum failed|field ""economic_dev"" had no value attached|Total expenditures did not match. Guessing total by adding individual"
+2022,185,0,0,6600000,0,0,6272895,"Beginning of year balance has no value|Total of other finances did not match anything. Guessing total by adding individual|field ""property_tax"" had no value attached|field ""economic_dev"" had no value attached|Total expenditures did not match. Guessing total by adding individual"
