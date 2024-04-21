@@ -22,7 +22,7 @@ transfers_in_pattern = re.compile(r'.*transfers in.*$', re.IGNORECASE)
 transfers_out_pattern = re.compile(r'.*transfers? out.*$', re.IGNORECASE)
 surplus_pattern = re.compile(r'.*surp[li]us distr[iu]bution.*$', re.IGNORECASE)
 tax_liability_pattern = re.compile(r'tax liability distribution.*', re.IGNORECASE)
-debt_plus_bond_refund_pattern = re.compile(r'and refunding expenses \(note 2\)', re.IGNORECASE)  # Specifically for 1999 and 2000_31
+debt_plus_bond_refund_pattern = re.compile(r'^.*proceeds of debt.*|and refunding expenses \(note 2\)', re.IGNORECASE)  # Specifically for 1999 and 2000_31
 escrow_agent_pattern = re.compile(r'payment to refunded bond escrow agent', re.IGNORECASE)
 
 total_other_finance_sources_pattern = re.compile(r'tota[li!] other financ.{3} (sources ?)?(\/?\(?uses\)?)?( ?- net)?', re.IGNORECASE)
@@ -498,3 +498,61 @@ escrow_agent: {self.escrow_agent}
 
 Hazards: {self.hazards}
 """
+
+	def get_list_representation(self):
+		# We just want
+		# 	property tax
+		# 	transfers in
+		# 	total expenditures
+		# 	transfers out
+		# 	re-distribution
+		#   end balance
+		return [
+			int(self.pair[:4]),
+			int(self.pair[5:]),
+			self.revenue_object.property_tax,
+			self.expenditure_object.total_expenditures,
+			self.transfers_in,
+			self.transfers_out,
+			self.surplus,
+			self.end_balance,
+			'|'.join(self.hazards + self.revenue_object.hazards + self.expenditure_object.hazards)
+		]
+
+	def get_full_list_representation(self):
+		return [
+			int(self.pair[:4]),
+			int(self.pair[5:]),
+			self.revenue_object.interest,
+			self.revenue_object.interest_other,
+			self.revenue_object.property_tax,
+			self.revenue_object.sales_tax,
+			self.revenue_object.rent,
+			self.revenue_object.miscellaneous,
+			self.revenue_object.other,
+			self.revenue_object.land,
+			self.revenue_object.liquor,
+			self.revenue_object.reimbursed,
+			self.revenue_object.total_revenue,
+			
+			self.expenditure_object.bond_issuance_costs,
+			self.expenditure_object.capital_projects,
+			self.expenditure_object.principle_retirement,
+			self.expenditure_object.interest,
+			# self.expenditure_object.debt,
+			self.expenditure_object.economic_dev,
+			self.expenditure_object.total_expenditures,
+			
+			self.transfers_in,
+			self.transfers_out,
+			self.surplus,
+			self.tax_liability,
+			self.debt_plus_bond_refund,
+			self.escrow_agent,
+
+			self.sum_all_finance,
+
+			self.begin_balance,
+			self.end_balance,
+			'|'.join(self.hazards + self.revenue_object.hazards + self.expenditure_object.hazards)
+		]

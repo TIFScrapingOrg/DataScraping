@@ -8,7 +8,7 @@ bond_pattern = re.compile(r'.*bond\s*issuance.*$', re.IGNORECASE)
 capital_projects_pattern = re.compile(r'.*capita[li]\s*projects.*$', re.IGNORECASE)
 principle_retirement_pattern = re.compile(r'.*principa[lt]\s*retirement.*$', re.IGNORECASE)
 interest_pattern = re.compile(r'.*[li]nterest.*$', re.IGNORECASE)
-debt_pattern = re.compile(r'.*deb[ti](\s*service)?:?.*$', re.IGNORECASE)
+# debt_pattern = re.compile(r'.*deb[ti](\s*service)?:?.*$', re.IGNORECASE)
 economic_dev_pattern = re.compile(r'.*eco[nm][oa][mn]ic\s*(deve[li]opment|projects?)?\s*(deve[li]opment|projects?)?.*$', re.IGNORECASE)
 
 total_expenditures_pattern = re.compile(r'.*tota[l!]\sexpenditures.*$', re.IGNORECASE)
@@ -51,7 +51,7 @@ class Expenditures:
 		self.capital_projects: int = 0
 		self.principle_retirement: int = 0
 		self.interest: int = 0
-		self.debt: int = 0
+		# self.debt: int = 0
 		self.economic_dev: int = 0
 
 		self.total_expenditures: int = 0
@@ -67,7 +67,7 @@ class Expenditures:
 			(capital_projects_pattern, 'capital_projects'),
 			(principle_retirement_pattern, 'principle_retirement'),
 			(interest_pattern, 'interest'),
-			(debt_pattern, 'debt'),
+			# (debt_pattern, 'debt'),
 			(economic_dev_pattern, 'economic_dev'),
 			(total_expenditures_pattern, 'total_expenditures')
 		]
@@ -143,7 +143,7 @@ class Expenditures:
 				self.capital_projects +
 				self.principle_retirement +
 				self.interest +
-				self.debt +
+				# self.debt +
 				self.economic_dev
 			)
 		else:
@@ -152,7 +152,7 @@ class Expenditures:
 				self.capital_projects +
 				self.principle_retirement +
 				self.interest +
-				self.debt +
+				# self.debt +
 				self.economic_dev
 			)
 			if self.total_expenditures != check_me:
@@ -166,7 +166,7 @@ class Expenditures:
 		self.capital_projects +
 		self.principle_retirement +
 		self.interest +
-		self.debt +
+		# self.debt +
 		self.economic_dev)
 
 		return check_me == self.total_expenditures
@@ -187,7 +187,7 @@ class Expenditures:
 		print('1) capital_projects:    ', self.capital_projects)
 		print('2) principle_retirement:', self.principle_retirement)
 		print('3) interest:            ', self.interest)
-		print('4) debt:                ', self.debt)
+		# print('4) debt:                ', self.debt)
 		print('5) economic_dev:        ', self.economic_dev)
 		print('6) total_expenditures:  ', self.total_expenditures)
 		print(temp_table)
@@ -209,7 +209,7 @@ class Expenditures:
 			print('1) capital_projects:    ', self.capital_projects)
 			print('2) principle_retirement:', self.principle_retirement)
 			print('3) interest:            ', self.interest)
-			print('4) debt:                ', self.debt)
+			# print('4) debt:                ', self.debt)
 			print('5) economic_dev:        ', self.economic_dev)
 			print('6) total_expenditures:  ', self.total_expenditures)
 			print(pair_name)
@@ -263,7 +263,7 @@ class Expenditures:
 		print('capital_projects:', self.capital_projects)
 		print('principle_retirement:', self.principle_retirement)
 		print('interest:', self.interest)
-		print('debt:', self.debt)
+		# print('debt:', self.debt)
 		print('economic_dev:', self.economic_dev)
 		print('total_expenditures:', self.total_expenditures)
 
