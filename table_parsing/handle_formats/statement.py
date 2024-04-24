@@ -254,6 +254,8 @@ class Statement:
 							if number_na or number_absent:
 								self.hazards.append(f'Revenue after expenditures had no value {field, number}')
 							else:
+								if re.match(r'expenditures over revenues?$', field, re.IGNORECASE):
+									number = -number
 								self.revenues_after_expenditures = number
 						elif re.match(other_finance_sources_header_pattern, field):
 							self.other_finance_sources_header_index = index
@@ -445,6 +447,11 @@ class Statement:
 			# self.expenditure_object.fix_self(labels, column, self.revenue_after_expend_index, self.expenditures_index, pair_name)
 
 		if self.expenditures_index != -1 and self.revenue_after_expend_index != -1 and self.revenues_index != -1:
+
+			# Correct this, the pattern is not always the same, so I figure it is easier to correct it like this
+			if self.revenue_object.total_revenue - self.expenditure_object.total_expenditures == -self.revenues_after_expenditures:
+				self.revenues_after_expenditures *= -1
+			
 			if self.revenue_object.total_revenue - self.expenditure_object.total_expenditures != self.revenues_after_expenditures:
 				self.hazards.append('Revenues after expenditure checksum failed')
 
