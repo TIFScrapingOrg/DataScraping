@@ -6,6 +6,7 @@ year,tif_number,property_tax,total_expenditures,transfers_in,transfers_out,surpl
 1997,27,12301,405,0,0,0,11999,Beginning of year balance has no value
 1997,41,356739,310371,0,0,0,0,End of year balance has no value
 1998,11,47228,1599,0,0,0,46007,Beginning of year balance has no value
+1998,14,36846876,58118750,0,-51500000,0,211891969,"field ""debt_plus_bond_refund"" had no value attached"
 1998,20,240279,18076,0,-297093,0,254206,Total of other finances did not match anything. Guessing total by adding individual
 1998,37,0,8850692,10500000,0,0,25806466,Total of other finances did not match anything. Guessing total by adding individual
 1998,39,161643,5472,0,0,0,0,End of year balance has no value
@@ -17,8 +18,9 @@ year,tif_number,property_tax,total_expenditures,transfers_in,transfers_out,surpl
 1999,52,2825205,73534,0,0,0,2762694,Beginning of year balance has no value
 1999,54,290646,8089,0,0,0,283887,Beginning of year balance has no value
 1999,66,105340,2377,0,0,0,103311,Beginning of year balance has no value
+2000,8,150654,461250,0,0,0,0,End of year balance has no value
 2000,9,377038,366777,0,0,0,0,End of year balance has no value
-2000,18,234090,316047,0,0,0,448554,Revenues after expenditure checksum failed
+2000,13,231301,693104,245483,0,0,970316,Total of other finances did not match anything. Guessing total by adding individual
 2000,19,129323,8238,0,0,0,0,End of year balance has no value
 2000,21,455724,18350,0,0,0,0,End of year balance has no value
 2000,32,3108482,1755945,0,0,0,20598070,Total of other finances did not match anything. Guessing total by adding individual
@@ -26,20 +28,22 @@ year,tif_number,property_tax,total_expenditures,transfers_in,transfers_out,surpl
 2000,43,800838,77105,0,0,0,0,End of year balance has no value
 2000,47,126972,6920,0,0,0,1520536,"field ""sales_tax"" had no value attached"
 2000,56,311539,161598,0,0,0,0,End of year balance has no value
+2000,61,212173,654606,0,0,0,211478,Total of other finances did not match anything. Guessing total by adding individual
 2000,64,119177,2610,0,0,0,117374,Beginning of year balance has no value
+2000,65,0,350000,0,0,0,1817,Total of other finances did not match anything. Guessing total by adding individual
 2000,75,107260,2154,0,0,0,105770,Beginning of year balance has no value
 2000,77,143453,3127,0,0,0,141338,Beginning of year balance has no value
 2001,8,477409,13926,0,0,0,0,End of year balance has no value
 2001,9,357821,351042,0,0,0,0,End of year balance has no value
 2001,13,417994,349461,260283,0,0,1333915,Total of other finances did not match anything. Guessing total by adding individual
-2001,17,230106,412131,0,0,0,106840,Revenues after expenditure checksum failed
+2001,18,219601,310821,0,0,0,377929,"field ""other"" had no value attached"
 2001,20,203822,9549,0,-260283,0,1164711,Total of other finances did not match anything. Guessing total by adding individual
-2001,31,11685650,14286048,0,0,0,870715553,Revenues after expenditure checksum failed
+2001,30,4147439,6063917,1000000,0,0,15331860,Total of other finances did not match anything. Guessing total by adding individual
+2001,31,11685650,14286048,0,0,0,870715553,Summing everything checksum failed
 2001,34,2145644,42744,0,-1000000,0,2239833,Total of other finances did not match anything. Guessing total by adding individual
 2001,37,3361990,162010,0,0,0,0,End of year balance has no value
 2001,39,1230963,987206,0,0,0,0,End of year balance has no value
 2001,41,293993,307118,0,-2256419,0,2420919,Total of other finances did not match anything. Guessing total by adding individual
-2001,44,1981738,2749569,0,0,0,8559969,Revenues after expenditure checksum failed
 2001,45,1244544,4087674,0,0,0,0,End of year balance has no value
 2001,49,252066,4302,0,0,0,248762,Beginning of year balance has no value
 2001,54,791606,161535,0,0,0,2417532,Total of other finances did not match anything. Guessing total by adding individual

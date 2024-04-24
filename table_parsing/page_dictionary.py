@@ -333,9 +333,7 @@ HAND_FILLED = {
 	'2014_159': 5,
 	'2015_178': 6,
 	'2019_182': 5,
-	'2003_14': 120,  # So many matches. This appears to be in different
-					# format from previous 2 pages though.
-
+	'2003_14': 15,
 	'2007_12': 14,  # Also not nice
 	'2008_12': 14,  # Just messed up
 	'2009_160': 15,  # Didn't recognize column
