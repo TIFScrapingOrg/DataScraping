@@ -44,7 +44,7 @@ This Repo contains the all of the processing programs for collecting, reading, a
 
 
 <div>
-  <img align="center" src="images/scrape_pdf.gif" alt="scrapes_pdfs">
+  <img align="center" src="images/scrape_pdfs.gif" alt="scrape_pdfs">
 </div>
 
 
