@@ -13,10 +13,9 @@
 
 - [Getting Started](#getting-started)
 - [Usage](#usage)
-- [Features](#features)
-- [Visualizations](#visualizations)
 - [Credits](#credits)
-- [Conclusion + Future Work](#conclusion)
+- [Conclusion](#conclusion)
+- [Future Work](#future-work)
 ---
 
 ## Getting Started
@@ -56,10 +55,6 @@ This Repo contains the all of the processing programs for collecting, reading, a
 
 <div>
   <img width="450" height="200" src="images/no_contracts.png" alt="no contracts">
-</div>
-
-
-<div>
   <img width="450" height="200" src="images/yes_contracts.png" alt="yes contracts">
 </div>
 
@@ -75,9 +70,11 @@ This Repo contains the all of the processing programs for collecting, reading, a
 </div>
 
 
-## Features
+## Credits
 
-## Visualizations
+## Conclusion
+
+## Future Work
 
 
 
