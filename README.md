@@ -80,7 +80,7 @@ This Repo contains the all of the processing programs for collecting, reading, a
 
 ## Conclusion
 
-[Current up to date Chicago TIF records](https://github.com/TIFScrapingOrg/DataScraping/blob/main/table_parsing/full_tif_statement_data.csv)
+### [Current up to date Chicago TIF records](https://github.com/TIFScrapingOrg/DataScraping/blob/main/table_parsing/full_tif_statement_data.csv)
 
 According to the [Rule of Succession](https://en.wikipedia.org/wiki/Rule_of_succession) : "If we repeat an experiment that we know can result in a success or failure, n times independently, and get s successes, then the probability that the next experiment will succeed = $\Large\frac{s+1}{n+2}$
 Therefore :
