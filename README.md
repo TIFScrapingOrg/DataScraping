@@ -44,7 +44,7 @@ This Repo contains the all of the processing programs for collecting, reading, a
 
 ### Collecting Pages
 [collecting_pages.py](https://github.com/TIFScrapingOrg/DataScraping/blob/main/collecting_pages.py) is used to find and record the specific pages of the reports we wish to read by identifying certain strings with a specified margin of error.
-- The corresponding Notebook: [PDF_scraping.ipynb](https://github.com/TIFScrapingOrg/DataScraping/blob/main/Notebooks/collecting_pages.ipynb) 
+- The corresponding Notebook: [collecting_pages.ipynb](https://github.com/TIFScrapingOrg/DataScraping/blob/main/Notebooks/collecting_pages.ipynb) 
 
 
 ### Finding Contracts
