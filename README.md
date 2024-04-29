@@ -86,7 +86,7 @@ According to the [Rule of Succession](https://en.wikipedia.org/wiki/Rule_of_succ
 Therefore :
 
 <div>
-  <img width="450" height="200" src="images/acc.png" alt="acc">
+  <img src="images/acc.png" alt="acc">
 </div>
 (Where 1688 comes from statements wher no flags were found using Tesseract and 300 comes from the 300 manually checked GPT outputs.)
 
