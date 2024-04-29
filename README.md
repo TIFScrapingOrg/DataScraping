@@ -71,7 +71,7 @@ This Repo contains the all of the processing programs for collecting, reading, a
 - The corresponding Notebook: [statement_finder.ipynb](https://github.com/TIFScrapingOrg/DataScraping/blob/main/Notebooks/statement_finder.ipynb) 
 
 <div>
-  <img align="left" width="200" height="200" src="images/Find_balance.png" alt="find_balance">
+  <img width="450" height="200" src="images/Find_balance.png" alt="find_balance">
 </div>
 
 
