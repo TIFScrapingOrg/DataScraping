@@ -55,12 +55,12 @@ This Repo contains the all of the processing programs for collecting, reading, a
 
 
 <div>
-  <img align="right" width="200" height="200" src="images/no_contracts.png" alt="no contracts">
+  <img width="450" height="200" src="images/no_contracts.png" alt="no contracts">
 </div>
 
 
 <div>
-  <img align="left"  width="200" height="200" src="images/yes_contracts.png" alt="yes contracts">
+  <img width="450" height="200" src="images/yes_contracts.png" alt="yes contracts">
 </div>
 
 
