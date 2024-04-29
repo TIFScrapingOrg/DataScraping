@@ -88,6 +88,7 @@ Therefore :
 <div>
   <img src="images/acc.png" alt="acc">
 </div>
+
 > Where 1688 comes from statements wher no flags were found using Tesseract and 300 comes from the 300 manually checked GPT outputs.
 
 
