@@ -55,12 +55,12 @@ This Repo contains the all of the processing programs for collecting, reading, a
 
 
 <div>
-  <img align="right" src="images/no_contracts.png" alt="no contracts">
+  <img align="right" width="200" height="200" src="images/no_contracts.png" alt="no contracts">
 </div>
 
 
 <div>
-  <img align="left" src="images/yes_contracts.png" alt="yes contracts">
+  <img align="left"  width="200" height="200" src="images/yes_contracts.png" alt="yes contracts">
 </div>
 
 
@@ -71,7 +71,7 @@ This Repo contains the all of the processing programs for collecting, reading, a
 - The corresponding Notebook: [statement_finder.ipynb](https://github.com/TIFScrapingOrg/DataScraping/blob/main/Notebooks/statement_finder.ipynb) 
 
 <div>
-  <img align="left" src="images/Find_balance.png" alt="find_balance">
+  <img align="left" width="200" height="200" src="images/Find_balance.png" alt="find_balance">
 </div>
 
 
