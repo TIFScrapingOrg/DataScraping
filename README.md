@@ -16,6 +16,7 @@
 - [Credits](#credits)
 - [Conclusion](#conclusion)
 - [Future Work](#future-work)
+- [TIF Resources](#tif-resources)
 ---
 
 ## Getting Started
@@ -70,6 +71,15 @@ This Repo contains the all of the processing programs for collecting, reading, a
 </div>
 
 
+### GPT-4 Vision Reading
+[GPT_reading.py](https://github.com/TIFScrapingOrg/DataScraping/blob/main/GPT_reading.py) is used to to read statements that contain "One" or "Many" flags. Running each statement 3 times anc taking the most frequent output after cleanup. Outputs a CSV with extracted data of pages scaned for each Year_TIF. Note the image below is a high level example of our use with the GPT vision API.
+- The corresponding Notebook: [GPT_reading.ipynb](https://github.com/TIFScrapingOrg/DataScraping/blob/main/Notebooks/GPT_reading.ipynb) 
+
+<div>
+  <img width="450" height="200" src="images/GPT.png" alt="GPT">
+</div>
+
+
 ## Credits
 
 ## Conclusion
@@ -77,6 +87,33 @@ This Repo contains the all of the processing programs for collecting, reading, a
 ## Future Work
 
 
+## TIF Resources
+> This section was taken from the [Phil Yates README](https://github.com/philipayates/chicago2022TIF) of his TIF realted project. All Credits to this section goes to him
+### What Are TIFs?
+TIF stands for Tax Increment Financing. TIF Districts are designated by the municipality to capture property taxes for a fixed period of time. The captured property taxes are used to boost development in the designated TIF district. Visit the [The CivicLab](https://www.civiclab.us/) website to read more about what TIFs are and how they work. Here are two resources to start with:
+- [TIF 101 Video](https://www.civiclab.us/tif-101/)
+- [How Do TIFs Work?](https://www.civiclab.us/tif_illumination_project/how-do-tifs-work/)
+
+### Where Is The Data From?
+* The financial data was parsed from the City of Chicago's [TIF District Annual Report webpage](https://www.chicago.gov/city/en/depts/dcd/supp_info/tif-district-annual-reports-2004-present.html). Data from 1997-2022 inclusive was parsed from the PDFs using various Python libraries and the slight modiifcation of the existing [2010-2022 TIF database](https://github.com/philipayates/chicago2022TIF).
+
+### What Are These Variables?
+
+| Variable                               | Explanation                                 |
+| -------------------------------------- | ------------------------------------------- |
+| **TIF Lifespan**                       | The starting year through the proposed ending year. |
+| **Current Data Year**                  | The year that the current data is from. |
+| **Property Tax Extraction**            | The amount of property tax collected this year (within the TIF District). |
+| **Cumulative Property Tax Extraction** | CUMULATIVE sum of property tax collected throughout the TIFs lifespan. |
+| **Transfers In**                       | The amount transferred into this TIF District from neighboring TIF Districts this year. |
+| **Cumulative Transfers In**            | CUMULATIVE sum of funds transferred into the TIF Fund from neighboring TIFs throughout the TIFs lifespan. |
+| **Expenses**                           | The Total Expenditures. The amount of money spent on projects applicable to the TIF. |
+| **Fund Balance End**                   | Balance of this TIF District's Fund at the end of the Current Data Year.    |
+| **Transfers Out**                      | Amount of funds transferred out of the account and ported to a neighboring TIF District. |
+| **Distribution**                       | Disbursement of surplus funds. This is often directed to the Treasurer for reallocation elsewhere.  |
+| **Administration Costs**               | Amount taken by the City of Chicago Department of Planning for "City Staff Costs" and "City Program Management Costs". |
+| **Finance Costs**                      | Amount paid to a banking institution to settle debt. This is money that was loaned to the TIF Fund previously and is now being paid back to the bank. |
+| **Bank Names**                         | Bank(s) that provided the financing (Finance Costs) to the TIF Fund. |
 
 
 
