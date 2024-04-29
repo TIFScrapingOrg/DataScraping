@@ -88,7 +88,7 @@ Therefore :
 <div>
   <img src="images/acc.png" alt="acc">
 </div>
-(Where 1688 comes from statements wher no flags were found using Tesseract and 300 comes from the 300 manually checked GPT outputs.)
+> Where 1688 comes from statements wher no flags were found using Tesseract and 300 comes from the 300 manually checked GPT outputs.
 
 
 Our team has successfully developed a robust "document to data" pipeline that efficiently extracts historical financial data from scanned documents dating back to 1997. 
