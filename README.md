@@ -13,7 +13,6 @@
 
 - [Getting Started](#getting-started)
 - [Usage](#usage)
-- [Credits](#credits)
 - [Conclusion](#conclusion)
 - [Future Work](#future-work)
 - [TIF Resources](#tif-resources)
@@ -79,10 +78,22 @@ This Repo contains the all of the processing programs for collecting, reading, a
   <img width="450" height="200" src="images/GPT.png" alt="GPT">
 </div>
 
-
-## Credits
-
 ## Conclusion
+
+[Current up to date Chicago TIF records](https://github.com/TIFScrapingOrg/DataScraping/blob/main/table_parsing/full_tif_statement_data.csv)
+
+According to the [Rule of Succession](https://en.wikipedia.org/wiki/Rule_of_succession) : "If we repeat an experiment that we know can result in a success or failure, n times independently, and get s successes, then the probability that the next experiment will succeed = $\Large\frac{s+1}{n+2}$
+Therefore :
+
+<div>
+  <img width="450" height="200" src="images/acc.png" alt="acc">
+</div>
+(Where 1688 comes from statements wher no flags were found using Tesseract and 300 comes from the 300 manually checked GPT outputs.)
+
+
+Our team has successfully developed a robust "document to data" pipeline that efficiently extracts historical financial data from scanned documents dating back to 1997. 
+
+We invite developers, researchers, and civic activists to utilize this repository to explore the intricacies of TIF data in Chicago, contribute to the project’s growth, and help foster a more transparent and accountable system. Together, we can build a foundation for better urban policy and community involvement.
 
 ## Future Work
 
