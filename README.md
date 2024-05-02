@@ -78,6 +78,15 @@ This Repo contains the all of the processing programs for collecting, reading, a
   <img width="450" height="200" src="images/GPT.png" alt="GPT">
 </div>
 
+### Manual Check Statements 
+[Manual_check.py](https://github.com/TIFScrapingOrg/DataScraping/blob/main/Manual_check.py) is used to manaully check all gpt outputs. One can merge this python script and the GPT_reading.py to make it so that for each reading there is a check to see if the reading was correct. This takes the location of the statement and opens it directly while cropping all unnecessary text on page.
+- The corresponding Notebook: [Manual_check.ipynb](https://github.com/TIFScrapingOrg/DataScraping/blob/main/Notebooks/Manual_check.ipynb) 
+
+<div>
+  <img  src="images/man_check.png" alt="check">
+</div>
+
+
 ## Conclusion
 
 ### [Current up to date Chicago TIF records](https://github.com/TIFScrapingOrg/DataScraping/blob/main/table_parsing/full_tif_statement_data.csv)
@@ -97,7 +106,9 @@ Our team has successfully developed a robust "document to data" pipeline that ef
 We invite developers, researchers, and civic activists to utilize this repository to explore the intricacies of TIF data in Chicago, contribute to the project’s growth, and help foster a more transparent and accountable system. Together, we can build a foundation for better urban policy and community involvement.
 
 ## Future Work
+With the goal to extract further data, we intend to extract contracting and TIF project data, both of which will be kept in a readily accessible database. That might not be viable due to a lack of funds and time, but we are passionate about the project and are willing to work to make it happen!
 
+We also intend to explore the meaning of transfers in and out in more detail. Possibly breaking the observed pattern with the help of the updated historical data. We also intend to analyze census data from 1997 onwards using historical data. 
 
 ## TIF Resources
 > This section was taken from the [Phil Yates README](https://github.com/philipayates/chicago2022TIF) of his TIF realted project. All Credits to this section goes to him
