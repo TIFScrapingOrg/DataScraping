@@ -48,6 +48,19 @@ This Repo contains the all of the processing programs for collecting, reading, a
 
 
 
+
+
+
+### Extracting via OCR (Optical Character Recognition)
+[digitizing_documents.py](https://github.com/TIFScrapingOrg/DataScraping/blob/main/digitizing_documents.py) is used to process scanned TIF records making each record machine readble, extracting all text within a PDF from page 1 to n. The output of this script saves the extracted text along with metadata (Pixel position of text, page scanned, confidence of scan) to a CSV.  
+
+
+<div>
+  <img width="450" src="images/OCR.png" alt="OCR">
+  <img width="450" " src="images/OCRext.png" alt="OCR ext">
+</div>
+
+
 ### Finding Contracts
 [Contracts_Finder.py](https://github.com/TIFScrapingOrg/DataScraping/blob/main/Contracts_Finder.py) is used to find and save the locations of contracts within each correspending TIF year and district. Outputs a file of CSVs with the naming scheme of "Year_TIF#".
 - The corresponding Notebook: [Contracts_Finder.ipynb](https://github.com/TIFScrapingOrg/DataScraping/blob/main/Notebooks/Contracts_Finder.ipynb) 
@@ -68,6 +81,19 @@ This Repo contains the all of the processing programs for collecting, reading, a
 <div>
   <img width="450" height="200" src="images/Find_balance.png" alt="find_balance">
 </div>
+
+
+
+
+### Extracted Text Reconstruction + Geometrical Analysis
+[find_revenue_statements.py](https://github.com/TIFScrapingOrg/DataScraping/blob/main/table_parsing/find_revenue_statements.py) Reconstructs the extracted CSVs. By treating each respective pixel location as a coordinate, we were able to reconstruct the extracted text allowing us to apply multiple automated validation tests. The output of this files saves the statements with no flags into our new database. Statements with one or more flag is taken to the next step in our pipeline.
+
+
+<div>
+  <img  src="images/geom.png" alt="OCR">
+</div>
+
+
 
 
 ### GPT-4 Vision Reading
