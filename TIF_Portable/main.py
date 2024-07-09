@@ -43,15 +43,15 @@ looking_at = []
 url_list = []
 
 def check_broken(save_path):
-    try:
-        with fitz.open(save_path) as pdf:
-            if len(pdf) == 0:
-                return True
+	try:
+		with fitz.open(save_path) as pdf:
+			if len(pdf) == 0:
+				return True
 
-    except fitz.FileDataError as file_error:
-        return True
-    
-    return False
+	except fitz.FileDataError as file_error:
+		return True
+		
+	return False
 
 def download_pdf(url, year, save_path, ignore_corrupted=False, dont_redownload=False):
 
