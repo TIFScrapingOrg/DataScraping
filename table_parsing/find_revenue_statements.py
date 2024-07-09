@@ -295,6 +295,14 @@ def who_dunnit(row):
 	return f'{row["where_at"]}, {row["this_guy"]}'
 
 
+statement_full_list = []
+statement_list = []
+statement_list_no_flags = []
+statement_list_one_flag = []
+statement_list_more_flags = []
+
+empty_stuff = []
+
 skip = False
 
 dot_count = 0
@@ -316,8 +324,15 @@ for pair in page_status:
 	
 	print(pair)
 
-	if pair in SKIP_LIST or pair in HAND_FILLED or pair in ADJUSTMENT_EMPTY:
+	if pair in SKIP_LIST:
+		empty_stuff.append(pair)
 		continue
+
+	if pair in HAND_FILLED or pair in ADJUSTMENT_EMPTY:
+		continue
+
+	# if pair in SKIP_LIST or pair in HAND_FILLED or pair in ADJUSTMENT_EMPTY:
+	# 	continue
 
 	if pair in MANUAL_CORRECTIONS:
 		poi = MANUAL_CORRECTIONS[pair]
@@ -333,6 +348,7 @@ for pair in page_status:
 		write_pickle(known_pages, 'known_pages.txt')
 	
 	if poi is False:
+		empty_stuff.append(pair)
 		continue
 	
 	known_pages[pair] = poi
@@ -340,6 +356,7 @@ for pair in page_status:
 	print(poi)
 
 	if poi == -1:
+		empty_stuff.append(pair)
 		continue
 
 	if pair in known_tables:
@@ -409,6 +426,20 @@ for pair in page_status:
 		# Write known_statements
 		pickle_timer_statements = pickle_reset
 		write_pickle(known_statements, 'known_statements.txt')
+
+	print(new_statement.get_list_representation())
+	print(new_statement.get_full_list_representation())
+
+	statement_full_list.append(new_statement.get_full_list_representation())
+	statement_list.append(new_statement.get_list_representation())
+
+	num_hazards = len(new_statement.hazards) + len(new_statement.revenue_object.hazards) + len(new_statement.expenditure_object.hazards)
+	if num_hazards == 0:
+		statement_list_no_flags.append(new_statement.get_list_representation())
+	elif num_hazards == 1:
+		statement_list_one_flag.append(new_statement.get_list_representation())
+	else:
+		statement_list_more_flags.append(new_statement.get_list_representation())
 
 	######
 
@@ -605,3 +636,73 @@ print(f'{Fore.GREEN}{sum([len(s.hazards) + len(s.revenue_object.hazards) + len(s
 print(f'There were {sum([s.expenditure_object.vertical_check_sum() for s in all_statements])}/{len(all_statements)} correct expenditures')
 print(f'There were {sum([s.revenue_object.vertical_check_sum() for s in all_statements])}/{len(all_statements)} correct revenues')
 print(f'There were {sum([s.revenues_and_expenditures_checksum() for s in all_statements])}/{len(all_statements)} correct rev/exp checks')
+
+
+full_information = pd.DataFrame(statement_full_list, columns=[
+	'year',
+	'tif_number',
+	'revenue_interest',
+	'interest_other',
+	'property_tax',
+	'sales_tax',
+	'rent',
+	'miscellaneous',
+	'other',
+	'land',
+	'liquor',
+	'reimbursed',
+	'total_revenue',
+	'bond_issuance_costs',
+	'capital_projects',
+	'principle_retirement',
+	'expenditures_interest',
+	# 'debt',
+	'economic_dev',
+	'total_expenditures',
+	'transfers_in',
+	'transfers_out',
+	'surplus',
+	'tax_liability',
+	'debt_plus_bond_refund',
+	'escrow_agent',
+	'sum_all_finance',
+	'begin_balance',
+	'end_balance',
+	'flags'
+])
+
+data_stuff = [statement_list_no_flags, statement_list_one_flag, statement_list_more_flags]
+data_stuff_names = ['StatementsWithNoFlags.csv', 'StatementsWithOneFlag.csv', 'StatementsWithManyFlags.csv']
+
+for i in range(3):
+	information = pd.DataFrame(data_stuff[i], columns=[
+		'year',
+		'tif_number',
+		'property_tax',
+		'total_expenditures',
+		'transfers_in',
+		'transfers_out',
+		'surplus',
+		'end_balance',
+		'flags'
+	])
+	information.sort_values(['year', 'tif_number'], inplace=True)
+	information.to_csv(data_stuff_names[i], index=False)
+
+empty_things = [Statement.create_zeros(pair) for pair in empty_stuff]
+empty_df = pd.DataFrame(empty_things, columns=[
+	'year',
+	'tif_number',
+	'property_tax',
+	'total_expenditures',
+	'transfers_in',
+	'transfers_out',
+	'surplus',
+	'end_balance'
+])
+empty_df.sort_values(['year', 'tif_number'], inplace=True)
+empty_df.to_csv('my_empty_pony.csv', index=False)
+
+# full_information.sort_values(['year', 'tif_number'], inplace=True)
+
+# full_information.to_csv('statement_full_data.csv', index=False)

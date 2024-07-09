@@ -563,3 +563,17 @@ Hazards: {self.hazards}
 			self.end_balance,
 			'|'.join(self.hazards + self.revenue_object.hazards + self.expenditure_object.hazards)
 		]
+
+	def create_zeros(self, pair: str):
+		if pair == '1999_141':
+			pair = '1999_51'
+		return [
+			int(pair[:4]),
+			int(pair[5:]),
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		]
